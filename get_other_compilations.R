@@ -1,6 +1,4 @@
 #### Downloads the respiration rates and feeding behavior datasets from Brun at al. (2016) and Pata and Hunt (2023) 
-library(gdata)
-library(readxl)
 
 ## Getting the respiration rates
 download.file("https://store.pangaea.de/Publications/BrunP-etal_2016/Brun-etal_2016_Copepode_trait.xlsx", destfile="Brun2016.xlsx")

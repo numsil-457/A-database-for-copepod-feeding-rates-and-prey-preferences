@@ -3,9 +3,12 @@
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path)) # Change path to R script directory
 
 library(plyr)
+library(dplyr)
 library(nloptr)
 library(mixtools)
 library(parallel)
+library(gdata)
+library(readxl)
 
 ## Load other source files
 source("get_other_compilations.R")    # Download datasets from Brun et al. (2016) and Pata and Hunt (2023)
@@ -14,8 +17,110 @@ source("get_feeding_behavior_data.R") # Extract the feeding behavior information
 
 source("~/PhD/Library_scripts/Rfunctions_plot_TS.R") # Functions for plotting
 
+## Function to add the feeding behavior trait to the metabolic rates datasets
+add_feeding_trait = function(data_species, fm.dataset){
 
-## Colors per feeding mode
+  # Checking the species that are not in the dataset
+  spec.meas = unique( data_species$species )
+  spec.dat  = unique( fm.dataset$species )
+  notreco   = spec.meas[ which( !(spec.meas %in% spec.dat) ) ] # Names not recognized 
+  
+  # Merging datasets
+  strait = merge( data_species, 
+                  trait[ c("species", "type", "detail", "ac") ], 
+                  by = "species", all.x = T )
+  #strait = strait[ - which( duplicated(strait) ), ] # Some rows are duplicated
+  
+  # Filling for the non recognized phylum (due to formatting)
+  for( ni in notreco ){
+    indni = which( strait$species == ni )
+    type=NA
+    detail=NA
+    ac=NA
+    
+    if( length( grep("/", ni) ) > 0 ){ # Two genera given
+      n0 = strsplit(ni, "/")[[1]] # In case it is a species name
+      
+      n1 = n0[1]
+      n1 = strsplit(n1, " ")[[1]][1] # In case it is a species name
+      #n1 = n1[ -which(n1=="") ]   # Do not take white spaces into account
+      
+      n2 = n0[2]
+      n2 = strsplit(n2, " ")[[1]]
+      indn2 = -which(n2=="")
+      if( length( indn2 ) > 0 ){
+        n2 = n2[ indn2 ][1] # Do not take white spaces into account
+      }else{
+        n2 = n2[1]
+      }
+      ind = c(which(n1==fm.dataset$species), which(n2==fm.dataset$species)) #c( grep( n1, trait$species ), grep( n2, trait$species ) )
+      
+    }else{ # Only one genera is given
+      ni = strsplit(ni, " ")[[1]][1] # In case it is a species name
+      ind = which(ni==fm.dataset$species) #grep( ni, trait$species )
+    }
+    
+    if( length(ind) > 0 ){
+      type   = unique(fm.dataset$type[ind])   # If one is detected, then it is marked
+      detail = unique(fm.dataset$detail[ind]) # If one is detected, then it is marked
+      ac     = unique(fm.dataset$ac[ind])
+      
+      if( is.character(type) ){strait$type[ indni ] = type}
+      if( is.character(detail) ){strait$detail[ indni ] = detail}
+      if( is.character(ac) ){strait$ac[ indni ] = ac}
+      
+    }
+  }
+  
+  return(strait)
+}
+
+# Checking - Fine to use the feeding.behavior from the script! ----
+trait = read.csv('~/PhD/Work/Copepods project/feeding_modes.csv')
+
+modb = read.csv(file = "~/PhD/Work/Copepods project/Latex-feeding-modes/copepod_OPS_database_feeding_behavior.csv", header = T)
+
+modb = modb[c('species')]
+
+modb.t = add_feeding_trait(modb, trait)
+modb.f = add_feeding_trait(modb, feeding.behavior)
+
+modb.t$ac == modb.f$ac
+which( !(modb.t$ac == modb.f$ac) )
+ind = which(is.na(modb.t$ac == modb.f$ac))
+modb.t[ind,]
+modb.f[ind,] 
+
+# >> No big change
+
+pref = read.csv(file = "~/PhD/Work/Copepods project/NEW_TAKE_SCRIPTS/copepod_fmax_imax.csv")
+
+# Remove any complicated datasets
+datasets.not.to = c("Uye and Kasahara (1983)", "Storms (1974)", "Rao and Kumar (2002)", "Vogt et al (2013)")
+# Probably not Imax
+pref = pref[ -which(pref$primary.reference %in% datasets.not.to), ]
+pref = pref[ -which(pref$prey.size.unit != "ESD"), ] # Remove Sommer and Sommer (2006)
+
+## Select the max Ingestion rate per study and species/stage; a bit less evolved than the OPS detection
+pref$ind.row = row(pref)[,1]
+pref.max = ddply(pref[which(!is.na(pref$Imax.at.15.degreeC..mugC.mugC.1.h.1.)),], 
+                 .(species, stage, primary.reference), summarize,
+                 i.max = ind.row[ which.max(Imax.at.15.degreeC..mugC.mugC.1.h.1.) ] )
+
+pref.max = pref[pref.max$i.max,]
+
+pref.mt = add_feeding_trait(pref.max, trait)
+pref.mf = add_feeding_trait(pref.max, feeding.behavior)
+
+pref.mt$ac == pref.mf$ac
+which( !(pref.mt$ac == pref.mf$ac) )
+ind = which(is.na(pref.mt$ac == pref.mf$ac))
+pref.mt[ind, c('species', 'ac', 'primary.reference')]
+pref.mf[ind, c('species', 'ac', 'primary.reference')] 
+
+# >> No big change ----
+
+## Colors per feeding mode - @TODO change names
 col.filter = rgb(0.2, 0.3, 0.9, alpha = 0.9)
 col.ambush = rgb(0.9, 0.1, 0.2, alpha = 0.9)
 col.switcher = 'gray50'
@@ -50,68 +155,7 @@ modb = merge(modb, gp.mops[c('gp', 'group')], by='gp')
 
 ## Read the Imax data
 
-## Function to add the feeding strategy trait
-add_feeding_trait = function(data_species){
-  # Trait database
-  trait = read.csv('~/PhD/Work/Copepods project/feeding_modes.csv')#[c("species", "type", "detail")]
-  #trait = trait[which(!duplicated(trait)),] # Some species are duplicated because of the reference compilation
-  
-  # Checking the species that are not in the dataset
-  spec.meas = unique( data_species$species )
-  spec.dat = unique( trait$species )
-  notreco = spec.meas[ which( !(spec.meas %in% spec.dat) ) ] # Names not recognized 
-  
-  # Merging datasets
-  strait = merge( data_species, 
-                  trait[ c("species", "type", "detail", "ac") ], 
-                  by = "species", all.x = T )
-  #strait = strait[ - which( duplicated(strait) ), ] # Some rows are duplicated
-  
-  # Filling for the non recognized phylum (due to formatting)
-  for( ni in notreco ){
-    indni = which( strait$species == ni )
-    type=NA
-    detail=NA
-    ac=NA
-    
-    if( length( grep("/", ni) ) > 0 ){ # Two genera given
-      n0 = strsplit(ni, "/")[[1]] # In case it is a species name
-      
-      n1 = n0[1]
-      n1 = strsplit(n1, " ")[[1]][1] # In case it is a species name
-      #n1 = n1[ -which(n1=="") ]   # Do not take white spaces into account
-      
-      n2 = n0[2]
-      n2 = strsplit(n2, " ")[[1]]
-      indn2 = -which(n2=="")
-      if( length( indn2 ) > 0 ){
-        n2 = n2[ indn2 ][1] # Do not take white spaces into account
-      }else{
-        n2 = n2[1]
-      }
-      ind = c(which(n1==trait$species), which(n2==trait$species)) #c( grep( n1, trait$species ), grep( n2, trait$species ) )
-      
-    }else{ # Only one genera is given
-      ni = strsplit(ni, " ")[[1]][1] # In case it is a species name
-      ind = which(ni==trait$species) #grep( ni, trait$species )
-    }
-    
-    if( length(ind) > 0 ){
-      type = unique(trait$type[ind]) # If one is detected, then it is marked
-      detail = unique(trait$detail[ind]) # If one is detected, then it is marked
-      ac = unique(trait$ac[ind])
-      
-      if( is.character(type) ){strait$type[ indni ] = type}
-      if( is.character(detail) ){strait$detail[ indni ] = detail}
-      if( is.character(ac) ){strait$ac[ indni ] = ac}
-      
-    }
-  }
-  
-  return(strait)
-}
-
-## Plot the raw Imax dataset
+# Plot the raw Imax dataset
 pref = read.csv(file = "~/PhD/Work/Copepods project/NEW_TAKE_SCRIPTS/copepod_fmax_imax.csv")
 
 # Remove any complicated datasets
