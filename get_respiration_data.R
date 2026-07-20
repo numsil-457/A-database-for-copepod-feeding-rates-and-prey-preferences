@@ -1,12 +1,6 @@
 #### Script that downloads and reads the Respiration data from https://doi.org/10.1594/PANGAEA.862968
 #setwd(dirname(rstudioapi::getActiveDocumentContext()$path)) # Change path to R script directory
 
-library(gdata)
-library(readxl)
-download.file("https://store.pangaea.de/Publications/BrunP-etal_2016/Brun-etal_2016_Copepode_trait.xlsx", destfile="Brun2016.xlsx")
-
-resp.data = read_excel("Brun2016.xlsx", sheet = 'Respiration rates')
-
 # Convert body mass to carbon
 resp.data$`Body mass (mg)`[ resp.data$`Body mass type` == "body mass dry" & !is.na(resp.data$`Body mass (mg)`) ] = 
   resp.data$`Body mass (mg)`[ resp.data$`Body mass type` == "body mass dry" & !is.na(resp.data$`Body mass (mg)`) ] * 0.48
