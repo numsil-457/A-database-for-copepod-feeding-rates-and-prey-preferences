@@ -15,8 +15,6 @@ source("get_other_compilations.R")    # Download datasets from Brun et al. (2016
 source("get_respiration_data.R")      # Extract the respiration rates from Brun et al. (2016)
 source("get_feeding_behavior_data.R") # Extract the feeding behavior information
 
-source("~/PhD/Library_scripts/Rfunctions_plot_TS.R") # Functions for plotting
-
 ## Function to add the feeding behavior trait to the metabolic rates datasets
 add_feeding_trait = function(data_species, fm.dataset){
 
@@ -126,7 +124,7 @@ col.ambush = rgb(0.9, 0.1, 0.2, alpha = 0.9)
 col.switcher = 'gray50'
 
 ## Read the OPS dataset
-modb = read.csv(file = "~/PhD/Work/Copepods project/Latex-feeding-modes/copepod_OPS_database_feeding_behavior.csv", header = T)
+modb = read.csv(file = "~/PhD/Work/Copepods project/datasets_compilators/copepod_ops_database.csv", header = T)
 modb$lops = log(modb$ops)
 modb$lesd = log(modb$pred)
 
@@ -156,17 +154,13 @@ modb = merge(modb, gp.mops[c('gp', 'group')], by='gp')
 ## Read the Imax data
 
 # Plot the raw Imax dataset
-pref = read.csv(file = "~/PhD/Work/Copepods project/NEW_TAKE_SCRIPTS/copepod_fmax_imax.csv")
+pref = read.csv(file = "~/PhD/Work/Copepods project/datasets_compilators/copepod_feeding_rates.csv")
 
 # Remove any complicated datasets
-datasets.not.to = c("Uye and Kasahara (1983)", "Storms (1974)", "Rao and Kumar (2002)", "Vogt et al (2013)")
-# Probably not Imax
-pref = pref[ -which(pref$primary.reference %in% datasets.not.to), ]
-pref = pref[ -which(pref$prey.size.unit != "ESD"), ] # Remove Sommer and Sommer (2006)
-
-# Removing the Imax calculated with the linear formula, uncertainty is much too large
-# ind.no.imax = which(pref$Imax.method=='Linear')
-# pref$Imax.at.15.degreeC..mugC.mugC.1.h.1.[ind.no.imax] = NA
+# datasets.not.to = c("Uye and Kasahara (1983)", "Storms (1974)", "Rao and Kumar (2002)", "Vogt et al (2013)")
+# # Probably not Imax
+# pref = pref[ -which(pref$primary.reference %in% datasets.not.to), ]
+# pref = pref[ -which(pref$prey.size.unit != "ESD"), ] # Remove Sommer and Sommer (2006)
 
 ## Select the max Ingestion rate per study and species/stage; a bit less evolved than the OPS detection
 pref$ind.row = row(pref)[,1]
@@ -393,6 +387,29 @@ line.col.gradient = function(x, y, x.shift, ...){
   
   segments(x[-n], y[-n], x[-1], y[-1], col = cols, ...)
 }
+
+log10ticks = function(side.ax, tck = 0.02, log = F, axis.lab = T, ...){
+  ticks = (-100:100)  # Tick positions
+  
+  if(axis.lab){
+    axis.lab = parse(text = paste0("10^", ticks))
+  }
+  
+  if(log){  # Add the axis ticks
+    axis(side.ax, at = log(10^ticks), labels = axis.lab, tck = tck, ...)
+  }else{
+    axis(side.ax, at = 10^ticks, labels = axis.lab, tck = tck, ...)
+  }
+  
+  # Sub-ticks
+  for( xi in 1:9 ){
+    if(log){
+      axis(side.ax, at = log(10^ticks*xi), labels = F, tck = tck * 0.5, ...)
+    }else{
+      axis(side.ax, at = 10^ticks*xi, labels = F, tck = tck * 0.5, ...)
+    }
+  }
+} # Plot log10 ticks
 
 x11(height=12, width=7)
 par(mfrow=c(3,1), mgp=c(3, 0.5, 0), cex=1.5, mar=c(2.5, 4, 0.1, 0.1), tck=0.04)
