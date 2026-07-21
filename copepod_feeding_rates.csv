@@ -1,0 +1,669 @@
+"species","phylum","stage","pred.esd","pred.esd.sd","prey.species","prey.esd","prey.esd.sd","temperature","selectivity","Fmax.at.15.degreeC.[ml.mgC-1.h-1]","Fmax.sd","Imax.at.15.degreeC.[mugC.mugC-1.h-1]","Imax.sd","Imax.method","primary reference","secondary reference"
+"Labidocera trispinosa","Copepod","",466.572129148298,NA,"Copepod nauplii",63.9374515662221,NA,"18",NA,"1019.71923397312",587.151478416536,0.000209332402874614,0.000120533011179385,"Linear","Landry (1978)",NA
+"Labidocera trispinosa","Copepod","",466.572129148298,NA,"Copepod nauplii",82.7274551174277,NA,"18",NA,"1247.9716891092",718.435928698208,0.000554936906169946,0.000319467673050898,"Linear","Landry (1978)",NA
+"Labidocera trispinosa","Copepod","",466.572129148298,NA,"Copepod nauplii",86.786960604354,NA,"18",NA,"1202.35828215268",692.4544729294,0.000617287123570449,0.000355504042466273,"Linear","Landry (1978)",NA
+"Labidocera trispinosa","Copepod","",466.572129148298,NA,"Copepod nauplii",89.3495878116626,NA,"18",NA,"1552.33919934956",893.917253392952,0.000869669352777642,0.00050080062367861,"Linear","Landry (1978)",NA
+"Labidocera trispinosa","Copepod","",466.572129148298,NA,"Copepod nauplii",94.0732321335744,NA,"18",NA,"502.211027405433",288.951949679676,0.000328378203661077,0.000188935560954095,"Linear","Landry (1978)",NA
+"Labidocera trispinosa","Copepod","",466.572129148298,NA,"Copepod nauplii",105.760960138491,NA,"18",NA,"1582.84084749732",911.575958757253,0.00147062954005668,0.000846952196788175,"Linear","Landry (1978)",NA
+"Labidocera trispinosa","Copepod","",466.572129148298,NA,"Copepod nauplii",109.249459101105,NA,"18",NA,"2526.35231618942",1454.75540430302,0.00258726958596826,0.00148983353923229,"Linear","Landry (1978)",NA
+"Labidocera trispinosa","Copepod","",466.572129148298,NA,"Copepod nauplii",111.670691418777,NA,"18",NA,"1734.97824752913",999.098499988291,0.00189758627662152,0.00109273739037993,"Linear","Landry (1978)",NA
+"Labidocera trispinosa","Copepod","",466.572129148298,NA,"Copepod nauplii",126.26008939675,NA,"18",NA,"1993.73235081297",1147.57204138668,0.00315177360927926,0.00181412879884025,"Linear","Landry (1978)",NA
+"Labidocera trispinosa","Copepod","",466.572129148298,NA,"Copepod nauplii",137.165631377942,NA,"18",NA,"2145.86975084478",1235.72080558776,0.00434939809456965,0.00250464489521212,"Linear","Landry (1978)",NA
+"Labidocera trispinosa","Copepod","",466.572129148298,NA,"Copepod nauplii",145.641866897747,NA,"18",NA,"1293.58509606572",744.678469644372,0.00313865511267516,0.00180683040733617,"Linear","Landry (1978)",NA
+"Labidocera trispinosa","Copepod","",466.572129148298,NA,"Copepod nauplii",153.304412234959,NA,"18",NA,"2450.32997126188",1410.61204498763,0.00693391345475862,0.00399173252292515,"Linear","Landry (1978)",NA
+"Labidocera trispinosa","Copepod","",466.572129148298,NA,"Copepod nauplii",178.900432269145,NA,"18",NA,"3743.9150673276",2155.49925562201,0.0168364311674912,0.00969330612373181,"Linear","Landry (1978)",NA
+"Labidocera trispinosa","Copepod","",466.572129148298,NA,"Copepod nauplii",183.179141246936,NA,"18",NA,"5737.64741814057",3303.41916333875,0.0276982157959823,0.0159470964635175,"Linear","Landry (1978)",NA
+"Labidocera trispinosa","Copepod","",466.572129148298,NA,"Copepod nauplii",202.746724459962,NA,"18",NA,"745.760661703767",429.396985946045,0.0048814730050026,0.00281067358867705,"Linear","Landry (1978)",NA
+"Labidocera trispinosa","Copepod","",466.572129148298,NA,"Copepod nauplii",219.780797878717,NA,"18",NA,"684.850075584999",394.341937265028,0.00571024347819299,0.00328800208355404,"Linear","Landry (1978)",NA
+"Labidocera trispinosa","Copepod","",466.572129148298,NA,"Copepod nauplii",237.076254961897,NA,"18",NA,"8918.44087194397",3144.93618558234,0.0933346693417185,0.0329128805356033,"Linear","Landry (1978)",NA
+"Labidocera trispinosa","Copepod","",466.572129148298,NA,"Copepod nauplii",303.432904492848,NA,"18",NA,"2282.89539206782",1313.63328966929,0.0500914859998058,0.0288238540263316,"Linear","Landry (1978)",NA
+"Neocalanus cristatus","Copepod","CV",2077.45021465706,NA,"Calanus pacificus nauplii",123.060619393852,NA,"8",NA,"31.7568254846329",NA,3.71855526894031e-05,1.11556658068209e-05,"Linear","Greene and Landry (1988)",NA
+"Neocalanus cristatus","Copepod","CV",2077.45021465706,NA,"Calanus pacificus nauplii",165.79251532265,NA,"8",NA,"23.3865782265191",NA,6.69639884999037e-05,2.00891965499711e-05,"Linear","Greene and Landry (1988)",NA
+"Neocalanus cristatus","Copepod","CV",2077.45021465706,NA,"Calanus pacificus nauplii",233.345494247462,NA,"8",NA,"17.8740276445539",NA,0.000142692304428338,4.28076913285014e-05,"Linear","Greene and Landry (1988)",NA
+"Neocalanus cristatus","Copepod","CV",2077.45021465706,NA,"Calanus pacificus nauplii",296.249113904459,NA,"8",NA,"6.08528310996159",NA,9.94104034738373e-05,2.98231210421512e-05,"Linear","Greene and Landry (1988)",NA
+"Neocalanus cristatus","Copepod","CV",2077.45021465706,NA,"Calanus pacificus nauplii",443.393298171389,NA,"8",NA,"0.381821685330924",NA,2.09125904416617e-05,6.27377713249852e-06,"Linear","Greene and Landry (1988)",NA
+"Neocalanus cristatus","Copepod","CV",2077.45021465706,NA,"Calanus pacificus nauplii",524.515206079498,NA,"8",NA,"0.381821685330924",NA,3.46190151090322e-05,1.03857045327097e-05,"Linear","Greene and Landry (1988)",NA
+"Neocalanus cristatus","Copepod","CV",2077.45021465706,NA,"Calanus pacificus nauplii",611.095092386457,NA,"8",NA,"0.381821685330924",NA,5.47478219961659e-05,1.64243465988498e-05,"Linear","Greene and Landry (1988)",NA
+"Neocalanus cristatus","Copepod","CV",2077.45021465706,NA,"Calanus pacificus nauplii",711.10558672835,NA,"8",NA,"0.572732527996385",NA,0.000129399914565267,3.88199743695801e-05,"Linear","Greene and Landry (1988)",NA
+"Neocalanus cristatus","Copepod","CV",2077.45021465706,NA,"Calanus pacificus nauplii",872.437543925357,NA,"8",NA,"0.190910842665462",NA,7.96550844378715e-05,2.38965253313614e-05,"Linear","Greene and Landry (1988)",NA
+"Euchaeta elongata","Copepod","",2154.29736867961,NA,"Calanus pacificus nauplii-copepodite / Pseudocalanus spp female",126.219717533806,NA,"8",NA,"536.629923999477",NA,0.000678010417331333,0.0002034031251994,"Linear","Greene and Landry (1985)",NA
+"Euchaeta elongata","Copepod","",2154.29736867961,NA,"Calanus pacificus nauplii-copepodite / Pseudocalanus spp female",171.649159344313,NA,"8",NA,"827.72634503693",NA,0.00263021765742343,0.000789065297227028,"Linear","Greene and Landry (1985)",NA
+"Euchaeta elongata","Copepod","F",2201.14452506639,NA,"Calanus pacificus nauplii",220.114452506639,NA,"8",NA,"118.279494397826",NA,0.00347935010757806,3.13994696842072e-05,"Extracted","Yen (1983)",NA
+"Euchaeta elongata","Copepod","",2154.29736867961,NA,"Calanus pacificus nauplii-copepodite / Pseudocalanus spp female",233.345494247462,NA,"8",NA,"1155.1043489863",NA,0.00922145275199186,0.00276643582559756,"Linear","Greene and Landry (1985)",NA
+"Euchaeta elongata","Copepod","",2154.29736867961,NA,"Calanus pacificus nauplii-copepodite / Pseudocalanus spp female",303.854146524223,NA,"8",NA,"2228.36419698525",NA,0.0392791012690043,0.0117837303807013,"Linear","Greene and Landry (1985)",NA
+"Euchaeta elongata","Copepod","",2154.29736867961,NA,"Calanus pacificus nauplii-copepodite / Pseudocalanus spp female",436.48351900145,NA,"8",NA,"1755.39962989252",NA,0.0917190231900078,0.0275157069570023,"Linear","Greene and Landry (1985)",NA
+"Euchaeta elongata","Copepod","",2154.29736867961,NA,"Calanus pacificus nauplii-copepodite / Pseudocalanus spp female",526.718044111387,NA,"8",NA,"1673.55512890517",NA,0.153657754050195,0.0460973262150585,"Linear","Greene and Landry (1985)",NA
+"Euchaeta elongata","Copepod","",2154.29736867961,NA,"Calanus pacificus nauplii-copepodite / Pseudocalanus spp female",557.37768026318,NA,"8",NA,"2546.76768676825",NA,0.277088129253839,0.0831264387761518,"Linear","Greene and Landry (1985)",NA
+"Euchaeta elongata","Copepod","",2154.29736867961,NA,"Calanus pacificus nauplii-copepodite / Pseudocalanus spp female",585.449648298902,NA,"8",NA,"1955.52362527768",NA,0.246553733793077,0.0739661201379232,"Linear","Greene and Landry (1985)",NA
+"Euchaeta elongata","Copepod","",2154.29736867961,NA,"Calanus pacificus nauplii-copepodite / Pseudocalanus spp female",615.333882913284,NA,"8",NA,"627.602349651762",NA,0.0918749083330963,0.0275624724999289,"Linear","Greene and Landry (1985)",NA
+"Euchaeta elongata","Copepod","",2154.29736867961,NA,"Calanus pacificus nauplii-copepodite / Pseudocalanus spp female",713.147051208993,NA,"8",NA,"154.637782559026",NA,0.0352397447597206,0.0105719234279162,"Linear","Greene and Landry (1985)",NA
+"Euchaeta elongata","Copepod","",2154.29736867961,NA,"Calanus pacificus nauplii-copepodite / Pseudocalanus spp female",870.496780377864,NA,"8",NA,"154.637782559026",NA,0.0640909913652883,0.0192272974095865,"Linear","Greene and Landry (1985)",NA
+"Euchaeta elongata","Copepod","F",2201.14452506639,NA,"Aetideus divergens",702.954951725278,NA,"8",NA,"0",NA,0.00970781634953877,7.52701740961019e-06,"Extracted","Yen (1983)",NA
+"Corycaeus anglicus","Copepod","",319.9476,NA,"Acartia clausii / Pseudocalanus sp / Acartia longiremis / Calanus pacificus nauplii",70.22888,NA,"15",NA,"4.04951",NA,5.28787063385268e-06,NA,"Linear","Landry et al (1985)",NA
+"Corycaeus anglicus","Copepod","",319.9476,NA,"Acartia clausii / Pseudocalanus sp / Acartia longiremis / Calanus pacificus nauplii",83.98175,NA,"15",NA,"0",NA,0,NA,"Linear","Landry et al (1985)",NA
+"Corycaeus anglicus","Copepod","",319.9476,NA,"Acartia clausii / Pseudocalanus sp / Acartia longiremis / Calanus pacificus nauplii",131.36155,NA,"15",NA,"2.024755",NA,1.73024814229571e-05,NA,"Linear","Landry et al (1985)",NA
+"Corycaeus anglicus","Copepod","",319.9476,NA,"Acartia clausii / Pseudocalanus sp / Acartia longiremis / Calanus pacificus nauplii",154.84066,NA,"15",NA,"4.04951",NA,5.6674622484806e-05,NA,"Linear","Landry et al (1985)",NA
+"Corycaeus anglicus","Copepod","",319.9476,NA,"Acartia clausii / Pseudocalanus sp / Acartia longiremis / Calanus pacificus nauplii",158.474092417606,NA,"15",NA,"18.222795",NA,0.000273414112956725,NA,"Linear","Landry et al (1985)",NA
+"Corycaeus anglicus","Copepod","",319.9476,NA,"Acartia clausii / Pseudocalanus sp / Acartia longiremis / Calanus pacificus nauplii",169.890000016849,NA,"15",NA,"22.272305",NA,0.000411717885033831,NA,"Linear","Landry et al (1985)",NA
+"Corycaeus anglicus","Copepod","",319.9476,NA,"Acartia clausii / Pseudocalanus sp / Acartia longiremis / Calanus pacificus nauplii",178.345287256784,NA,"15",NA,"16.19804",NA,0.000346400490931857,NA,"Linear","Landry et al (1985)",NA
+"Corycaeus anglicus","Copepod","",319.9476,NA,"Acartia clausii / Pseudocalanus sp / Acartia longiremis / Calanus pacificus nauplii",200.376909652284,NA,"15",NA,"10.123775",NA,0.000307055319917952,NA,"Linear","Landry et al (1985)",NA
+"Corycaeus anglicus","Copepod","",319.9476,NA,"Acartia clausii / Pseudocalanus sp / Acartia longiremis / Calanus pacificus nauplii",213.857782015169,NA,"15",NA,"40.4951",NA,0.00149316832807283,NA,"Linear","Landry et al (1985)",NA
+"Corycaeus anglicus","Copepod","",319.9476,NA,"Acartia clausii / Pseudocalanus sp / Acartia longiremis / Calanus pacificus nauplii",242.782125020546,NA,"15",NA,"52.64363",NA,0.0028400571016672,NA,"Linear","Landry et al (1985)",NA
+"Corycaeus anglicus","Copepod","",319.9476,NA,"Acartia clausii / Pseudocalanus sp / Acartia longiremis / Calanus pacificus nauplii",310.445444150099,NA,"15",NA,"42.519855",NA,0.0047959954916976,NA,"Linear","Landry et al (1985)",NA
+"Corycaeus anglicus","Copepod","",319.9476,NA,"Acartia clausii / Pseudocalanus sp / Acartia longiremis / Calanus pacificus nauplii",327.377742763444,NA,"15",NA,"16.19804",NA,0.00214259967997529,NA,"Linear","Landry et al (1985)",NA
+"Corycaeus anglicus","Copepod","",319.9476,NA,"Acartia clausii / Pseudocalanus sp / Acartia longiremis / Calanus pacificus nauplii",339.3115922239,NA,"15",NA,"46.569365",NA,0.00685847446751472,NA,"Linear","Landry et al (1985)",NA
+"Corycaeus anglicus","Copepod","",319.9476,NA,"Acartia clausii / Pseudocalanus sp / Acartia longiremis / Calanus pacificus nauplii",355.882379733333,NA,"15",NA,"70.866425",NA,0.0120417914402176,NA,"Linear","Landry et al (1985)",NA
+"Corycaeus anglicus","Copepod","",319.9476,NA,"Acartia clausii / Pseudocalanus sp / Acartia longiremis / Calanus pacificus nauplii",383.825490175388,NA,"15",NA,"80.9902",NA,0.0172649382678456,NA,"Linear","Landry et al (1985)",NA
+"Corycaeus anglicus","Copepod","",319.9476,NA,"Acartia clausii / Pseudocalanus sp / Acartia longiremis / Calanus pacificus nauplii",404.466184893237,NA,"15",NA,"34.420835",NA,0.00858616393110704,NA,"Linear","Landry et al (1985)",NA
+"Corycaeus anglicus","Copepod","",319.9476,NA,"Acartia clausii / Pseudocalanus sp / Acartia longiremis / Calanus pacificus nauplii",431.565066068148,NA,"15",NA,"24.29706",NA,0.00736247261767951,NA,"Linear","Landry et al (1985)",NA
+"Corycaeus anglicus","Copepod","",319.9476,NA,"Acartia clausii / Pseudocalanus sp / Acartia longiremis / Calanus pacificus nauplii",462.681305633727,NA,"15",NA,"34.420835",NA,0.0128528185832442,NA,"Linear","Landry et al (1985)",NA
+"Corycaeus anglicus","Copepod","",319.9476,NA,"Acartia clausii / Pseudocalanus sp / Acartia longiremis / Calanus pacificus nauplii",491.099475403083,NA,"15",NA,"8.09902",NA,0.0036163628634891,NA,"Linear","Landry et al (1985)",NA
+"Corycaeus anglicus","Copepod","",319.9476,NA,"Acartia clausii / Pseudocalanus sp / Acartia longiremis / Calanus pacificus nauplii",518.74293,NA,"15",NA,"16.19804",NA,0.00852413183605143,NA,"Linear","Landry et al (1985)",NA
+"Corycaeus anglicus","Copepod","",319.9476,NA,"Acartia clausii / Pseudocalanus sp / Acartia longiremis / Calanus pacificus nauplii",559.380499470211,NA,"15",NA,"28.34657",NA,0.0187048229468728,NA,"Linear","Landry et al (1985)",NA
+"Corycaeus anglicus","Copepod","",319.9476,NA,"Acartia clausii / Pseudocalanus sp / Acartia longiremis / Calanus pacificus nauplii",706.047941725995,NA,"15",NA,"20.24755",NA,0.0268661956276498,NA,"Linear","Landry et al (1985)",NA
+"Corycaeus anglicus","Copepod","",319.9476,NA,"Acartia clausii / Pseudocalanus sp / Acartia longiremis / Calanus pacificus nauplii",715.919005295422,NA,"15",NA,"36.44559",NA,0.0504159295467824,NA,"Linear","Landry et al (1985)",NA
+"Oithona spinirostris","Copepod","",136.426518178537,NA,"Calanus pacificus nauplii / Pseudocalanus sp / Paracalanus parvus",74.0838722740364,NA,"8",NA,"24108.4598503478",NA,0.058511868006065,0.0338752920035113,"Linear","Landry and Fagerness (1988)",NA
+"Oithona spinirostris","Copepod","",136.426518178537,NA,"Calanus pacificus nauplii / Pseudocalanus sp / Paracalanus parvus",97.6202587251382,NA,"8",NA,"19114.9481218793",NA,0.106144246975205,0.0614519324593294,"Linear","Landry and Fagerness (1988)",NA
+"Oithona spinirostris","Copepod","",136.426518178537,NA,"Calanus pacificus nauplii / Pseudocalanus sp / Paracalanus parvus",155.60735527665,NA,"8",NA,"15571.1656049017",NA,0.350199048369949,0.202746817477339,"Linear","Landry and Fagerness (1988)",NA
+"Oithona spinirostris","Copepod","",136.426518178537,NA,"Calanus pacificus nauplii / Pseudocalanus sp / Paracalanus parvus",164.206906072875,NA,"8",NA,"13852.9680209125",NA,0.36611756087407,0.211962798400778,"Linear","Landry and Fagerness (1988)",NA
+"Oithona spinirostris","Copepod","",136.426518178537,NA,"Calanus pacificus nauplii / Pseudocalanus sp / Paracalanus parvus",178.345287256784,NA,"8",NA,"12188.464111423",NA,0.41270275645563,0.238933174790102,"Linear","Landry and Fagerness (1988)",NA
+"Oithona spinirostris","Copepod","",136.426518178537,NA,"Calanus pacificus nauplii / Pseudocalanus sp / Paracalanus parvus",211.164829303223,NA,"8",NA,"5691.52949696406",NA,0.319887464528906,0.185198005779893,"Linear","Landry and Fagerness (1988)",NA
+"Oithona spinirostris","Copepod","",136.426518178537,NA,"Calanus pacificus nauplii / Pseudocalanus sp / Paracalanus parvus",234.970888918905,NA,"8",NA,"2845.76474848203",NA,0.220366030429389,0.127580333406488,"Linear","Landry and Fagerness (1988)",NA
+"Oithona spinirostris","Copepod","",136.426518178537,NA,"Calanus pacificus nauplii / Pseudocalanus sp / Paracalanus parvus",355.882379733333,NA,"8",NA,"1610.81023498983",NA,0.433378450009759,0.250903313163545,"Linear","Landry and Fagerness (1988)",NA
+"Acartia tonsa","Copepod","NII-III",97,NA,NA,6.8,NA,NA,1,NA,NA,NA,NA,NA,"Berggreen et al (1988)","Hansen et al (1994)"
+"Acartia tonsa","Copepod","NII-III",97,NA,NA,5.4,NA,NA,0.5,NA,NA,NA,NA,NA,"Berggreen et al (1988)","Hansen et al (1994)"
+"Acartia tonsa","Copepod","NII-III",97,NA,NA,7.9,NA,NA,0.5,NA,NA,NA,NA,NA,"Berggreen et al (1988)","Hansen et al (1994)"
+"Acartia tonsa","Copepod","NII-III",97,NA,NA,4.9,NA,NA,0.1,NA,NA,NA,NA,NA,"Berggreen et al (1988)","Hansen et al (1994)"
+"Acartia tonsa","Copepod","NII-III",97,NA,NA,11.1,NA,NA,0.1,NA,NA,NA,NA,NA,"Berggreen et al (1988)","Hansen et al (1994)"
+"Acartia tonsa","Copepod","NII-III",100,NA,NA,7.2,NA,NA,1,NA,NA,NA,NA,NA,"Berggreen et al (1988)","Hansen et al (1994)"
+"Acartia tonsa","Copepod","NII-III",100,NA,NA,6.1,NA,NA,0.5,NA,NA,NA,NA,NA,"Berggreen et al (1988)","Hansen et al (1994)"
+"Acartia tonsa","Copepod","NII-III",100,NA,NA,14.7,NA,NA,0.5,NA,NA,NA,NA,NA,"Berggreen et al (1988)","Hansen et al (1994)"
+"Acartia tonsa","Copepod","NII-III",100,NA,NA,4.5,NA,NA,0.1,NA,NA,NA,NA,NA,"Berggreen et al (1988)","Hansen et al (1994)"
+"Acartia tonsa","Copepod","NII-III",100,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Berggreen et al (1988)","Hansen et al (1994)"
+"Acartia tonsa","Copepod","NII-III",112,NA,NA,7,NA,NA,1,NA,NA,NA,NA,NA,"Berggreen et al (1988)","Hansen et al (1994)"
+"Acartia tonsa","Copepod","NII-III",112,NA,NA,4.5,NA,NA,0.5,NA,NA,NA,NA,NA,"Berggreen et al (1988)","Hansen et al (1994)"
+"Acartia tonsa","Copepod","NII-III",112,NA,NA,12.4,NA,NA,0.5,NA,NA,NA,NA,NA,"Berggreen et al (1988)","Hansen et al (1994)"
+"Acartia tonsa","Copepod","NII-III",112,NA,NA,4,NA,NA,0.1,NA,NA,NA,NA,NA,"Berggreen et al (1988)","Hansen et al (1994)"
+"Acartia tonsa","Copepod","NII-III",112,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Berggreen et al (1988)","Hansen et al (1994)"
+"Acartia tonsa","Copepod","NIV-V",135,NA,NA,4,NA,NA,1,NA,NA,NA,NA,NA,"Berggreen et al (1988)","Hansen et al (1994)"
+"Acartia tonsa","Copepod","NIV-V",135,NA,NA,3.6,NA,NA,0.5,NA,NA,NA,NA,NA,"Berggreen et al (1988)","Hansen et al (1994)"
+"Acartia tonsa","Copepod","NIV-V",135,NA,NA,17.5,NA,NA,0.5,NA,NA,NA,NA,NA,"Berggreen et al (1988)","Hansen et al (1994)"
+"Acartia tonsa","Copepod","NIV-V",135,NA,NA,2.6,NA,NA,0.1,NA,NA,NA,NA,NA,"Berggreen et al (1988)","Hansen et al (1994)"
+"Acartia tonsa","Copepod","NIV-V",135,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Berggreen et al (1988)","Hansen et al (1994)"
+"Diaptomus siclis","Copepod","C",398,NA,NA,14.1,NA,NA,1,NA,NA,NA,NA,NA,"Vanderploeg et al (1984)","Hansen et al (1994)"
+"Diaptomus siclis","Copepod","C",398,NA,NA,8.9,NA,NA,0.5,NA,NA,NA,NA,NA,"Vanderploeg et al (1984)","Hansen et al (1994)"
+"Diaptomus siclis","Copepod","C",398,NA,NA,22,NA,NA,0.5,NA,NA,NA,NA,NA,"Vanderploeg et al (1984)","Hansen et al (1994)"
+"Diaptomus siclis","Copepod","C",398,NA,NA,4,NA,NA,0.1,NA,NA,NA,NA,NA,"Vanderploeg et al (1984)","Hansen et al (1994)"
+"Diaptomus siclis","Copepod","C",398,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Vanderploeg et al (1984)","Hansen et al (1994)"
+"Acartia tonsa","Copepod","CIII-IV",279,NA,NA,14.5,NA,NA,1,NA,NA,NA,NA,NA,"Berggreen et al (1988)","Hansen et al (1994)"
+"Acartia tonsa","Copepod","CIII-IV",279,NA,NA,8.8,NA,NA,0.5,NA,NA,NA,NA,NA,"Berggreen et al (1988)","Hansen et al (1994)"
+"Acartia tonsa","Copepod","CIII-IV",279,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Berggreen et al (1988)","Hansen et al (1994)"
+"Acartia tonsa","Copepod","CIII-IV",279,NA,NA,4.4,NA,NA,0.1,NA,NA,NA,NA,NA,"Berggreen et al (1988)","Hansen et al (1994)"
+"Acartia tonsa","Copepod","CIII-IV",279,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Berggreen et al (1988)","Hansen et al (1994)"
+"Acartia tonsa","Copepod","M",453,NA,NA,14.5,NA,NA,1,NA,NA,NA,NA,NA,"Berggreen et al (1988)","Hansen et al (1994)"
+"Acartia tonsa","Copepod","M",453,NA,NA,11.2,NA,NA,0.5,NA,NA,NA,NA,NA,"Berggreen et al (1988)","Hansen et al (1994)"
+"Acartia tonsa","Copepod","M",453,NA,NA,91,NA,NA,0.5,NA,NA,NA,NA,NA,"Berggreen et al (1988)","Hansen et al (1994)"
+"Acartia tonsa","Copepod","M",453,NA,NA,4,NA,NA,0.1,NA,NA,NA,NA,NA,"Berggreen et al (1988)","Hansen et al (1994)"
+"Acartia tonsa","Copepod","M",453,NA,NA,153,NA,NA,0.1,NA,NA,NA,NA,NA,"Berggreen et al (1988)","Hansen et al (1994)"
+"Acartia tonsa","Copepod","F",499,NA,NA,14.8,NA,NA,1,NA,NA,NA,NA,NA,"Berggreen et al (1988)","Hansen et al (1994)"
+"Acartia tonsa","Copepod","F",499,NA,NA,11.1,NA,NA,0.5,NA,NA,NA,NA,NA,"Berggreen et al (1988)","Hansen et al (1994)"
+"Acartia tonsa","Copepod","F",499,NA,NA,77,NA,NA,0.5,NA,NA,NA,NA,NA,"Berggreen et al (1988)","Hansen et al (1994)"
+"Acartia tonsa","Copepod","F",499,NA,NA,4.4,NA,NA,0.1,NA,NA,NA,NA,NA,"Berggreen et al (1988)","Hansen et al (1994)"
+"Acartia tonsa","Copepod","F",499,NA,NA,137,NA,NA,0.1,NA,NA,NA,NA,NA,"Berggreen et al (1988)","Hansen et al (1994)"
+"Temora longicornis","Copepod","C",558,NA,NA,15,NA,NA,1,NA,NA,NA,NA,NA,"Poulet (1977)","Hansen et al (1994)"
+"Temora longicornis","Copepod","C",558,NA,NA,6.5,NA,NA,0.5,NA,NA,NA,NA,NA,"Poulet (1977)","Hansen et al (1994)"
+"Temora longicornis","Copepod","C",558,NA,NA,33,NA,NA,0.5,NA,NA,NA,NA,NA,"Poulet (1977)","Hansen et al (1994)"
+"Temora longicornis","Copepod","C",558,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Poulet (1977)","Hansen et al (1994)"
+"Temora longicornis","Copepod","C",558,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Poulet (1977)","Hansen et al (1994)"
+"Acartia clausi","Copepod","C",353,NA,NA,25,NA,NA,1,NA,NA,NA,NA,NA,"Poulet (1977)","Hansen et al (1994)"
+"Acartia clausi","Copepod","C",353,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Poulet (1977)","Hansen et al (1994)"
+"Acartia clausi","Copepod","C",353,NA,NA,35,NA,NA,0.5,NA,NA,NA,NA,NA,"Poulet (1977)","Hansen et al (1994)"
+"Acartia clausi","Copepod","C",353,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Poulet (1977)","Hansen et al (1994)"
+"Acartia clausi","Copepod","C",353,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Poulet (1977)","Hansen et al (1994)"
+"Acartia tonsa","Copepod","C",444,NA,NA,32,NA,NA,1,NA,NA,NA,NA,NA,"Wilson (1972)","Hansen et al (1994)"
+"Paracartia grani","Copepod","N",99.4617350579412,80.7467209310434,"Nannochloropsis oculata",2.5,0,"18",NA,"3.21667174421934",0,0,0,"Extracted","Helenius and Saiz (2017)",NA
+"Paracartia grani","Copepod","N",99.4617350579412,80.7467209310434,"Isochrysis galbana",4.5,0.16,"18",NA,"100.112722131627",3.46410803223621,0.0353574578634286,0.000785303393456429,"Extracted","Helenius and Saiz (2017)",NA
+"Paracartia grani","Copepod","N",99.4617350579412,80.7467209310434,"Rhodomonas salina",6.9,0.19,"18",NA,"162.565641227085",5.93847091240494,0.0232055648353744,0.000509619778799551,"Extracted","Helenius and Saiz (2017)",NA
+"Paracartia grani","Copepod","N",99.4617350579412,80.7467209310434,"Heterocapsa sp",12.1,0.21,"18",NA,"300.288679137276",72.7462686769605,0.0804662808630869,0.00789816631349857,"Extracted","Helenius and Saiz (2017)",NA
+"Paracartia grani","Copepod","N",99.4617350579412,80.7467209310434,"Thalassiosira weissflogii",12.8,0.38,"18",NA,"348.340806270153",76.7052492852305,0.0417771428687688,0.00316965884949614,"Extracted","Helenius and Saiz (2017)",NA
+"Paracartia grani","Copepod","N",99.4617350579412,80.7467209310434,"Gymnodinium litoralis",19.8,0.52,"18",NA,"204.976220993177",59.8795817000831,0.0714843436080745,0.00868501370939222,"Extracted","Helenius and Saiz (2017)",NA
+"Paracartia grani","Copepod","N",99.4617350579412,80.7467209310434,"Akashiwo sanguinea",42.9,0,"18",NA,"2.42487562256535",0,0,0,"Extracted","Helenius and Saiz (2017)",NA
+"Temora longicornis","Copepod","",427,21.4646437234478,"Rhodomonas salina",6.1,0.4,"16",NA,"4.34",NA,0.0161372213615159,0.00222847342611409,"Extracted","Gonçalves et al (2014)",NA
+"Temora longicornis","Copepod","",427,21.4646437234478,"Isochrysis galbana",8.2,0.6,"16",NA,"0",NA,NA,NA,NA,"Gonçalves et al (2014)",NA
+"Temora longicornis","Copepod","",427,21.4646437234478,"Thalassiosira weissflogii",8.6,0.9,"16",NA,"0",NA,0.0253584907109535,0.00315060036105786,"Extracted","Gonçalves et al (2014)",NA
+"Temora longicornis","Copepod","",427,21.4646437234478,"Prorocentrum minimum",10.3,0.8,"16",NA,"522.11",NA,0.0760754721328605,0.0199794169237815,"Extracted","Gonçalves et al (2014)",NA
+"Temora longicornis","Copepod","",427,21.4646437234478,"Oxyhrris marina",11.4,1.1,"16",NA,"938.49",NA,0.0630120072211571,0.00922126934943763,"Extracted","Gonçalves et al (2014)",NA
+"Temora longicornis","Copepod","",427,21.4646437234478,"Heterocapsa triquetra",11.9,0.7,"16",NA,"1271.77",NA,0.0491801031970007,0.0130634649117033,"Extracted","Gonçalves et al (2014)",NA
+"Temora longicornis","Copepod","",427,21.4646437234478,"Scippsiella trochoidea",15.8,0.9,"16",NA,"631.63",NA,0.0207478560362347,0.00438010294098287,"Extracted","Gonçalves et al (2014)",NA
+"Temora longicornis","Copepod","",427,21.4646437234478,"Protoceratium reticulatum",22.8,1.7,"16",NA,"996.08",NA,0.0414957120724693,0.00599382507713446,"Extracted","Gonçalves et al (2014)",NA
+"Temora longicornis","Copepod","",427,21.4646437234478,"Mesodinium rubrum",23.3,3.9,"16",NA,"811.02",NA,NA,NA,NA,"Gonçalves et al (2014)",NA
+"Temora longicornis","Copepod","",427,21.4646437234478,"Askashiwo sanguinea",28.6,1.6,"16",NA,"1074.44",NA,0.0176740995864221,0.00207478560362347,"Extracted","Gonçalves et al (2014)",NA
+"Temora longicornis","Copepod","",427,21.4646437234478,"Askashiwo sanguinea",33.1,2.9,"16",NA,"34.93",NA,0.0122950257992502,0.0011526586686797,"Extracted","Gonçalves et al (2014)",NA
+"Temora longicornis","Copepod","",427,21.4646437234478,"Coscinodiscus radiatus",58.5,6.3,"16",NA,"43.43",NA,0.0176740995864221,0.00207478560362347,"Extracted","Gonçalves et al (2014)",NA
+"Centropages hamatus","Copepod","N",105.504109064398,0.954716340954228,"Rhodomonas salina",8.6,1.1,"15",NA,"208.333333333333",16.025641025641,0.0118461538461538,0.00426282051282051,"Extracted","Almeda et al (2018)",NA
+"Centropages hamatus","Copepod","N",113.445709858694,1.18767665029848,"Rhodomonas salina",8.6,1.1,"15",NA,"204.40251572327",23.5849056603774,0.0249182389937107,0.00581132075471698,"Extracted","Almeda et al (2018)",NA
+"Centropages hamatus","Copepod","N",147.449257852559,1.50895463454293,"Rhodomonas salina",8.6,1.1,"15",NA,"226.71568627451",6.12745098039216,0.0202107843137255,0.00555882352941177,"Extracted","Almeda et al (2018)",NA
+"Centropages hamatus","Copepod","N",100.519918043913,1.24292384984513,"Rhodomonas salina",8.6,1.1,"15",NA,"175.595238095238",11.9047619047619,0.0126,0.0023,"Extracted","Almeda et al (2018)",NA
+"Centropages hamatus","Copepod","N",121.850435284832,1.50962236312525,"Thalassiosira weissflogii",11.4,1.2,"15",NA,"56.3063063063063",11.2612612612613,0.0187927927927928,0.0309009009009009,"Extracted","Almeda et al (2018)",NA
+"Centropages hamatus","Copepod","C",161.818891426925,1.23476118080927,"Thalassiosira weissflogii",11.4,1.2,"15",NA,"58.3333333333333",8.33333333333333,0.00690666666666667,0.00550666666666667,"Extracted","Almeda et al (2018)",NA
+"Centropages hamatus","Copepod","N",209.693118585841,1.19882709366212,"Thalassiosira weissflogii",11.4,1.2,"15",NA,"39.0625",4.34027777777778,0.00384027777777778,NA,"Extracted","Almeda et al (2018)",NA
+"Centropages hamatus","Copepod","N",99.4617350579412,0.708478447586707,"Thalassiosira weissflogii",11.4,1.2,"15",NA,"83.3333333333333",10.8695652173913,0.00852173913043478,0.00389565217391304,"Extracted","Almeda et al (2018)",NA
+"Centropages hamatus","Copepod","N",126.976115818947,1.03610666737982,"Oxyrrhis marina",13.3,1.2,"15",NA,"1485.50724637681",181.159420289855,0.0385507246376812,0.00771014492753623,"Extracted","Almeda et al (2018)",NA
+"Centropages hamatus","Copepod","C",134.990342909185,0.831220281387637,"Oxyrrhis marina",13.3,1.2,"15",NA,"1289.0625",65.1041666666667,0.035625,0.00534375,"Extracted","Almeda et al (2018)",NA
+"Centropages hamatus","Copepod","N",189.087143400618,1.46609999116778,"Oxyrrhis marina",13.3,1.2,"15",NA,"704.225352112676",46.9483568075117,0.0200704225352113,0.00508450704225352,"Extracted","Almeda et al (2018)",NA
+"Centropages hamatus","Copepod","N",105.977227989614,1.43942614082943,"Oxyrrhis marina",13.3,1.2,"15",NA,"639.596602972399",63.6942675159236,0.0192823779193206,0.00383227176220807,"Extracted","Almeda et al (2018)",NA
+"Centropages hamatus","Copepod","C",122.558883966834,1.34472060993701,"Akashiwo sanguinea",39.4,1.1,"15",NA,"94.6969696969697",9.46969696969697,0.00526420454545455,0.000619318181818182,"Extracted","Almeda et al (2018)",NA
+"Centropages hamatus","Copepod","N",177.098472744534,1.78210338966582,"Akashiwo sanguinea",39.4,1.1,"15",NA,"212.264150943396",39.3081761006289,0.0068125,0.00128537735849057,"Extracted","Almeda et al (2018)",NA
+"Oithona nana","Copepod","N",74.4474655004308,1.69396251399237,"Akashiwo sanguinea",39.4,1.1,"15",NA,"497.967479674797",57.5880758807588,0.00775406504065041,0.00110772357723577,"Extracted","Almeda et al (2018)",NA
+"Oithona nana","Copepod","N",94.3953840409549,1.15146300135136,"Akashiwo sanguinea",39.4,1.1,"15",NA,"392.781316348195",47.7707006369427,0.0073765923566879,0.000867834394904459,"Extracted","Almeda et al (2018)",NA
+"Oithona nana","Copepod","N",102.571909082063,3.61051130066586,"Rhodomonas salina",7.2,1.1,"15",NA,"163.690476190476",7.44047619047619,0.0284851190476191,0.00392113095238095,"Extracted","Almeda et al (2018)",NA
+"Oithona nana","Copepod","C",130.487270390393,2.40941913500411,"Rhodomonas salina",7.2,1.1,"15",NA,"115.131578947368",6.8530701754386,0.0214410635964912,0.00292886513157895,"Extracted","Almeda et al (2018)",NA
+"Oithona nana","Copepod","N",83.7386668578967,6.95644811561154,"Rhodomonas salina",7.2,1.1,"15",NA,"321.093226022804",10.8987256874581,0.0359639503688799,0.00349178403755869,"Extracted","Almeda et al (2018)",NA
+"Oithona nana","Copepod","N",92.5796360786313,0.447465743352772,"Thalassiosira weissflogii",12,1.1,"15",NA,"524.691358024691",77.1604938271605,0.0464763374485597,0.0233384773662551,"Extracted","Almeda et al (2018)",NA
+"Oithona nana","Copepod","N",115.066581845161,2.35718343873928,"Thalassiosira weissflogii",12,1.1,"15",NA,"1174.03314917127",115.101289134438,0.0823872007366483,0.0195718232044199,"Extracted","Almeda et al (2018)",NA
+"Oithona nana","Copepod","C",122.205686377431,2.45823005728671,"Thalassiosira weissflogii",12,1.1,"15",NA,"872.881355932203",122.881355932203,0.057361581920904,0.0209689265536723,"Extracted","Almeda et al (2018)",NA
+"Oithona nana","Copepod","N",71.4663189356174,3.11345461579791,"Thalassiosira weissflogii",12,1.1,"15",NA,"1160.33755274262",101.26582278481,0.0853090717299578,0.0181149789029536,"Extracted","Almeda et al (2018)",NA
+"Oithona nana","Copepod","N",79.7827118233323,3.61051130066586,"Oxyrrhis marina",14.3,1.2,"15",NA,"1004.46428571429",70.6845238095238,0.0415625,0.00247395833333333,"Extracted","Almeda et al (2018)",NA
+"Oithona nana","Copepod","N",104.058665201691,2.40941913500411,"Oxyrrhis marina",14.3,1.2,"15",NA,"583.881578947368",47.9714912280702,0.0153125,0.001796875,"Extracted","Almeda et al (2018)",NA
+"Oithona nana","Copepod","C",135.568467063379,4.99023738038278,"Oxyrrhis marina",14.3,1.2,"15",NA,"508.166969147005",27.2232304900181,0.0179597701149425,0.00224137931034483,"Extracted","Almeda et al (2018)",NA
+"Oithona nana","Copepod","N",88.71758133336,1.97136209868375,"Akashiwo sanguinea",42.1,1.1,"15",NA,"463.43537414966",46.7687074829932,0.0229362244897959,0.0025484693877551,"Extracted","Almeda et al (2018)",NA
+"Oithona nana","Copepod","N",94.3953840409549,2.49422532541509,"Akashiwo sanguinea",42.1,1.1,"15",NA,"483.3984375",53.7109375,0.014958984375,0.0026015625,"Extracted","Almeda et al (2018)",NA
+"Oithona nana","Copepod","C",124.976158614245,2.62835469352761,"Akashiwo sanguinea",42.1,1.1,"15",NA,"565.998329156224",52.2138680033417,0.0181522556390977,0.0031296992481203,"Extracted","Almeda et al (2018)",NA
+"Oithona nana","Copepod","C",135.568467063379,0.475259807562509,"Rhodomonas salina",7.8,1.1,"15",NA,"287.162162162162",28.1531531531532,0.0148513513513514,0.00234121621621622,"Extracted","Almeda et al (2018)",NA
+"Temora longicornis","Copepod","N",121.133651434532,1.64471681374998,"Rhodomonas salina",7.8,1.1,"15",NA,"208.333333333333",54.3478260869565,0.0212853260869565,0.00860733695652174,"Extracted","Almeda et al (2018)",NA
+"Temora longicornis","Copepod","N",168.972746178541,4.87518886482435,"Rhodomonas salina",7.8,1.1,"15",NA,"121.699669966997",20.6270627062706,0.0147580445544554,0.00420173267326733,"Extracted","Almeda et al (2018)",NA
+"Temora longicornis","Copepod","C",199.057065501987,1.57126349533568,"Thalassiosira weissflogii",11.7,1.2,"15",NA,"1035.15625",97.65625,0.022662109375,0.005044921875,"Extracted","Almeda et al (2018)",NA
+"Temora longicornis","Copepod","N",108.731106454627,2.49575934712623,"Thalassiosira weissflogii",11.7,1.2,"15",NA,"720.029239766082",80.4093567251462,0.0198706140350877,0.00629385964912281,"Extracted","Almeda et al (2018)",NA
+"Temora longicornis","Copepod","N",142.151569613647,3.43694188051485,"Thalassiosira weissflogii",11.7,1.2,"15",NA,"894.194756554307",70.2247191011236,0.0259897003745318,0.00355102996254682,"Extracted","Almeda et al (2018)",NA
+"Temora longicornis","Copepod","N",167.288520327172,3.61096019294278,"Thalassiosira weissflogii",11.7,1.2,"15",NA,"896.442914515204",82.4727481353987,0.0302560240963855,0.00334315834767642,"Extracted","Almeda et al (2018)",NA
+"Temora longicornis","Copepod","C",184.384538108086,1.60491788269935,"Oxyrrhis marina",12.6,1.2,"15",NA,"967.741935483871",67.2043010752688,0.035994623655914,0.00366935483870968,"Extracted","Almeda et al (2018)",NA
+"Temora longicornis","Copepod","N",121.133651434532,3.28469857107289,"Oxyrrhis marina",12.6,1.2,"15",NA,"494.186046511628",32.2997416020672,0.0201970284237726,0.00277131782945736,"Extracted","Almeda et al (2018)",NA
+"Temora longicornis","Copepod","N",168.972746178541,2.32356167418541,"Oxyrrhis marina",12.6,1.2,"15",NA,"459.677419354839",29.5698924731183,0.0200241935483871,0.00206182795698925,"Extracted","Almeda et al (2018)",NA
+"Temora longicornis","Copepod","C",206.019976890613,3.84950175383158,"Oxyrrhis marina",12.6,1.2,"15",NA,"504.694835680751",0,0.0280115414710485,0.00250489045383412,"Extracted","Almeda et al (2018)",NA
+"Temora longicornis","Copepod","N",115.860169556099,0.942143899489352,"Akashiwo sanguinea",39.8,1.1,"15",NA,"183.333333333333",16.6666666666667,0.00634288888888889,0.001679,"Extracted","Almeda et al (2018)",NA
+"Temora longicornis","Copepod","N",159.565423646664,1.40903318038562,"Akashiwo sanguinea",39.8,1.1,"15",NA,"179.597701149425",14.367816091954,0.00440255028735632,0.00120617816091954,"Extracted","Almeda et al (2018)",NA
+"Temora longicornis","Copepod","C",185.004844002085,2.19320831352221,"Akashiwo sanguinea",39.8,1.1,"15",NA,"677.380952380952",23.8095238095238,0.0121927380952381,0.00179892857142857,"Extracted","Almeda et al (2018)",NA
+"Oithona davisae","Copepod","N",95.2484892219005,NA,"Nannocloropsis oculata",2.5543,NA,"18",NA,"62.2657854620236",NA,NA,NA,NA,"Saiz et al (2014)",NA
+"Oithona davisae","Copepod","N",95.2484892219005,NA,"Isochrysis galbana",4.4637,NA,"18",NA,"115.910154475459",NA,0.00370191735726398,NA,"Extracted","Saiz et al (2014)",NA
+"Oithona davisae","Copepod","N",95.2484892219005,NA,"Tetraselmis chuii",8.7218,NA,"18",NA,"169.61087261601",NA,0.0157866888954398,NA,"Extracted","Saiz et al (2014)",NA
+"Oithona davisae","Copepod","N",95.2484892219005,NA,"Prorocentrum minimum",12.8915,NA,"18",NA,"67.6189525379442",NA,NA,NA,NA,"Saiz et al (2014)",NA
+"Oithona davisae","Copepod","N",95.2484892219005,NA,"Heterocapsa sp.",13.3803,NA,"18",NA,"196.433057122728",NA,0.0245978640928945,NA,"Extracted","Saiz et al (2014)",NA
+"Oithona davisae","Copepod","N",95.2484892219005,NA,"Thalassiosira weissflogii",14.1484,NA,"18",NA,"153.495022261133",NA,NA,0.000328373111719483,NA,"Saiz et al (2014)",NA
+"Oithona davisae","Copepod","N",95.2484892219005,NA,"Oxyrrhis marina",16.4193,NA,"18",NA,"894.091599932967",NA,0.0372945227975602,NA,"Extracted","Saiz et al (2014)",NA
+"Oithona davisae","Copepod","N",95.2484892219005,NA,"Akashiwo sanguinea",41.6288,NA,"18",NA,"83.7348028928209",NA,NA,NA,NA,"Saiz et al (2014)",NA
+"Oithona davisae","Copepod","",180.246811060065,NA,"Nannocloropsis oculata",2.47,NA,"18",NA,"75.3748601377362",NA,NA,NA,NA,"Saiz et al (2014)",NA
+"Oithona davisae","Copepod","",180.246811060065,NA,"Isochrysis galbana",4.2461,NA,"18",NA,"114.197278448061",NA,0.00131555740795331,NA,"Extracted","Saiz et al (2014)",NA
+"Oithona davisae","Copepod","",180.246811060065,NA,"Tetraselmis chuii",8.1652,NA,"18",NA,"103.08021413431",NA,0.0136144894544006,NA,"Extracted","Saiz et al (2014)",NA
+"Oithona davisae","Copepod","",180.246811060065,NA,"Prorocentrum minimum",12.088,NA,"18",NA,"119.726708342335",NA,0.0377534381724277,NA,"Extracted","Saiz et al (2014)",NA
+"Oithona davisae","Copepod","",180.246811060065,NA,"Heterocapsa sp.",12.5482,NA,"18",NA,"147.432062338908",NA,0.0483084917943787,NA,"Extracted","Saiz et al (2014)",NA
+"Oithona davisae","Copepod","",180.246811060065,NA,"Thalassiosira weissflogii",14.3013,NA,"18",NA,"141.902632444634",NA,NA,0.00084829720527533,NA,"Saiz et al (2014)",NA
+"Oithona davisae","Copepod","",180.246811060065,NA,"Oxyrrhis marina",18.2327,NA,"18",NA,"435.719075668798",NA,0.0584046300414622,NA,"Extracted","Saiz et al (2014)",NA
+"Oithona davisae","Copepod","",180.246811060065,NA,"Scrippsiella trochoidea",21.1719,NA,"18",NA,"197.31334043778",NA,NA,NA,NA,"Saiz et al (2014)",NA
+"Oithona davisae","Copepod","",180.246811060065,NA,"Strombidium sulcatum",26.0022,NA,"18",NA,"247.252823061856",NA,0.0733346769038161,NA,"Extracted","Saiz et al (2014)",NA
+"Oithona davisae","Copepod","",180.246811060065,NA,"Strombidium sulcatum",28.5482,NA,"18",NA,"978.941909387325",NA,NA,NA,NA,"Saiz et al (2014)",NA
+"Oithona davisae","Copepod","",180.246811060065,NA,"Prorocentrum micans",30.1939,NA,"18",NA,"829.298075090707",NA,NA,NA,NA,"Saiz et al (2014)",NA
+"Oithona davisae","Copepod","",180.246811060065,NA,"Akashiwo sanguinea",42.2633,NA,"18",NA,"114.197278448061",NA,0.0320628875240715,NA,"Extracted","Saiz et al (2014)",NA
+"Oithona davisae","Copepod","",180.246811060065,NA,"Oithona davisae nauplii",66.1743,NA,"18",NA,"64.316000349188",NA,NA,NA,NA,"Saiz et al (2014)",NA
+"Oithona davisae","Copepod","",180.246811060065,NA,"Acartia grani nauplii",84.3658,NA,"18",NA,"164.078556546933",NA,0.00614946602322363,NA,"Extracted","Saiz et al (2014)",NA
+"Harpacticus obscurus","Copepod","",237.110730052911,NA,"Navicula phyllepta/Grammatophora marina/Cylindrotheca closterium",8.51,NA,"16.5",NA,NA,NA,0.0599824685967549,NA,"Extracted","Wyckmans et al (2007)",NA
+"Harpacticus obscurus","Copepod","",237.110730052911,NA,"Navicula phyllepta/Grammatophora marina/Cylindrotheca closterium",13.4,NA,"16.5",NA,NA,NA,0.0599824685967549,NA,"Extracted","Wyckmans et al (2007)",NA
+"Harpacticus obscurus","Copepod","",237.110730052911,NA,"Navicula phyllepta/Grammatophora marina/Cylindrotheca closterium",8.42,NA,"16.5",NA,NA,NA,0.0814047788098817,NA,"Extracted","Wyckmans et al (2007)",NA
+"Paramphiascella fulvofasciata","Copepod","",313.535095775882,NA,"Navicula phyllepta/Grammatophora marina/Cylindrotheca closterium",8.51,NA,"16.5",NA,NA,NA,0.0428446204262535,NA,"Extracted","Wyckmans et al (2007)",NA
+"Paramphiascella fulvofasciata","Copepod","",313.535095775882,NA,"Navicula phyllepta/Grammatophora marina/Cylindrotheca closterium",13.4,NA,"16.5",NA,NA,NA,0.0085689240852507,NA,"Extracted","Wyckmans et al (2007)",NA
+"Paramphiascella fulvofasciata","Copepod","",313.535095775882,NA,"Navicula phyllepta/Grammatophora marina/Cylindrotheca closterium",8.42,NA,"16.5",NA,NA,NA,0.11996493719351,NA,"Extracted","Wyckmans et al (2007)",NA
+"Tigriopus brevicornis","Copepod","",335.840585150434,NA,"Navicula phyllepta/Grammatophora marina/Cylindrotheca closterium",8.51,NA,"16.5",NA,NA,NA,0.0428446204262535,NA,"Extracted","Wyckmans et al (2007)",NA
+"Tigriopus brevicornis","Copepod","",335.840585150434,NA,"Navicula phyllepta/Grammatophora marina/Cylindrotheca closterium",13.4,NA,"16.5",NA,NA,NA,0.0085689240852507,NA,"Extracted","Wyckmans et al (2007)",NA
+"Tigriopus brevicornis","Copepod","",335.840585150434,NA,"Navicula phyllepta/Grammatophora marina/Cylindrotheca closterium",8.42,NA,"16.5",NA,NA,NA,0.137102785364011,NA,"Extracted","Wyckmans et al (2007)",NA
+"Eurytemora affinis","Copepod","",367.080081985605,NA,"Strobilidium sp.",15.0053093590729,NA,"18",NA,"228.581582907076",NA,NA,NA,NA,"Merrell and Stoecker (1998)","Souissi and Souissi (2021)"
+"Eurytemora affinis","Copepod","",367.080081985605,NA,"Strobilidium sp.",15.0053093590729,NA,"18",NA,"365.045378552686",NA,NA,NA,NA,"Merrell and Stoecker (1998)","Souissi and Souissi (2021)"
+"Eurytemora affinis","Copepod","",367.080081985605,NA,"Prorocentrum minimum",12.9658518256033,NA,"11.6",NA,"268.685398863108",NA,NA,NA,NA,"Merrell and Stoecker (1998)","Souissi and Souissi (2021)"
+"Eurytemora affinis","Copepod","",367.080081985605,NA,"Prorocentrum minimum",12.9658518256033,NA,"11.6",NA,"342.888963300999",NA,NA,NA,NA,"Merrell and Stoecker (1998)","Souissi and Souissi (2021)"
+"Eurytemora affinis","Copepod","",367.080081985605,NA,"Prorocentrum minimum",12.9658518256033,NA,"11.6",NA,"573.67346463583",NA,NA,NA,NA,"Merrell and Stoecker (1998)","Souissi and Souissi (2021)"
+"Eurytemora affinis","Copepod","",367.080081985605,NA,"Strombidium sp.",21.0942350546485,NA,"14.2",NA,"420.036506456336",NA,NA,NA,NA,"Merrell and Stoecker (1998)","Souissi and Souissi (2021)"
+"Eurytemora affinis","Copepod","",367.080081985605,NA,"Strombidium sp.",21.0942350546485,NA,"14.2",NA,"1138.97605007238",NA,NA,NA,NA,"Merrell and Stoecker (1998)","Souissi and Souissi (2021)"
+"Eurytemora affinis","Copepod","",367.080081985605,NA,"Strombidium sp.",21.0942350546485,NA,"14.2",NA,"514.616345333171",NA,NA,NA,NA,"Merrell and Stoecker (1998)","Souissi and Souissi (2021)"
+"Eurytemora affinis","Copepod","",367.080081985605,NA,"Strombidium sp.",21.0942350546485,NA,"14.2",NA,"401.099575288533",NA,NA,NA,NA,"Merrell and Stoecker (1998)","Souissi and Souissi (2021)"
+"Eurytemora affinis","Copepod","",367.080081985605,NA,"Strobilidium sp.",40.0151313053236,NA,"14",NA,"1336.50915429959",NA,NA,NA,NA,"Merrell and Stoecker (1998)","Souissi and Souissi (2021)"
+"Eurytemora affinis","Copepod","",367.080081985605,NA,NA,23.2168157072185,NA,"10",NA,"2513.26469673971",NA,NA,NA,NA,"Merrell and Stoecker (1998)","Souissi and Souissi (2021)"
+"Eurytemora affinis","Copepod","",367.080081985605,NA,"Strobilidium sp.",40.0151313053236,NA,"14",NA,"963.122600344411",NA,NA,NA,NA,"Merrell and Stoecker (1998)","Souissi and Souissi (2021)"
+"Eurytemora affinis","Copepod","",367.080081985605,NA,"Strombidium sp.",35.0131972447821,NA,"14.2",NA,"975.007382230122",NA,NA,NA,NA,"Merrell and Stoecker (1998)","Souissi and Souissi (2021)"
+"Eurytemora affinis","Copepod","",367.080081985605,NA,"Strombidium sp.",35.0131972447821,NA,"14.2",NA,"823.651688837271",NA,NA,NA,NA,"Merrell and Stoecker (1998)","Souissi and Souissi (2021)"
+"Eurytemora affinis","Copepod","",367.080081985605,NA,"Strombidium sp.",35.0131972447821,NA,"14.2",NA,"369.58460865872",NA,NA,NA,NA,"Merrell and Stoecker (1998)","Souissi and Souissi (2021)"
+"Eurytemora affinis","Copepod","",367.080081985605,NA,"Strombidium sp.",35.0131972447821,NA,"14.2",NA,"590.294192029596",NA,NA,NA,NA,"Merrell and Stoecker (1998)","Souissi and Souissi (2021)"
+"Eurytemora affinis","Copepod","",367.080081985605,NA,"Strombidium sp.",35.0131972447821,NA,"14.2",NA,"533.553276500974",NA,NA,NA,NA,"Merrell and Stoecker (1998)","Souissi and Souissi (2021)"
+"Eurytemora affinis","Copepod","N",NA,NA,"Strobilidium sp.",15.0053093590729,NA,"18",0.2151,NA,NA,NA,NA,NA,"Merrell and Stoecker (1998)",NA
+"Eurytemora affinis","Copepod","N",NA,NA,"Prorocentrum minimum",12.9658518256033,NA,"11.6",0.1889,NA,NA,NA,NA,NA,"Merrell and Stoecker (1998)",NA
+"Eurytemora affinis","Copepod","N",NA,NA,"Prorocentrum minimum",12.9658518256033,NA,"11.6",0.1104,NA,NA,NA,NA,NA,"Merrell and Stoecker (1998)",NA
+"Eurytemora affinis","Copepod","N",NA,NA,"Strombidium sp.",21.0942350546485,NA,"14.2",0.1628,NA,NA,NA,NA,NA,"Merrell and Stoecker (1998)",NA
+"Eurytemora affinis","Copepod","N",NA,NA,"Strombidium sp.",21.0942350546485,NA,"14.2",0.2762,NA,NA,NA,NA,NA,"Merrell and Stoecker (1998)",NA
+"Eurytemora affinis","Copepod","N",NA,NA,"Strobilidium sp.",40.0151313053236,NA,"14",0.3264,NA,NA,NA,NA,NA,"Merrell and Stoecker (1998)",NA
+"Eurytemora affinis","Copepod","N",NA,NA,NA,23.2168157072185,NA,"10",0.5206,NA,NA,NA,NA,NA,"Merrell and Stoecker (1998)",NA
+"Eurytemora affinis","Copepod","N",NA,NA,"Strombidium sp.",35.0131972447821,NA,"14.2",0.3853,NA,NA,NA,NA,NA,"Merrell and Stoecker (1998)",NA
+"Eurytemora affinis","Copepod","N",NA,NA,"Strombidium sp.",35.0131972447821,NA,"14.2",0.202,NA,NA,NA,NA,NA,"Merrell and Stoecker (1998)",NA
+"Eurytemora affinis","Copepod","N",NA,NA,"Strombidium sp.",35.0131972447821,NA,"14.2",0.1759,NA,NA,NA,NA,NA,"Merrell and Stoecker (1998)",NA
+"Calanus helgolandicus","Copepod","",713.225539817105,NA,"Calanus nauplii",78.472670007155,NA,"14",1,NA,0,NA,NA,NA,"Bonnet et al (2004)",NA
+"Calanus helgolandicus","Copepod","",713.225539817105,NA,"Calanus nauplii",101.074586969765,NA,"14",0.517604933359854,NA,0.3,NA,NA,NA,"Bonnet et al (2004)",NA
+"Calanus helgolandicus","Copepod","",713.225539817105,NA,"Calanus nauplii",125.441279772612,NA,"14",0.45802665605729,NA,0.5,NA,NA,NA,"Bonnet et al (2004)",NA
+"Calanus helgolandicus","Copepod","",713.225539817105,NA,"Calanus nauplii",152.919055269476,NA,"14",0.154266958424507,NA,0.1,NA,NA,NA,"Bonnet et al (2004)",NA
+"Calanus helgolandicus","Copepod","",713.225539817105,NA,"Calanus nauplii",159.240889570657,NA,"14",0.583051521782375,NA,0.3,NA,NA,NA,"Bonnet et al (2004)",NA
+"Calanus helgolandicus","Copepod","",713.225539817105,NA,"Calanus nauplii",169.640692362139,NA,"14",0.55331211458126,NA,0.35,NA,NA,NA,"Bonnet et al (2004)",NA
+"Calanus helgolandicus","Copepod","",713.225539817105,NA,"Calanus nauplii",194.647627541957,NA,"14",0.243584642928188,NA,0.25,NA,NA,NA,"Bonnet et al (2004)",NA
+"Pseudocalanus minutus","Copepod","",414,NA,NA,12,NA,NA,1,NA,NA,NA,NA,NA,"Poulet (1977)","Hansen et al (1994)"
+"Pseudocalanus minutus","Copepod","",414,NA,NA,6,NA,NA,0.5,NA,NA,NA,NA,NA,"Poulet (1977)","Hansen et al (1994)"
+"Pseudocalanus minutus","Copepod","",414,NA,NA,28,NA,NA,0.5,NA,NA,NA,NA,NA,"Poulet (1977)","Hansen et al (1994)"
+"Pseudocalanus minutus","Copepod","",414,NA,NA,4.5,NA,NA,0.1,NA,NA,NA,NA,NA,"Poulet (1977)","Hansen et al (1994)"
+"Pseudocalanus minutus","Copepod","",414,NA,NA,32,NA,NA,0.1,NA,NA,NA,NA,NA,"Poulet (1977)","Hansen et al (1994)"
+"Eurytemora herdmani","Copepod","",381,NA,NA,13.5,NA,NA,1,NA,NA,NA,NA,NA,"Poulet (1977)","Hansen et al (1994)"
+"Eurytemora herdmani","Copepod","",381,NA,NA,8,NA,NA,0.5,NA,NA,NA,NA,NA,"Poulet (1977)","Hansen et al (1994)"
+"Eurytemora herdmani","Copepod","",381,NA,NA,33,NA,NA,0.5,NA,NA,NA,NA,NA,"Poulet (1977)","Hansen et al (1994)"
+"Eurytemora herdmani","Copepod","",381,NA,NA,6.7,NA,NA,0.1,NA,NA,NA,NA,NA,"Poulet (1977)","Hansen et al (1994)"
+"Eurytemora herdmani","Copepod","",381,NA,NA,NA,NA,NA,0.1,NA,NA,NA,NA,NA,"Poulet (1977)","Hansen et al (1994)"
+"Pseudocalanus minutus","Copepod","",414,NA,NA,66,NA,NA,1,NA,NA,NA,NA,NA,"Poulet (1977)","Hansen et al (1994)"
+"Pseudocalanus minutus","Copepod","",414,NA,NA,6,NA,NA,0.5,NA,NA,NA,NA,NA,"Poulet (1977)","Hansen et al (1994)"
+"Pseudocalanus minutus","Copepod","",414,NA,NA,28,NA,NA,0.5,NA,NA,NA,NA,NA,"Poulet (1977)","Hansen et al (1994)"
+"Pseudocalanus minutus","Copepod","",414,NA,NA,4.5,NA,NA,0.1,NA,NA,NA,NA,NA,"Poulet (1977)","Hansen et al (1994)"
+"Pseudocalanus minutus","Copepod","",414,NA,NA,32,NA,NA,0.1,NA,NA,NA,NA,NA,"Poulet (1977)","Hansen et al (1994)"
+"Calanus finmarchicus","Copepod","",855,NA,NA,80,NA,NA,1,NA,NA,NA,NA,NA,"Kiørboe and Runge unpubl.","Hansen et al (1994)"
+"Calanus finmarchicus","Copepod","",855,NA,NA,27,NA,NA,0.5,NA,NA,NA,NA,NA,"Kiørboe and Runge unpubl.","Hansen et al (1994)"
+"Calanus finmarchicus","Copepod","",855,NA,NA,137,NA,NA,0.5,NA,NA,NA,NA,NA,"Kiørboe and Runge unpubl.","Hansen et al (1994)"
+"Calanus finmarchicus","Copepod","",855,NA,NA,7,NA,NA,0.1,NA,NA,NA,NA,NA,"Kiørboe and Runge unpubl.","Hansen et al (1994)"
+"Calanus finmarchicus","Copepod","",855,NA,NA,NA,NA,NA,0.1,NA,NA,NA,NA,NA,"Kiørboe and Runge unpubl.","Hansen et al (1994)"
+"Diaptomus graciloides","Copepod","",325,NA,NA,31,NA,NA,1,NA,NA,NA,NA,NA,"Gliwicz (1977)","Hansen et al (1994)"
+"Diaptomus graciloides","Copepod","",325,NA,NA,27,NA,NA,0.5,NA,NA,NA,NA,NA,"Gliwicz (1977)","Hansen et al (1994)"
+"Diaptomus graciloides","Copepod","",325,NA,NA,35,NA,NA,0.5,NA,NA,NA,NA,NA,"Gliwicz (1977)","Hansen et al (1994)"
+"Diaptomus graciloides","Copepod","",325,NA,NA,NA,NA,NA,0.1,NA,NA,NA,NA,NA,"Gliwicz (1977)","Hansen et al (1994)"
+"Diaptomus graciloides","Copepod","",325,NA,NA,NA,NA,NA,0.1,NA,NA,NA,NA,NA,"Gliwicz (1977)","Hansen et al (1994)"
+"Centropages typicus","Copepod","",559,NA,NA,32,NA,NA,1,NA,NA,NA,NA,NA,"Wolgemuth unpubl.","Hansen et al (1994)"
+"Centropages typicus","Copepod","",559,NA,NA,25,NA,NA,0.5,NA,NA,NA,NA,NA,"Wolgemuth unpubl.","Hansen et al (1994)"
+"Centropages typicus","Copepod","",559,NA,NA,37,NA,NA,0.5,NA,NA,NA,NA,NA,"Wolgemuth unpubl.","Hansen et al (1994)"
+"Centropages typicus","Copepod","",559,NA,NA,9.2,NA,NA,0.1,NA,NA,NA,NA,NA,"Wolgemuth unpubl.","Hansen et al (1994)"
+"Centropages typicus","Copepod","",559,NA,NA,120,NA,NA,0.1,NA,NA,NA,NA,NA,"Wolgemuth unpubl.","Hansen et al (1994)"
+"Acartia tonsa","Copepod","",362.437021515423,NA,"Strombidium sulcatum",15.1485942075391,NA,"18",NA,"1871",154.433235227598,0.0289546051722717,NA,"Extracted","Saiz and Kiørboe (1995)","Kiorboe (2016)"
+"Acartia grani","Copepod","N",86.0148808425689,NA,"Thalassiosira weissflogii",14.4,NA,"20",NA,"180",NA,0.0372967219349173,NA,"Extracted","Henriksen et al (2007)","Kiorboe (2016)"
+"Oithona nana","Copepod","",153.969516683777,NA,"Acartia sp. nauplii",79.1122371679595,NA,"10",NA,"2707",NA,0.0289344925843034,NA,"Extracted","Lampitt (1978)","Kiorboe (2016)"
+"Oithona nana","Copepod","M",149.370636887791,NA,"Acartia sp. nauplii",79.1122371679595,NA,"10",NA,"3427",NA,0.00920326029187483,NA,"Extracted","Lampitt (1978)","Kiorboe (2016)"
+"Oithona nana","Copepod","",153.969516683777,NA,"Isochrysis galbana",2.37732508144562,NA,"10",NA,"52",NA,0.00278886675511359,NA,"Extracted","Lampitt and Gamble (1982)","Kiorboe (2016)"
+"Oithona nana","Copepod","M",153.969516683777,NA,"Dunaliella euchlora",4.7105967875019,NA,"10",NA,"49",NA,0.0131773954179117,NA,"Extracted","Lampitt and Gamble (1982)","Kiorboe (2016)"
+"Oithona nana","Copepod","M",153.969516683777,NA,"Cricosphaera elongata",7.15740759200544,NA,"10",NA,"203",NA,0.0150598804776134,NA,"Extracted","Lampitt and Gamble (1982)","Kiorboe (2016)"
+"Oithona nana","Copepod","M",153.969516683777,NA,"Thalassiosira fluviatilis",7.2765644062752,NA,"10",NA,"33",NA,0.00669328021227261,NA,"Extracted","Lampitt and Gamble (1982)","Kiorboe (2016)"
+"Oithona nana","Copepod","M",153.969516683777,NA,"Prorocentrurn micans",17.8762463849717,NA,"10",NA,"88",NA,0.00564745517910501,NA,"Extracted","Lampitt and Gamble (1982)","Kiorboe (2016)"
+"Oithona nana","Copepod","M",153.969516683777,NA,"Acartia clausi NI",77.207258880719,NA,"10",NA,"3128",NA,0.0289344925843034,NA,"Extracted","Lampitt and Gamble (1982)","Kiorboe (2016)"
+"Oithona nana","Copepod","M",153.969516683777,NA,"Calanus finmarchicus NI",146.961011702052,NA,"10",NA,"915",NA,0.0199403972990621,NA,"Extracted","Lampitt and Gamble (1982)","Kiorboe (2016)"
+"Oithona nana","Copepod","M",153.969516683777,NA,"Calanus finmarchicus NIII",185.159272157263,NA,"10",NA,"394",NA,0.0029980317617471,NA,"Extracted","Lampitt and Gamble (1982)","Kiorboe (2016)"
+"Oithona davisae","Copepod","",158.308950846542,NA,"Oxhyrris marina",12.6230762819094,NA,"21",NA,"431",NA,0.0161743350750504,0.00673930628127099,"Extracted","Saiz et al (2003)","Kiorboe (2016)"
+"Oithona davisae","Copepod","M",143.960965586116,NA,"Oxhyrris marina",12.6230762819094,NA,"22",NA,"254",NA,0.018404567910127,0.00112332567810834,"Extracted","Kiørboe (2008)","Kiorboe (2016)"
+"Oithona davisae","Copepod","N",79.9485807245375,NA,"Heterocapsa sp",12.8,NA,"20",NA,"146",NA,0.0243314220081815,NA,"Extracted","Henriksen et al (2007)","Kiorboe (2016)"
+"Oithona similis","Copepod","C",178.769311729142,NA,"Flagellates and ciliates",7.68677849584018,NA,"19",NA,"166",NA,0.00176845742641505,NA,"Extracted","Nakamura and Turner (1997)","Kiorboe (2016)"
+"Oithona similis","Copepod","C",178.769311729142,NA,"Flagellates and ciliates",9.89011913061829,NA,"19",NA,"129",NA,0.00146089961312547,NA,"Extracted","Nakamura and Turner (1997)","Kiorboe (2016)"
+"Oithona similis","Copepod","C",178.769311729142,NA,"Flagellates and ciliates",6.33587401920854,NA,"19",NA,"313",NA,0.000845783986546328,NA,"Extracted","Nakamura and Turner (1997)","Kiorboe (2016)"
+"Oithona similis","Copepod","C",178.769311729142,NA,"Flagellates and ciliates",9.0793481097929,NA,"19",NA,"147",NA,0.00199912578638223,NA,"Extracted","Nakamura and Turner (1997)","Kiorboe (2016)"
+"Oithona similis","Copepod","C",178.769311729142,NA,"Flagellates and ciliates",9.89011913061829,NA,"19",NA,"184",NA,0.00123023125315829,NA,"Extracted","Nakamura and Turner (1997)","Kiorboe (2016)"
+"Oithona similis","Copepod","C",178.769311729142,NA,"Flagellates and ciliates",14.5278061357485,NA,"19",NA,"239",NA,0.000922673439868721,NA,"Extracted","Nakamura and Turner (1997)","Kiorboe (2016)"
+"Oithona similis","Copepod","C",178.769311729142,NA,"Flagellates and ciliates",17.3697444713061,NA,"19",NA,"478",NA,0.00445958829269882,NA,"Extracted","Nakamura and Turner (1997)","Kiorboe (2016)"
+"Oithona similis","Copepod","C",178.769311729142,NA,"Flagellates and ciliates",19.3352664446562,NA,"19",NA,"699",NA,0.00753516642559456,NA,"Extracted","Nakamura and Turner (1997)","Kiorboe (2016)"
+"Oithona similis","Copepod","",178.769311729142,NA,"Prorocentrum micans",22.4135744509561,NA,"8.5",NA,"380",NA,NA,NA,NA,"Drits and Semenova (1984)","Kiorboe (2016)"
+"Oithona similis","Copepod","",178.769311729142,NA,"Peridinium trochoideum",18.3721423372916,NA,"8.5",NA,"462",NA,NA,NA,NA,"Drits and Semenova (1984)","Kiorboe (2016)"
+"Oithona similis","Copepod","",178.769311729142,NA,"Platymonas viridis",5.63659493414716,NA,"8.5",NA,"429",NA,NA,NA,NA,"Drits and Semenova (1984)","Kiorboe (2016)"
+"Oithona davisae","Copepod","NI-II",112.366789901717,NA,"Oxhyrris marina",12.6230762819094,NA,"20.5",NA,"101",0.0053062541353773,0.00894103821811074,0.000318375248122638,"Extracted","Almeda et al (2010)","Kiorboe (2016)"
+"Oithona davisae","Copepod","NI-II",113.568886621964,NA,"Oxhyrris marina",12.6230762819094,NA,"20.5",NA,"100",0.00256976771236585,0.0100734894324741,0.000205581416989268,"Extracted","Almeda et al (2010)","Kiorboe (2016)"
+"Oithona davisae","Copepod","NII-III",117.030553513541,NA,"Oxhyrris marina",12.6230762819094,NA,"20.5",NA,"108",0.00469682296735382,0.0100042329204636,0.000305293492877998,"Extracted","Almeda et al (2010)","Kiorboe (2016)"
+"Oithona davisae","Copepod","NV-VI",132.626786235511,NA,"Oxhyrris marina",12.6230762819094,NA,"20.5",NA,"92",0.00645413768303034,0.0126985158913622,0.000806767210378793,"Extracted","Almeda et al (2010)","Kiorboe (2016)"
+"Oithona davisae","Copepod","CII-III",154.636059697608,NA,"Oxhyrris marina",12.6230762819094,NA,"20.5",NA,"113",0.00508990471784046,0.0153613324384425,0.000641327994447898,"Extracted","Almeda et al (2010)","Kiorboe (2016)"
+"Oithona davisae","Copepod","",158.308950846542,NA,"Oxhyrris marina",12.6230762819094,NA,"18",NA,"893",NA,0.0240599207686001,0.00326457540957939,"Extracted","Zamora-Terol and Saiz (2013)","Kiorboe (2016)"
+"Acartia clausi","Copepod","",429.71660504251,NA,"Rhodomonas baltica",7.193194232032,NA,"15",NA,"67",NA,0.04,0.00360843918243516,"Extracted","Dutz (1998)","Kiorboe (2016)"
+"Acartia clausi","Copepod","",429.71660504251,NA,"Alexandrium lusitanicum",21.2616666131339,NA,"15",NA,"125",NA,0.0570833333333333,0.00433012701892219,"Extracted","Dutz (1998)","Kiorboe (2016)"
+"Acartia Erythraea","Copepod","",417.3309819218,NA,"Chattonella antiqua",26.4756929640592,NA,"20",NA,"172",NA,0.0237588485159949,NA,"Extracted","Uye (1986)","Kiorboe (2016)"
+"Acartia hudsonica","Copepod","",475.863132641865,NA,"Thalassiosira constricta",13.4783063434755,NA,"4.5",NA,"404",NA,0.0575092769385797,0.00507968376744553,"Extracted","Durbin and Durbin (1992)","Kiorboe (2016)"
+"Acartia hudsonica","Copepod","",455.114790382138,NA,"Thalassiosira constricta",12.18510212944,NA,"8",NA,"301",NA,0.030806067793745,0.00173555311514056,"Extracted","Durbin and Durbin (1992)","Kiorboe (2016)"
+"Acartia hudsonica","Copepod","",412.413516953904,NA,"Thalassiosira constricta",12.1185069566177,NA,"12",NA,"308",NA,0.0412009855573221,0.00283256775706589,"Extracted","Durbin and Durbin (1992)","Kiorboe (2016)"
+"Acartia hudsonica","Copepod","",394.883853717,NA,"Thalassiosira constricta",11.8121178516514,NA,"16",NA,"226",NA,0.0407098011141841,0.00281762346613684,"Extracted","Durbin and Durbin (1992)","Kiorboe (2016)"
+"Acartia tonsa","Copepod","",389.030308617771,NA,"Thalassiosira weisflogii",10.6974422225941,NA,"20",NA,"905",NA,0.198737877096437,NA,"Extracted","Durbin and Durbin (1990)","Kiorboe (2016)"
+"Acartia tonsa","Copepod","",376.949692664673,NA,"Rhodomonas baltica",5.79703423371028,NA,"17",NA,"124",NA,0.05016193295318,NA,"Extracted","Kiørboe et al (1985)","Kiorboe (2016)"
+"Acartia tonsa","Copepod","",376.949692664673,NA,"Thalassiosira weisflogii",11.0106136648522,NA,"15",NA,"1111",NA,0.043829041311795,0.0219145206558975,"Extracted","Kiørboe et al (1996)","Kiorboe (2016)"
+"Acartia tonsa","Copepod","",376.949692664673,NA,"Thalassiosira weisflogii",11.0106136648522,NA,"20",NA,"738",NA,0.0350661589825637,0.103837832061231,"Linear","Paffenhöfer and Stearns (1988)","Kiorboe (2016)"
+"Acartia tonsa","Copepod","",362.437021515423,NA,"Thalassiosira weisflogii",15.4017312529071,NA,"18",NA,"1934",NA,0.0818189325709126,0.00511368328568204,"Extracted","Saiz and T (1995)","Kiorboe (2016)"
+"Acartia tonsa","Copepod","",340.337129576082,NA,"Isochrysis galbana",5.2610711929301,NA,"18",NA,"50",NA,0.0819036467645353,NA,"Extracted","Støttrup and Jensen (1990)","Kiorboe (2016)"
+"Acartia tonsa","Copepod","",340.337129576082,NA,"Dunaliella tertiolecta",3.88700012380694,NA,"18",NA,"161",NA,0.0238593502766727,0.0115160507462023,"Extracted","Støttrup and Jensen (1990)","Kiorboe (2016)"
+"Acartia tonsa","Copepod","",340.337129576082,NA,"Rhodomonas baltica",6.29765365916839,NA,"18",NA,"151",NA,0.0479948996215526,NA,"Extracted","Støttrup and Jensen (1990)","Kiorboe (2016)"
+"Acartia tonsa","Copepod","",340.337129576082,NA,"Thalassiosira weifsflogii",13.1867664822376,NA,"18",NA,"419",NA,0.0773782312623703,NA,"Extracted","Støttrup and Jensen (1990)","Kiorboe (2016)"
+"Acartia tonsa","Copepod","",340.337129576082,NA,"Ditylum brightwellii",22.2548611992956,NA,"18",NA,"290",NA,0.0357571562917543,NA,"Extracted","Støttrup and Jensen (1990)","Kiorboe (2016)"
+"Paracartia grani","Copepod","",429.917045948188,NA,"Oxyrrhis marina",14.9483478098139,NA,"20",NA,"552",NA,0.0347623123444364,0.00204484190261391,"Extracted","Calbet et al (2007)","Kiorboe (2016)"
+"Aetideus divergens","Copepod","",695.948289829679,NA,"Thallasiosira fluviatilis",11.7773663418043,NA,"12",NA,"23",NA,0.000447283822821852,NA,"Extracted","Robertson and Frost (1977)","Kiorboe (2016)"
+"Aetideus divergens","Copepod","",695.948289829679,NA,"Coscinodiscus angstii",34.0683377794876,NA,"12",NA,"217",NA,0.00104995241505487,NA,"Extracted","Robertson and Frost (1977)","Kiorboe (2016)"
+"Aetideus divergens","Copepod","",695.948289829679,NA,"Coscinodiscus angstii",61.0837610023372,NA,"12",NA,"446",NA,0.00234708862993035,NA,"Extracted","Robertson and Frost (1977)","Kiorboe (2016)"
+"Aetideus divergens","Copepod","",695.948289829679,NA,"Artemia nauplii",229.331299475726,NA,"12",NA,"772",NA,0.0423547683355467,NA,"Extracted","Robertson and Frost (1977)","Kiorboe (2016)"
+"Calanus finmarchicus","Copepod","CV + F",1182.95289010693,NA,"Emiliania huxley",5.3,0.2,"13",NA,"2",NA,NA,NA,NA,"Nejstgaard et al (1995)","Kiorboe (2016)"
+"Calanus finmarchicus","Copepod","CV + F",1182.95289010693,NA,"Emiliania huxley",3.6,0.2,"13",NA,"5",NA,NA,NA,NA,"Nejstgaard et al (1995)","Kiorboe (2016)"
+"Calanus finmarchicus","Copepod","CV + F",1182.95289010693,NA,"Emiliania huxley",3.9,0.1,"13",NA,"14",NA,0.0092149475931236,0.00255970766475656,"Extracted","Nejstgaard et al (1995)","Kiorboe (2016)"
+"Calanus finmarchicus","Copepod","CV + F",1182.95289010693,NA,"Prymnesium patelliferum",6.4,0,"13",NA,"6",NA,NA,NA,NA,"Nejstgaard et al (1995)","Kiorboe (2016)"
+"Calanus finmarchicus","Copepod","CV + F",1182.95289010693,NA,"Thallasiosira nordenskioeldii",13.8,NA,"13",NA,"61",NA,NA,NA,NA,"Nejstgaard et al (1995)","Kiorboe (2016)"
+"Calanus finmarchicus","Copepod","CV + F",1182.95289010693,NA,"Thallasiosira nordenskioeldii",17,0.9,"13",NA,"87",NA,NA,NA,NA,"Nejstgaard et al (1995)","Kiorboe (2016)"
+"Calanus finmarchicus","Copepod","CV + F",1182.95289010693,NA,"Chaetoceros calcitrans",3,0.2,"13",NA,"8",NA,NA,NA,NA,"Nejstgaard et al (1995)","Kiorboe (2016)"
+"Calanus finmarchicus","Copepod","CV + F",1182.95289010693,NA,"Pavlova lutheri",4.6,0.1,"13",NA,"4",NA,NA,NA,NA,"Nejstgaard et al (1995)","Kiorboe (2016)"
+"Calanus finmarchicus","Copepod","CV + F",1182.95289010693,NA,"Rhodomonas baltica",8,0.2,"13",NA,"30",NA,NA,NA,NA,"Nejstgaard et al (1995)","Kiorboe (2016)"
+"Calanus finmarchicus","Copepod","CV + F",1182.95289010693,NA,"Rhodomonas baltica",8,0.2,"13",NA,"33",NA,NA,NA,NA,"Nejstgaard et al (1995)","Kiorboe (2016)"
+"Calanus finmarchicus","Copepod","CV + F",1182.95289010693,NA,"Emiliania huxley",3.9,0.1,"13",NA,"14",NA,0.0092149475931236,0.00255970766475656,"Extracted","Nejstgaard et al (1995)","Kiorboe (2016)"
+"Calanus pacificus","Copepod","",1066.79084390575,NA,"Coscinodiscus angstii",35,NA,"12.5",NA,"154",NA,0.0181449417566882,0.000644399800704814,"Extracted","Frost (1972)","Kiorboe (2016)"
+"Calanus pacificus","Copepod","",1066.79084390575,NA,"Coscinodiscus eccentricus",75,NA,"12.5",NA,"223",NA,0.0171274683871543,0.0012209680434407,"Extracted","Frost (1972)","Kiorboe (2016)"
+"Calanus pacificus","Copepod","",1066.79084390575,NA,"Centric diatiom",87,NA,"12.5",NA,"294",NA,0.0191624151262221,0.00086485236410383,"Extracted","Frost (1972)","Kiorboe (2016)"
+"Calanus sinicus","Copepod","",782.146140577399,NA,"Alexandrium tamarense",17.233071739704,0.0910915471677232,"18",NA,"84",NA,0.0198863329109222,0.00152971791622478,"Extracted","Liu and Wang (2002)","Kiorboe (2016)"
+"Calanus sinicus","Copepod","",782.146140577399,NA,"Alexandrium tamarense",22.2765406101015,1.95982252199225,"18",NA,"43",NA,0.0152971791622478,0,"Extracted","Liu and Wang (2002)","Kiorboe (2016)"
+"Calanus sinicus","Copepod","",782.146140577399,NA,"Thallasiosira weissflogii",6.14531790947364,0.136421278780978,"18",NA,"43",NA,0.00994316645546109,NA,"Extracted","Liu and Wang (2002)","Kiorboe (2016)"
+"Calanus sinicus","Copepod","",936.77520638567,NA,"Chattonella antiqua",26.4756929640592,NA,"20",NA,"66",NA,0.0117197298837457,NA,"Extracted","Uye (1986)","Kiorboe (2016)"
+"Centropages yamadai","Copepod","",534.091761414489,NA,"Chattonella antiqua",26.4756929640592,NA,"20",NA,"169",NA,0.0211052488967805,NA,"Extracted","Uye (1986)","Kiorboe (2016)"
+"Clausocalanus lividus","Copepod","",649.941351091802,NA,"Rhodomonas salina",6.8,NA,"18.2",NA,"18",NA,0.0162407179904104,0.0138885485581754,"Extracted","Isari and Saiz (2011)","Kiorboe (2016)"
+"Clausocalanus lividus","Copepod","",649.941351091802,NA,"Hetrocapsa sp",13.6,NA,"18.2",NA,"88",NA,0.0161047259965743,0,"Extracted","Isari and Saiz (2011)","Kiorboe (2016)"
+"Clausocalanus lividus","Copepod","",583.215161435372,NA,"Thallasiosira Weisflogii",14,NA,"20",NA,"259",NA,0.0342727169325571,0.00437345296118863,"Extracted","Isari and Saiz (2011)","Kiorboe (2016)"
+"Clausocalanus lividus","Copepod","",543.207710379975,NA,"Gymnodinium sp",16.2,NA,"20",NA,"197",NA,0.0311187816166796,0.0105105787340416,"Extracted","Isari and Saiz (2011)","Kiorboe (2016)"
+"Clausocalanus lividus","Copepod","",680.993803147465,NA,"Oxhyrris marina",17.1,NA,"13.9",NA,"253",NA,0.0224097164252953,0.00248742309104592,"Extracted","Isari and Saiz (2011)","Kiorboe (2016)"
+"Clausocalanus lividus","Copepod","",659.809138199233,NA,"Strombidium sulcatum",27.8,NA,"13.9",NA,"483",NA,0.0356338391979526,0.00834907960232135,"Extracted","Isari and Saiz (2011)","Kiorboe (2016)"
+"Euchaeta elongata","Copepod","",2162.24687749439,NA,"Pseudocalanus sp.",448.111910663373,NA,"8",NA,"185",NA,0.0142997465959802,0.00329154147406022,"Extracted","Yen (1985)","Kiorboe (2016)"
+"Euchaeta elongata","Copepod","",2162.24687749439,NA,"Acartia clausii",341.973390929433,NA,"8",NA,"115",NA,0.00836063615593849,0.000412395874498213,"Extracted","Yen (1985)","Kiorboe (2016)"
+"Euchaeta norvegica","Copepod","",2777.38908235894,NA,NA,NA,NA,"7.5",NA,"166",NA,NA,NA,NA,"Yen (1987)","Kiorboe (2016)"
+"Euterpina acutifrons","Copepod","",281.126301936634,NA,"plastic beads",NA,NA,"19",NA,"568",NA,NA,NA,NA,"Sautour and Castel (1993)","Kiorboe (2016)"
+"Euterpina acutifrons","Copepod","",281.126301936634,NA,"Isochrysis galbana",5.2610711929301,NA,"19",NA,"194",NA,NA,NA,NA,"Sautour and Castel (1993)","Kiorboe (2016)"
+"Euterpina acutifrons","Copepod","",281.126301936634,NA,"Chaetoceros calcitrans",9.22483868588998,NA,"19",NA,"147",NA,NA,NA,NA,"Sautour and Castel (1993)","Kiorboe (2016)"
+"Euterpina acutifrons","Copepod","",281.126301936634,NA,"Skeletonema costatum",4.79317356984603,NA,"19",NA,"379",NA,NA,NA,NA,"Sautour and Castel (1993)","Kiorboe (2016)"
+"Euterpina acutifrons","Copepod","",281.126301936634,NA,"Prorocentrum micans",24.6594721917921,NA,"18",NA,"175",NA,0.0713025884930214,NA,"Extracted","Nassogne (1970)","Kiorboe (2016)"
+"Euterpina acutifrons","Copepod","",281.126301936634,NA,"Platymonas succia",6.17550670792349,NA,"18",NA,"437",NA,0.045256097078286,NA,"Extracted","Nassogne (1970)","Kiorboe (2016)"
+"Euterpina acutifrons","Copepod","",281.126301936634,NA,"Gymnodinium sp",5.99087312636524,NA,"18",NA,"87",NA,0.0017313470552952,NA,"Extracted","Nassogne (1970)","Kiorboe (2016)"
+"Neocalanus cristatus","Copepod","CV",1289.14981512753,NA,"Thalassiosira weisflogii",11.9496811971309,NA,"12",NA,"121",NA,NA,NA,NA,"Frost et al (1983)","Kiorboe (2016)"
+"Neocalanus plumchrus","Copepod","CV",2342.54067631398,NA,"Thalassiosira weisflogii",11.9496811971309,NA,"12",NA,"30",NA,NA,NA,NA,"Frost et al (1983)","Kiorboe (2016)"
+"Oncaea mediterranea","Copepod","NV",84.7081231170825,NA,"Gymnodinium nelsoni",42.4313767178822,1.77312916227219,"20",NA,"129",NA,0.0152961701021371,NA,"Extracted","Paffenhöfer (1993)","Kiorboe (2016)"
+"Oncaea mediterranea","Copepod","C",112.11484558126,NA,"Gymnodinium nelsoni",42.4313767178822,1.77312916227219,"20",NA,"102",NA,0.0122050690606634,NA,"Extracted","Paffenhöfer (1993)","Kiorboe (2016)"
+"Oncaea mediterranea","Copepod","C",124.636547813454,NA,"Gymnodinium nelsoni",42.4313767178822,1.77312916227219,"20",NA,"78",NA,0.00912378933059448,NA,"Extracted","Paffenhöfer (1993)","Kiorboe (2016)"
+"Oncaea mediterranea","Copepod","C",135.280022644993,NA,"Gymnodinium nelsoni",42.4313767178822,1.77312916227219,"20",NA,"154",NA,0.0182137184443749,NA,"Extracted","Paffenhöfer (1993)","Kiorboe (2016)"
+"Oncaea mediterranea","Copepod","C",170.986695464717,NA,"Gymnodinium nelsoni",42.4313767178822,1.77312916227219,"20",NA,"149",NA,0.0175752994473554,NA,"Extracted","Paffenhöfer (1993)","Kiorboe (2016)"
+"Oncaea mediterranea","Copepod","C",193.425509153925,NA,"Gymnodinium nelsoni",42.4313767178822,1.77312916227219,"20",NA,"88",NA,0.0104064273043553,NA,"Extracted","Paffenhöfer (1993)","Kiorboe (2016)"
+"Oncaea mediterranea","Copepod","C",208.968784252523,NA,"Gymnodinium nelsoni",42.4313767178822,1.77312916227219,"20",NA,"178",NA,0.0208865877490313,NA,"Extracted","Paffenhöfer (1993)","Kiorboe (2016)"
+"Oncaea mediterranea","Copepod","C",246.779337600332,NA,"Gymnodinium nelsoni",42.4313767178822,1.77312916227219,"20",NA,"49",NA,0.00609351283197649,NA,"Extracted","Paffenhöfer (1993)","Kiorboe (2016)"
+"Oncaea mediterranea","Copepod","C",247.817328103447,NA,"Gymnodinium nelsoni",42.4313767178822,1.77312916227219,"20",NA,"52",NA,0.00549800816914149,NA,"Extracted","Paffenhöfer (1993)","Kiorboe (2016)"
+"Paracalanus crassirostris","Copepod","",404.971028727556,NA,"Alexandrium tamarense",17.233071739704,0.0910915471677232,"18",NA,"104",NA,0.0183566149946974,0.00382429479056196,"Extracted","Liu and Wang (2002)","Kiorboe (2016)"
+"Paracalanus crassirostris","Copepod","",404.971028727556,NA,"Alexandrium tamarense",22.2765406101015,1.95982252199225,"18",NA,"99",NA,0.0183566149946974,0.00305943583244957,"Extracted","Liu and Wang (2002)","Kiorboe (2016)"
+"Paracalanus crassirostris","Copepod","",404.971028727556,NA,"Thallasiosira weissflogii",6.14531790947364,0.136421278780978,"18",NA,"114",NA,0.0111669407884409,0.00145323202041354,"Extracted","Liu and Wang (2002)","Kiorboe (2016)"
+"Paracalanus parvus","Copepod","",349.929096861223,NA,"Chattonella antiqua",26.4756929640592,NA,"20",NA,"185",NA,0.0229742476436021,NA,"Extracted","Uye (1986)","Kiorboe (2016)"
+"Paracalanus parvus","Copepod","",316.617901693083,NA,"Thalassiosira weisflogii",11.0106136648522,NA,"20",NA,"2480",NA,NA,NA,NA,"Paffenhöfer and Stearns (1988)","Kiorboe (2016)"
+"Pseudocalanus elongatus","Copepod","",502.599590219564,NA,"Karenia mikimotoi",19.5800839277556,NA,"18",NA,"211",17.2586810891769,0.00713010155192974,1.32104153703803e-10,"Extracted","Schultz and Kiorboe (2009)","Kiorboe (2016)"
+"Pseudocalanus elongatus","Copepod","",502.599590219564,NA,"Gyrodinium instriatum",24.2493931150417,NA,"18",NA,"210",56.3783582246445,0.0208579272559319,2.14413656306338e-09,"Extracted","Schultz and Kiorboe (2009)","Kiorboe (2016)"
+"Pseudocalanus marinus","Copepod","",418.542399404635,NA,"Chattonella antiqua",26.4756929640592,NA,"20",NA,"146",NA,NA,NA,NA,"Schultz and Kiorboe (2009)","Kiorboe (2016)"
+"Temora longicornis","Copepod","",518.823563020175,NA,"Karenia mikimotoi",19.5800839277556,NA,"18",NA,"91",123.425719304416,0.0054639128111531,9.65058312282428e-13,"Extracted","Schultz and Kiorboe (2009)","Kiorboe (2016)"
+"Temora longicornis","Copepod","",518.823563020175,NA,"Gyrodinium instriatum",24.2493931150417,NA,"18",NA,"178",17.4330112011887,0.0185945446175776,2.90247514965827e-13,"Extracted","Schultz and Kiorboe (2009)","Kiorboe (2016)"
+"Tortanus dextrilobatus","Copepod","",729.078046140251,25.8750052807954,"Oithona davisae",156.169378420932,NA,"14",NA,"283",NA,0.00554224611300136,0.00184741537100045,"Extracted","Hooff and Bollens (2004)","Kiorboe (2016)"
+"Tortanus dextrilobatus","Copepod","",666.901818469104,16.5327896741019,"Oithona davisae",146.961011702052,NA,"19",NA,"160",NA,0.00579621972495262,0.00138005231546491,"Extracted","Hooff and Bollens (2004)","Kiorboe (2016)"
+"Tortanus dextrilobatus","Copepod","",729.078046140251,25.8750052807954,"Acartia sp",362.033865430164,9.68652375377133,"14",NA,"913",NA,0.0688162225697669,0.0124700537542531,"Extracted","Hooff and Bollens (2004)","Kiorboe (2016)"
+"Tortanus dextrilobatus","Copepod","",666.901818469104,16.5327896741019,"Acartia sp",335.519516170062,13.1576262469935,"19",NA,"896",NA,0.045265715947249,0.0121444603760912,"Extracted","Hooff and Bollens (2004)","Kiorboe (2016)"
+"Tortanus discaudatus","Copepod","",659.578184925528,NA,"Calanus pacificus NIII",167.099279758028,NA,"12.5",NA,"3130",NA,0.0294436009927699,0.0154538205113829,"Extracted","Ambler and Frost (1974)","Kiorboe (2016)"
+"Tortanus discaudatus","Copepod","",659.578184925528,NA,"Calanus pacificus NV",221.632531185158,NA,"12.5",NA,"4787",NA,0.0489775116072303,0.00641638777399973,"Extracted","Ambler and Frost (1974)","Kiorboe (2016)"
+"Tortanus forcipatus","Copepod","",463.736051585575,5.96452306423903,"Pseuodiaptomus nauplii",108.281799236484,NA,"21",NA,"506",NA,0.00651466273856196,0.00201951536412312,"Extracted","Uye and Kayano (1994a)","Kiorboe (2016)"
+"Tortanus forcipatus","Copepod","",463.736051585575,5.96452306423903,"Oithona davisae",156.169378420932,NA,"21",NA,"686",NA,0.0141525431906691,0.00259760488096813,"Extracted","Uye and Kayano (1994a)","Kiorboe (2016)"
+"Tortanus forcipatus","Copepod","",460.665517803968,5.96452306423903,"Artemia nauplii",236.166430350914,NA,"21",NA,"738",NA,0.0563855292199673,0.019851140206338,"Extracted","Uye and Kayano (1994a)","Kiorboe (2016)"
+"Tortanus spp","Copepod","CI-III",259.411781510087,NA,"Oithona davisae CV-VI",151.704930127379,NA,"25",1,"879",NA,0.0149236293812862,NA,"Extracted","Uye and Kayano (1994b)","Kiorboe (2016)"
+"Tortanus spp","Copepod","CI-III",259.411781510087,NA,"Oithona davisae CV-VI",151.704930127379,NA,"20",1,"792",NA,0.0249720083082632,NA,"Extracted","Uye and Kayano (1994b)","Kiorboe (2016)"
+"Tortanus spp","Copepod","CVI F",446.790818355012,NA,"Oithona davisae CV-VI",151.704930127379,NA,"25",1,"580",NA,0.0116255603970232,NA,"Extracted","Uye and Kayano (1994b)","Kiorboe (2016)"
+"Tortanus spp","Copepod","CVI F",446.790818355012,NA,"Oithona davisae CV-VI",151.704930127379,NA,"20",1,"620",NA,0.0136857269732118,NA,"Extracted","Uye and Kayano (1994b)","Kiorboe (2016)"
+"Tortanus spp","Copepod","CIV-V",328.317290881873,NA,"Oithona davisae CV-VI",151.704930127379,NA,"25",1,"697",NA,0.0128088908680635,NA,"Extracted","Uye and Kayano (1994b)","Kiorboe (2016)"
+"Tortanus spp","Copepod","CIV-V",328.317290881873,NA,"Oithona davisae CV-VI",151.704930127379,NA,"20",1,"884",NA,0.0177379646458693,NA,"Extracted","Uye and Kayano (1994b)","Kiorboe (2016)"
+"Tortanus spp","Copepod","CVI M",377.878143933997,NA,"Oithona davisae CV-VI",151.704930127379,NA,"25",1,"432",NA,0.0136156171590439,NA,"Extracted","Uye and Kayano (1994b)","Kiorboe (2016)"
+"Tortanus spp","Copepod","CVI M",377.878143933997,NA,"Oithona davisae CV-VI",151.704930127379,NA,"20",1,"543",NA,0.0171278598161381,NA,"Extracted","Uye and Kayano (1994b)","Kiorboe (2016)"
+"Acartia tonsa","Copepod","F",398.913559116661,NA,"Dunaliela tertiolecta",7.2533,NA,"20",NA,"218.505072697302",68.6730228477235,0.16231805400371,NA,"Extracted","Besiktepe and Dam (2002)","-"
+"Acartia tonsa","Copepod","F",398.913559116661,NA,"Uronema sp.",7.906,NA,"20",NA,"337.122112161552",81.159027001855,0.0599328199398314,NA,"Extracted","Besiktepe and Dam (2002)","-"
+"Acartia tonsa","Copepod","F",398.913559116661,NA,"Thalassiosira wissflogii",10.2037,NA,"20",NA,"505.683168242327",156.075051926644,0.0468225155779933,NA,"Extracted","Besiktepe and Dam (2002)","-"
+"Acartia tonsa","Copepod","F",398.913559116661,NA,"Prorocentrum minimum",12.0052,NA,"20",NA,"461.982153702867",218.505072697302,0.0636786211860709,NA,"Extracted","Besiktepe and Dam (2002)","-"
+"Acartia tonsa","Copepod","F",398.913559116661,NA,"Oxyrrhis sp.",13.9112,NA,"20",NA,"221.626573735835",74.9160249247892,0.0274692091390894,NA,"Extracted","Besiktepe and Dam (2002)","-"
+"Calanus helgolandicus","Copepod","NIII",196.6244,NA,"Rhodomonas baltica",7.5,0.5,"12",NA,"108.99046",9.50460461394364,0.0383748411287975,0.00344541917255457,"Extracted","Rey et al (2001)",NA
+"Calanus helgolandicus","Copepod","NIII",188.4562,NA,"Isochrysis galbana",4.5,0.5,"12",NA,"80.99861",40.6154720773512,0.0442587204032266,0.021589619708891,"Extracted","Rey et al (2001)",NA
+"Calanus helgolandicus","Copepod","NIII",194.8292,NA,"Prorocentrum micans",26.5,0.5,"12",NA,"396.00511",146.790728309021,0.169016945074614,0.0614274012807303,"Extracted","Rey et al (2001)",NA
+"Calanus helgolandicus","Copepod","NIII",177.7706,NA,"Pleurochrysis carterae",9.5,0.5,"12",NA,"189.15373",46.6202375990927,0.164617666556796,0.031187331359393,"Extracted","Rey et al (2001)",NA
+"Calanus helgolandicus","Copepod","NIII",183.2888,NA,"Thalassiosira weissflogii",13,1,"12",NA,"126.21624",40.9216106513452,0.0665892875831926,0.0206808139850885,"Extracted","Rey et al (2001)",NA
+"Calanus helgolandicus","Copepod","NIV",213.2419,NA,"Rhodomonas baltica",7.5,0.5,"12",NA,"125.65876",19.5595096813674,0.0432172023435928,0.00670611760504027,"Extracted","Rey et al (2001)",NA
+"Calanus helgolandicus","Copepod","NIV",233.1888,NA,"Isochrysis galbana",4.5,0.5,"12",NA,"38.63566",1.28205229911694,0.0283476008360302,0.000783476405015909,"Extracted","Rey et al (2001)",NA
+"Calanus helgolandicus","Copepod","NIV",235.1185,NA,"Prorocentrum micans",26.5,0.5,"12",NA,"202.66471",35.7851730106817,0.0970021388794402,0.015147898478308,"Extracted","Rey et al (2001)",NA
+"Calanus helgolandicus","Copepod","NIV",217.3503,NA,"Pleurochrysis carterae",9.5,0.5,"12",NA,"110.42251",50.3120016804069,0.0782826599572764,0.0348313857787432,"Extracted","Rey et al (2001)",NA
+"Calanus helgolandicus","Copepod","NIV",238.0483,NA,"Thalassiosira weissflogii",13,1,"12",NA,"111.22239",33.0071453444503,0.05161969383483,0.0141267904009716,"Extracted","Rey et al (2001)",NA
+"Calanus helgolandicus","Copepod","NV",296.0498,NA,"Rhodomonas baltica",7.5,0.5,"12",NA,"89.96082",20.7447517954834,0.0297596691025811,0.00609116034263355,"Extracted","Rey et al (2001)",NA
+"Calanus helgolandicus","Copepod","NV",278.3547,NA,"Isochrysis galbana",4.5,0.5,"12",NA,"17.82972",6.2813339311011,0.0127720456599056,0.00159127126254561,"Extracted","Rey et al (2001)",NA
+"Calanus helgolandicus","Copepod","NV",272.4973,NA,"Prorocentrum micans",26.5,0.5,"12",NA,"133.87634",21.6476833887657,0.0627113302293109,0.00897151414668433,"Extracted","Rey et al (2001)",NA
+"Calanus helgolandicus","Copepod","NV",252.5501,NA,"Pleurochrysis carterae",9.5,0.5,"12",NA,"97.5586",5.66284974806907,0.056236022745676,0.00252305186795157,"Extracted","Rey et al (2001)",NA
+"Calanus helgolandicus","Copepod","NV",270.2707,NA,"Thalassiosira weissflogii",13,1,"12",NA,"107.51656",30.6502628052647,0.0475765273395154,0.0120771184784924,"Extracted","Rey et al (2001)",NA
+"Calanus helgolandicus","Copepod","NVI",328.6115,NA,"Rhodomonas baltica",7.5,0.5,"12",NA,"40.02175",2.97778876914468,0.0137181892869144,0.00142526641941967,"Extracted","Rey et al (2001)",NA
+"Calanus helgolandicus","Copepod","NVI",328.0226,NA,"Isochrysis galbana",4.5,0.5,"12",NA,"19.77439",8.9048015100628,0.0118986571901701,0.00450357777520417,"Extracted","Rey et al (2001)",NA
+"Calanus helgolandicus","Copepod","NVI",291.265,NA,"Prorocentrum micans",26.5,0.5,"12",NA,"143.41425",25.146632555909,0.0680201790502131,0.0111844034332967,"Extracted","Rey et al (2001)",NA
+"Calanus helgolandicus","Copepod","NVI",296.0498,NA,"Pleurochrysis carterae",9.5,0.5,"12",NA,"47.09754",7.13535925851359,0.027358011596057,0.00375911609716814,"Extracted","Rey et al (2001)",NA
+"Calanus helgolandicus","Copepod","NVI",314.0108,NA,"Thalassiosira weissflogii",13,1,"12",NA,"56.92063",13.2135875124146,0.0255812720714958,0.00548378466298884,"Extracted","Rey et al (2001)",NA
+"Acartia grani","Copepod",NA,403.2693,NA,"Alexandrium minutum",19.27,NA,"17.5",NA,"177.15",39.7723269206962,0.0797322591570562,0.0159464518314112,"Extracted","Marinho da Costa and Fernandez (2002)","Saiz and Alcaraz (1991)"
+"Acartia grani","Copepod",NA,403.2693,NA,"Gyrodinium corsicum",12.61,NA,"17.5",NA,"71.46",13.5075827277836,0.0363954312387503,0.00694139667955548,"Extracted","Marinho da Costa and Fernandez (2002)","Saiz and Alcaraz (1991)"
+"Acartia grani","Copepod",NA,403.2693,NA,"Rhodomonas baltica",7.53,NA,"17.5",NA,"48.45",5.81576478557351,0.0264523495085763,0.00337689568194591,"Extracted","Marinho da Costa and Fernandez (2002)","Saiz and Alcaraz (1991)"
+"Euterpina acutifrons","Copepod",NA,281.126301936634,NA,"Alexandrium minutum",19.27,NA,"17.5",NA,"229.01",32.672186259223,0.116290832448082,0.0155054443264109,"Extracted","Marinho da Costa and Fernandez (2002)","Kiorboe (2016)"
+"Euterpina acutifrons","Copepod",NA,281.126301936634,NA,"Gyrodinium corsicum",12.61,NA,"17.5",NA,"153.05",62.0217773056437,0.0797422851072561,0.00664519042560468,"Extracted","Marinho da Costa and Fernandez (2002)","Kiorboe (2016)"
+"Euterpina acutifrons","Copepod",NA,281.126301936634,NA,"Rhodomonas baltica",7.53,NA,"17.5",NA,"113.12",7.75272216320546,0.0620217773056437,0.0387636108160273,"Extracted","Marinho da Costa and Fernandez (2002)","Kiorboe (2016)"
+"Acartia erythraea","Copepod","F",401.555447758282,NA,NA,3.127,NA,"23-27",0,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Acartia erythraea","Copepod","F",401.555447758282,NA,NA,3.9541,NA,"23-27",0,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Acartia erythraea","Copepod","F",401.555447758282,NA,NA,5,NA,"23-27",0,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Acartia erythraea","Copepod","F",401.555447758282,NA,NA,6.2359,NA,"23-27",0,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Acartia erythraea","Copepod","F",401.555447758282,NA,NA,8.2188,NA,"23-27",1.94035947712419e-05,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Acartia erythraea","Copepod","F",401.555447758282,NA,NA,10.1098,NA,"23-27",0,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Acartia erythraea","Copepod","F",401.555447758282,NA,NA,12.6087,NA,"23-27",0.000267565359477124,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Acartia erythraea","Copepod","F",401.555447758282,NA,NA,15.5097,NA,"23-27",0.00020016339869281,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Acartia erythraea","Copepod","F",401.555447758282,NA,NA,19.6123,NA,"23-27",0.000219566993464052,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Acartia erythraea","Copepod","F",401.555447758282,NA,NA,25.1447,NA,"23-27",0.00102124183006536,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Acartia erythraea","Copepod","F",401.555447758282,NA,NA,32.2379,NA,"23-27",0.00128778594771242,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Acartia erythraea","Copepod","F",401.555447758282,NA,NA,40.2064,NA,"23-27",0.000476919934640523,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Acartia erythraea","Copepod","F",401.555447758282,NA,NA,51.5483,NA,"23-27",0.000506535947712418,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Acartia erythraea","Copepod","F",401.555447758282,NA,NA,62.5392,NA,"23-27",0,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Centropages yamadai","Copepod","F",534.091761414489,NA,NA,3.0135,NA,"23-27",0.000121527777777778,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Centropages yamadai","Copepod","F",534.091761414489,NA,NA,3.8817,NA,"23-27",4.03645833333333e-05,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Centropages yamadai","Copepod","F",534.091761414489,NA,NA,5,NA,"23-27",4.47048611111111e-05,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Centropages yamadai","Copepod","F",534.091761414489,NA,NA,6.3505,NA,"23-27",0.000141927083333333,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Centropages yamadai","Copepod","F",534.091761414489,NA,NA,8.0658,NA,"23-27",0.000259548611111111,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Centropages yamadai","Copepod","F",534.091761414489,NA,NA,9.9602,NA,"23-27",0.000519097222222222,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Centropages yamadai","Copepod","F",534.091761414489,NA,NA,12.4738,NA,"23-27",0.000348958333333333,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Centropages yamadai","Copepod","F",534.091761414489,NA,NA,16.0673,NA,"23-27",0.000299913194444444,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Centropages yamadai","Copepod","F",534.091761414489,NA,NA,19.8411,NA,"23-27",0.000559461805555556,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Centropages yamadai","Copepod","F",534.091761414489,NA,NA,25.2002,NA,"23-27",0.000693576388888889,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Centropages yamadai","Copepod","F",534.091761414489,NA,NA,32.0068,NA,"23-27",0.000470486111111111,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Centropages yamadai","Copepod","F",534.091761414489,NA,NA,40.6518,NA,"23-27",8.89756944444445e-05,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Centropages yamadai","Copepod","F",534.091761414489,NA,NA,52.3632,NA,"23-27",1.64930555555555e-05,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Centropages yamadai","Copepod","F",534.091761414489,NA,NA,63.7588,NA,"23-27",0,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Paracalanus parvus","Copepod","F",349.929096861223,NA,NA,3.1404,NA,"23-27",0,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Paracalanus parvus","Copepod","F",349.929096861223,NA,NA,3.9626,NA,"23-27",0,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Paracalanus parvus","Copepod","F",349.929096861223,NA,NA,5.1387,NA,"23-27",0,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Paracalanus parvus","Copepod","F",349.929096861223,NA,NA,6.309,NA,"23-27",0.000172839506172839,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Paracalanus parvus","Copepod","F",349.929096861223,NA,NA,7.9608,NA,"23-27",0.000362654320987654,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Paracalanus parvus","Copepod","F",349.929096861223,NA,NA,10.1833,NA,"23-27",0.000753086419753086,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Paracalanus parvus","Copepod","F",349.929096861223,NA,NA,12.5026,NA,"23-27",0.000535493827160494,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Paracalanus parvus","Copepod","F",349.929096861223,NA,NA,15.5616,NA,"23-27",0.000217592592592593,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Paracalanus parvus","Copepod","F",349.929096861223,NA,NA,19.9062,NA,"23-27",0.000305555555555555,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Paracalanus parvus","Copepod","F",349.929096861223,NA,NA,25.1178,NA,"23-27",0.00163734567901235,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Paracalanus parvus","Copepod","F",349.929096861223,NA,NA,31.2632,NA,"23-27",0.00427469135802469,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Paracalanus parvus","Copepod","F",349.929096861223,NA,NA,38.9123,NA,"23-27",0.00150771604938272,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Paracalanus parvus","Copepod","F",349.929096861223,NA,NA,49.0998,NA,"23-27",0.00143518518518519,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Paracalanus parvus","Copepod","F",349.929096861223,NA,NA,61.9545,NA,"23-27",0,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Pseudodiaptomus marinus","Copepod","F",418.542399404635,NA,NA,3.0633,NA,"23-27",9.74025974025974e-05,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Pseudodiaptomus marinus","Copepod","F",418.542399404635,NA,NA,3.8323,NA,"23-27",2.11940836940837e-05,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Pseudodiaptomus marinus","Copepod","F",418.542399404635,NA,NA,5,NA,"23-27",4.64466089466089e-05,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Pseudodiaptomus marinus","Copepod","F",418.542399404635,NA,NA,6.1683,NA,"23-27",5.09559884559884e-05,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Pseudodiaptomus marinus","Copepod","F",418.542399404635,NA,NA,7.8256,NA,"23-27",2.57034632034632e-05,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Pseudodiaptomus marinus","Copepod","F",418.542399404635,NA,NA,9.9282,NA,"23-27",5.501443001443e-05,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Pseudodiaptomus marinus","Copepod","F",418.542399404635,NA,NA,12.9533,NA,"23-27",8.88347763347763e-05,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Pseudodiaptomus marinus","Copepod","F",418.542399404635,NA,NA,15.5387,NA,"23-27",0.000241251803751804,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Pseudodiaptomus marinus","Copepod","F",418.542399404635,NA,NA,20.2735,NA,"23-27",0.000461760461760462,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Pseudodiaptomus marinus","Copepod","F",418.542399404635,NA,NA,25.0105,NA,"23-27",0.000131222943722944,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Pseudodiaptomus marinus","Copepod","F",418.542399404635,NA,NA,31.7303,NA,"23-27",0.000414862914862915,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Pseudodiaptomus marinus","Copepod","F",418.542399404635,NA,NA,39.6961,NA,"23-27",0.000859487734487734,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Pseudodiaptomus marinus","Copepod","F",418.542399404635,NA,NA,52.5218,NA,"23-27",0.000372925685425685,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Pseudodiaptomus marinus","Copepod","F",418.542399404635,NA,NA,66.6334,NA,"23-27",0,NA,NA,NA,NA,NA,"Uye (1986)",NA
+"Diacyclops thomasi","Copepod","A",520,115,"Ascomorpha ecaudis",180,45,"16",NA,"0",0,0,0,"Linear","Stemberger (1985)","Vanderploeg et al (1992); Stemberger & Gilbert (1985); Bottrell et al (1976)"
+"Diacyclops thomasi","Copepod","A",520,115,"Asplanchna priodonta",680,155,"16",NA,"10.2116118258451",16.3385789213521,0.000163385789213521,0.000264589148523964,"Linear","Stemberger (1985)","Vanderploeg et al (1992); Stemberger & Gilbert (1985); Bottrell et al (1976)"
+"Diacyclops thomasi","Copepod","A",520,115,"Asplanchna priodonta",680,155,"16",NA,"34.7194802078733",27.5713519297817,0.000462926402771644,0.00038540474340734,"Linear","Stemberger (1985)","Vanderploeg et al (1992); Stemberger & Gilbert (1985); Bottrell et al (1976)"
+"Diacyclops thomasi","Copepod","A",520,115,"Chydorus sphaericus",320,70,"16",NA,"30.6348354775353",10.2116118258451,0.00583520675762576,0.00243133614901074,"Linear","Stemberger (1985)","Vanderploeg et al (1992); Stemberger & Gilbert (1985); Bottrell et al (1976)"
+"Diacyclops thomasi","Copepod","A",520,115,"Keratella cochlearis",160,35,"16",NA,"32.6771578427043",30.6348354775353,0.0217847718951362,0.0211369127886419,"Linear","Stemberger (1985)","Vanderploeg et al (1992); Stemberger & Gilbert (1985); Bottrell et al (1976)"
+"Diacyclops thomasi","Copepod","A",520,115,"Keratella cochlearis",160,35,"16",NA,"56.163865042148",9.19045064326058,0.0449310920337184,0.0134250659065674,"Linear","Stemberger (1985)","Vanderploeg et al (1992); Stemberger & Gilbert (1985); Bottrell et al (1976)"
+"Diacyclops thomasi","Copepod","A",520,115,"Keratella crassa",140,35,"16",NA,"0",0,0,0,"Linear","Stemberger (1985)","Vanderploeg et al (1992); Stemberger & Gilbert (1985); Bottrell et al (1976)"
+"Diacyclops thomasi","Copepod","A",520,115,"Polyarthra vulgaris",210,50,"16",NA,"129.687470188233",54.121542676979,0.0345833253835287,0.0168239382404425,"Linear","Stemberger (1985)","Vanderploeg et al (1992); Stemberger & Gilbert (1985); Bottrell et al (1976)"
+"Diacyclops thomasi","Copepod","A",520,115,"Polyarthra vulgaris",210,50,"16",NA,"38.8041249382113",19.4020624691057,0.0124173199802276,0.00694149289353883,"Linear","Stemberger (1985)","Vanderploeg et al (1992); Stemberger & Gilbert (1985); Bottrell et al (1976)"
+"Diacyclops thomasi","Copepod","A",520,115,"Synchaeta pectinata",180,45,"16",NA,"377.829637556268",12.2539341910141,0.167924283358341,0.0423328634366491,"Linear","Stemberger (1985)","Vanderploeg et al (1992); Stemberger & Gilbert (1985); Bottrell et al (1976)"
+"Diacyclops thomasi","Copepod","A",520,115,"Synchaeta pectinata",180,45,"16",NA,"245.078683820282",5.10580591292254,0.130708631370817,0.0327904238940873,"Linear","Stemberger (1985)","Vanderploeg et al (1992); Stemberger & Gilbert (1985); Bottrell et al (1976)"
+"Euchaeta elongata","Copepod","F",2201.14452506639,NA,"Calanus pacificus female",833.739020082301,181.893392514748,"8",NA,"12.7842082142051",NA,0.006455513779845,2.59017952036586e-06,"Extracted","Yen (1983)",NA
+"Euchaeta elongata","Copepod","F",2201.14452506639,NA,"Pseudocalanus spp",400.692088228189,38.295252798599,"8",NA,"447.447287497178",NA,0.0153165041772748,1.93341035423321e-05,"Extracted","Yen (1983)",NA
+"Tortanus spp","Copepod","CI-III",259.4118,NA,"Balanus spp. nauplii",149.137056296404,NA,"20",0,NA,NA,NA,NA,NA,"Uye and Kayano (1994b)",""
+"Tortanus spp","Copepod","CI-III",259.4118,NA,"Parvocalanus crassirostris CV-VI",165.566233026334,NA,"20",1,NA,NA,NA,NA,NA,"Uye and Kayano (1994b)",""
+"Tortanus spp","Copepod","CI-III",259.4118,NA,"Acartia erythraea CIII-IV",262.631348866991,NA,"20",0,NA,NA,NA,NA,NA,"Uye and Kayano (1994b)",""
+"Tortanus spp","Copepod","CI-III",259.4118,NA,"Acartia erythraea CVI",322.184305031869,NA,"20",0,NA,NA,NA,NA,NA,"Uye and Kayano (1994b)",""
+"Tortanus spp","Copepod","CI-III",259.4118,NA,"Paracalanus sp. CVI",297.682821094039,NA,"20",0,NA,NA,NA,NA,NA,"Uye and Kayano (1994b)",""
+"Tortanus spp","Copepod","CI-III",259.4118,NA,"Pseudodiaptomus marinus NII-III",113.954596435744,NA,"20",1,NA,NA,NA,NA,NA,"Uye and Kayano (1994b)",""
+"Tortanus spp","Copepod","CI-III",259.4118,NA,"Pseudodiaptomus marinus CIII-CIV",208.392032680941,NA,"20",0,NA,NA,NA,NA,NA,"Uye and Kayano (1994b)",""
+"Tortanus spp","Copepod","CI-III",259.4118,NA,"Pseudodiaptomus marinus CVI",330.775724102457,NA,"20",0,NA,NA,NA,NA,NA,"Uye and Kayano (1994b)",""
+"Tortanus spp","Copepod","CI-III",259.4118,NA,"Calanopia thompsoni",481.279119256867,NA,"20",0,NA,NA,NA,NA,NA,"Uye and Kayano (1994b)",""
+"Tortanus spp","Copepod","CIV-V",328.3173,NA,"Balanus spp. nauplii",149.137056296404,NA,"20",1,NA,NA,NA,NA,NA,"Uye and Kayano (1994b)",""
+"Tortanus spp","Copepod","CIV-V",328.3173,NA,"Parvocalanus crassirostris CV-VI",165.566233026334,NA,"20",1,NA,NA,NA,NA,NA,"Uye and Kayano (1994b)",""
+"Tortanus spp","Copepod","CIV-V",328.3173,NA,"Acartia erythraea CIII-IV",262.631348866991,NA,"20",0.5,NA,NA,NA,NA,NA,"Uye and Kayano (1994b)",""
+"Tortanus spp","Copepod","CIV-V",328.3173,NA,"Acartia erythraea CVI",322.184305031869,NA,"20",0.5,NA,NA,NA,NA,NA,"Uye and Kayano (1994b)",""
+"Tortanus spp","Copepod","CIV-V",328.3173,NA,"Paracalanus sp. CVI",297.682821094039,NA,"20",0,NA,NA,NA,NA,NA,"Uye and Kayano (1994b)",""
+"Tortanus spp","Copepod","CIV-V",328.3173,NA,"Pseudodiaptomus marinus NII-III",113.954596435744,NA,"20",1,NA,NA,NA,NA,NA,"Uye and Kayano (1994b)",""
+"Tortanus spp","Copepod","CIV-V",328.3173,NA,"Pseudodiaptomus marinus CIII-CIV",208.392032680941,NA,"20",1,NA,NA,NA,NA,NA,"Uye and Kayano (1994b)",""
+"Tortanus spp","Copepod","CIV-V",328.3173,NA,"Pseudodiaptomus marinus CVI",330.775724102457,NA,"20",0,NA,NA,NA,NA,NA,"Uye and Kayano (1994b)",""
+"Tortanus spp","Copepod","CIV-V",328.3173,NA,"Calanopia thompsoni",481.279119256867,NA,"20",0,NA,NA,NA,NA,NA,"Uye and Kayano (1994b)",""
+"Tortanus spp","Copepod","CVI M",377.8781,NA,"Balanus spp. nauplii",149.137056296404,NA,"20",1,NA,NA,NA,NA,NA,"Uye and Kayano (1994b)",""
+"Tortanus spp","Copepod","CVI M",377.8781,NA,"Parvocalanus crassirostris CV-VI",165.566233026334,NA,"20",1,NA,NA,NA,NA,NA,"Uye and Kayano (1994b)",""
+"Tortanus spp","Copepod","CVI M",377.8781,NA,"Acartia erythraea CIII-IV",262.631348866991,NA,"20",0.5,NA,NA,NA,NA,NA,"Uye and Kayano (1994b)",""
+"Tortanus spp","Copepod","CVI M",377.8781,NA,"Acartia erythraea CVI",322.184305031869,NA,"20",0.5,NA,NA,NA,NA,NA,"Uye and Kayano (1994b)",""
+"Tortanus spp","Copepod","CVI M",377.8781,NA,"Paracalanus sp. CVI",297.682821094039,NA,"20",0.5,NA,NA,NA,NA,NA,"Uye and Kayano (1994b)",""
+"Tortanus spp","Copepod","CVI M",377.8781,NA,"Pseudodiaptomus marinus NII-III",113.954596435744,NA,"20",1,NA,NA,NA,NA,NA,"Uye and Kayano (1994b)",""
+"Tortanus spp","Copepod","CVI M",377.8781,NA,"Pseudodiaptomus marinus CIII-CIV",208.392032680941,NA,"20",1,NA,NA,NA,NA,NA,"Uye and Kayano (1994b)",""
+"Tortanus spp","Copepod","CVI M",377.8781,NA,"Pseudodiaptomus marinus CVI",330.775724102457,NA,"20",0,NA,NA,NA,NA,NA,"Uye and Kayano (1994b)",""
+"Tortanus spp","Copepod","CVI M",377.8781,NA,"Calanopia thompsoni",481.279119256867,NA,"20",0,NA,NA,NA,NA,NA,"Uye and Kayano (1994b)",""
+"Tortanus spp","Copepod","CVI F",446.7908,NA,"Balanus spp. nauplii",149.137056296404,NA,"20",1,NA,NA,NA,NA,NA,"Uye and Kayano (1994b)",""
+"Tortanus spp","Copepod","CVI F",446.7908,NA,"Parvocalanus crassirostris CV-VI",165.566233026334,NA,"20",1,NA,NA,NA,NA,NA,"Uye and Kayano (1994b)",""
+"Tortanus spp","Copepod","CVI F",446.7908,NA,"Acartia erythraea CIII-IV",262.631348866991,NA,"20",0.5,NA,NA,NA,NA,NA,"Uye and Kayano (1994b)",""
+"Tortanus spp","Copepod","CVI F",446.7908,NA,"Acartia erythraea CVI",322.184305031869,NA,"20",0.5,NA,NA,NA,NA,NA,"Uye and Kayano (1994b)",""
+"Tortanus spp","Copepod","CVI F",446.7908,NA,"Paracalanus sp. CVI",297.682821094039,NA,"20",0.5,NA,NA,NA,NA,NA,"Uye and Kayano (1994b)",""
+"Tortanus spp","Copepod","CVI F",446.7908,NA,"Pseudodiaptomus marinus NII-III",113.954596435744,NA,"20",1,NA,NA,NA,NA,NA,"Uye and Kayano (1994b)",""
+"Tortanus spp","Copepod","CVI F",446.7908,NA,"Pseudodiaptomus marinus CIII-CIV",208.392032680941,NA,"20",1,NA,NA,NA,NA,NA,"Uye and Kayano (1994b)",""
+"Tortanus spp","Copepod","CVI F",446.7908,NA,"Pseudodiaptomus marinus CVI",330.775724102457,NA,"20",0,NA,NA,NA,NA,NA,"Uye and Kayano (1994b)",""
+"Tortanus spp","Copepod","CVI F",446.7908,NA,"Calanopia thompsoni",481.279119256867,NA,"20",0,NA,NA,NA,NA,NA,"Uye and Kayano (1994b)",""
+"Calanus pacificus","Copepod","CI",288.049499612127,NA,"Chlamydomonas sp",11,NA,"15",NA,"98",NA,0.0132238128512747,0.00464845339466626,"Extracted","Fernandez (1979)","Kiorboe (2016)"
+"Calanus pacificus","Copepod","CI",288.049499612127,NA,"Gymnodinium splendens",29.6,NA,"15",NA,"353",NA,0.0136128701247556,0.00686778414772033,"Extracted","Fernandez (1979)","Kiorboe (2016)"
+"Calanus pacificus","Copepod","CI",288.049499612127,NA,"Lauderia borealis",28.7,NA,"15",NA,"816",NA,0.0354486784603103,0.00417391140236021,"Extracted","Fernandez (1979)","Kiorboe (2016)"
+"Calanus pacificus","Copepod","CI",288.049499612127,NA,"Thallasiosira fluviatilis",12.3,NA,"15",NA,"240",NA,0.0352258855144436,0.00466594045660984,"Extracted","Fernandez (1979)","Kiorboe (2016)"
+"Calanus pacificus","Copepod","NIII",196.624352579007,NA,"Gonyaulax polyedra",34.8,NA,"15",NA,"164",NA,0.0414258323107815,0.00808360770758515,"Extracted","Fernandez (1979)","Kiorboe (2016)"
+"Calanus pacificus","Copepod","NIII",196.624352579007,NA,"Gymnodinium splendens",29.6,NA,"15",NA,"168",NA,0.0709227892959684,0.00869468068059165,"Extracted","Fernandez (1979)","Kiorboe (2016)"
+"Calanus pacificus","Copepod","NIII",196.624352579007,NA,"Thallasiosira fluviatilis",12.3,NA,"15",NA,"164",NA,0.0544009001920248,0.0123748179672191,"Extracted","Fernandez (1979)","Kiorboe (2016)"
+"Calanus pacificus","Copepod","NIV",214.62887543537,NA,"Chlamydomonas sp",11,NA,"15",NA,"162",NA,0.0334685961173263,0.00471762870766031,"Extracted","Fernandez (1979)","Kiorboe (2016)"
+"Calanus pacificus","Copepod","NIV",214.62887543537,NA,"Thallasiosira fluviatilis",12.3,NA,"15",NA,"530",NA,0.0548667819678527,0.00337037419593401,"Extracted","Fernandez (1979)","Kiorboe (2016)"
+"Calanus pacificus","Copepod","NIV",214.62887543537,NA,"Thallasiosira fluviatilis",12.3,NA,"15",NA,"463",NA,0.0548667819678527,0.00337037419593401,"Extracted","Fernandez (1979)","Kiorboe (2016)"
+"Calanus pacificus","Copepod","NIV",214.62887543537,NA,"Thallasiosira fluviatilis",12.3,NA,"15",NA,"356",NA,0.0548667819678527,0.00337037419593401,"Extracted","Fernandez (1979)","Kiorboe (2016)"
+"Calanus pacificus","Copepod","NIV",214.62887543537,NA,"Thallasiosira fluviatilis",12.3,NA,"15",NA,"287",NA,0.0548667819678527,0.00337037419593401,"Extracted","Fernandez (1979)","Kiorboe (2016)"
+"Calanus pacificus","Copepod","NV",235.500633418102,NA,"Chlamydomonas sp",11,NA,"15",NA,"78",NA,0.0183880351532316,0.00756676076649036,"Extracted","Fernandez (1979)","Kiorboe (2016)"
+"Calanus pacificus","Copepod","NV",235.500633418102,NA,"Gonyaulax polyedra",34.8,NA,"15",NA,"446",NA,0.0571938361645402,0.00342857408257102,"Extracted","Fernandez (1979)","Kiorboe (2016)"
+"Calanus pacificus","Copepod","NV",235.500633418102,NA,"Gymnodinium splendens",29.6,NA,"15",NA,"557",NA,0.0631613751928221,0.00895311067387973,"Extracted","Fernandez (1979)","Kiorboe (2016)"
+"Calanus pacificus","Copepod","NV",235.500633418102,NA,"Isochrysis galbana",4.3,NA,"15",NA,"39",NA,0.00536875962891316,0.00229201141980654,"Extracted","Fernandez (1979)","Kiorboe (2016)"
+"Calanus pacificus","Copepod","NV",235.500633418102,NA,"Lauderia borealis",28.7,NA,"15",NA,"861",NA,0.0695593221030457,0.00917361389502107,"Extracted","Fernandez (1979)","Kiorboe (2016)"
+"Calanus pacificus","Copepod","NV",235.500633418102,NA,"Peridinium trochoideum",17.6,NA,"15",NA,"162",NA,0.0493352925077295,0.00671606063810115,"Extracted","Fernandez (1979)","Kiorboe (2016)"
+"Calanus pacificus","Copepod","NV",235.500633418102,NA,"Thallasiosira fluviatilis",12.3,NA,"15",NA,"484",NA,0.0567989656094532,0.00620348173571567,"Extracted","Fernandez (1979)","Kiorboe (2016)"
+"Calanus pacificus","Copepod","NVI",264.575171625369,NA,"Chlamydomonas sp",11,NA,"15",NA,"68",NA,0.0263783669223672,0.0029435538763515,"Extracted","Fernandez (1979)","Kiorboe (2016)"
+"Calanus pacificus","Copepod","NVI",264.575171625369,NA,"Gymnodinium splendens",29.6,NA,"15",NA,"569",NA,0.0527659710069017,0.00597584580068223,"Extracted","Fernandez (1979)","Kiorboe (2016)"
+"Calanus pacificus","Copepod","NVI",264.575171625369,NA,"Isochrysis galbana",4.3,NA,"15",NA,"8",NA,0.00345284420612179,0.00134898723582344,"Extracted","Fernandez (1979)","Kiorboe (2016)"
+"Calanus pacificus","Copepod","NVI",264.575171625369,NA,"Lauderia borealis",28.7,NA,"15",NA,"642",NA,0.0651177227514993,0.00590967164572927,"Extracted","Fernandez (1979)","Kiorboe (2016)"
+"Calanus pacificus","Copepod","NVI",264.575171625369,NA,"Thallasiosira fluviatilis",12.3,NA,"15",NA,"316",NA,0.047131657003004,0.00370871245591847,"Extracted","Fernandez (1979)","Kiorboe (2016)"
+"Rhincalanus nasutus","Copepod","CV + A",1051.70383941268,NA,"Bacteria",0.8,NA,"22",NA,"0",NA,0,NA,"Linear","Sommer et al (2002b)",""
+"Rhincalanus nasutus","Copepod","CV + A",1051.70383941268,NA,"Chlorella spp",2.7,NA,"22",NA,"1.5206765582692",NA,4.96878528303096e-05,NA,"Linear","Sommer et al (2002b)",""
+"Rhincalanus nasutus","Copepod","CV + A",1051.70383941268,NA,"Small pennate diatoms",8.257,NA,"22",NA,"2.76486646958036",NA,0.0361050183236279,NA,"Linear","Sommer et al (2002b)",""
+"Rhincalanus nasutus","Copepod","CV + A",1051.70383941268,NA,"Thalassiosira spp",22,NA,"22",NA,"5.80621958611875",NA,0.0186345112361669,NA,"Linear","Sommer et al (2002b)",""
+"Rhincalanus nasutus","Copepod","CV + A",1051.70383941268,NA,"Nitzschia spp",18,NA,"22",NA,"25.1602848731813",NA,0.0260226584829492,NA,"Linear","Sommer et al (2002b)",""
+"Calanus sp","Copepod","CV + A",824.515895804388,NA,"Bacteria",0.8,NA,"22",NA,"0",NA,0,NA,"Linear","Sommer et al (2002b)",""
+"Calanus sp","Copepod","CV + A",824.515895804388,NA,"Chlorella spp",2.7,NA,"22",NA,"0.688555081155969",NA,2.24984223975807e-05,NA,"Linear","Sommer et al (2002b)",""
+"Calanus sp","Copepod","CV + A",824.515895804388,NA,"Small pennate diatoms",8.257,NA,"22",NA,"4.4756080275138",NA,0.0584447428549009,NA,"Linear","Sommer et al (2002b)",""
+"Calanus sp","Copepod","CV + A",824.515895804388,NA,"Thalassiosira spp",22,NA,"22",NA,"22.378040137569",NA,0.0718201980138465,NA,"Linear","Sommer et al (2002b)",""
+"Calanus sp","Copepod","CV + A",824.515895804388,NA,"Nitzschia spp",18,NA,"22",NA,"16.6400811279359",NA,0.0172104231133888,NA,"Linear","Sommer et al (2002b)",""
+"Eucalanus pilcatus","Copepod","CIII-IV",557.665582792766,45.6666454904214,"Ceratia",29.9026587343699,NA,"21.5",NA,"0",0,NA,NA,NA,"Verity and Paffenhoefer (1996)",""
+"Eucalanus pilcatus","Copepod","CIII-IV",620.918388867811,33.972293323025,"Ceratia",31.2637056718709,NA,"21.7",NA,"0",0,NA,NA,NA,"Verity and Paffenhoefer (1996)",""
+"Eucalanus pilcatus","Copepod","CIII-IV",557.665582792766,45.6666454904214,"Ciliates",16.6113223683083,NA,"21.5",NA,"249.613071371928",22.5961219451805,NA,NA,NA,"Verity and Paffenhoefer (1996)",""
+"Eucalanus pilcatus","Copepod","CIII-IV",620.918388867811,33.972293323025,"Ciliates",13.5409222154214,NA,"21.7",NA,"177.861527413614",18.449348745674,NA,NA,NA,"Verity and Paffenhoefer (1996)",""
+"Eucalanus pilcatus","Copepod","CIII-IV",557.665582792766,45.6666454904214,"Diatoms",29.1730325559272,NA,"21.5",NA,"146.566621411348",44.0660041579578,NA,NA,NA,"Verity and Paffenhoefer (1996)",""
+"Eucalanus pilcatus","Copepod","CIII-IV",620.918388867811,33.972293323025,"Diatoms",32.5155642083573,NA,"21.7",NA,"118.75586757333",15.6105479015486,NA,NA,NA,"Verity and Paffenhoefer (1996)",""
+"Eucalanus pilcatus","Copepod","CIII-IV",557.665582792766,45.6666454904214,"Heterotrophic dinoflagellates",10.7474370846897,NA,"21.5",NA,"277.476275149379",23.0324986911231,NA,NA,NA,"Verity and Paffenhoefer (1996)",""
+"Eucalanus pilcatus","Copepod","CIII-IV",620.918388867811,33.972293323025,"Heterotrophic dinoflagellates",9.5775200491885,NA,"21.7",NA,"80.0540982298995",17.6036794520719,NA,NA,NA,"Verity and Paffenhoefer (1996)",""
+"Eucalanus pilcatus","Copepod","CIII-IV",557.665582792766,45.6666454904214,"Heterotrophic nanoplankton",6.2851393351919,NA,"21.5",NA,"0",0,NA,NA,NA,"Verity and Paffenhoefer (1996)",""
+"Eucalanus pilcatus","Copepod","CIII-IV",620.918388867811,33.972293323025,"Heterotrophic nanoplankton",6.73556120384252,NA,"21.7",NA,"0",0,NA,NA,NA,"Verity and Paffenhoefer (1996)",""
+"Eucalanus pilcatus","Copepod","CIII-IV",557.665582792766,45.6666454904214,"Phototrophic nanotplankton",6.73556120384252,NA,"21.5",NA,"0",0,NA,NA,NA,"Verity and Paffenhoefer (1996)",""
+"Eucalanus pilcatus","Copepod","CIII-IV",620.918388867811,33.972293323025,"Phototrophic nanotplankton",5.94471932086806,NA,"21.7",NA,"0",0,NA,NA,NA,"Verity and Paffenhoefer (1996)",""
+"Eucalanus subcrassus","Copepod","F",963.152226197042,NA,"Artemia nauplii",267.045880707244,NA,"25",NA,NA,NA,0.0171279761904762,0.000199404761904762,"Extracted","Ikeda (1977)",""
+"Eucalanus subcrassus","Copepod","M",963.152226197042,NA,"Artemia nauplii",267.045880707244,NA,"25",NA,NA,NA,0.0105059523809524,0.0001875,"Extracted","Ikeda (1977)",""
+"Tortanus gracilis","Copepod","F",865.124986621728,NA,"Artemia nauplii",267.045880707244,NA,"24",NA,NA,NA,0.0118762416707172,0.000258968047542028,"Extracted","Ikeda (1977)",""
+"Tortanus gracilis","Copepod","M",652.436351951967,NA,"Artemia nauplii",267.045880707244,NA,"24",NA,NA,NA,0.0200741473795317,0.000328246123954545,"Extracted","Ikeda (1977)",""
+"Calanopia elliptica","Copepod","F",1161.35372892996,NA,"Artemia nauplii",267.045880707244,NA,"22",NA,NA,NA,0.0141257304417507,0.000350609952141016,"Extracted","Ikeda (1977)",""
+"Calanopia elliptica","Copepod","M",1021.68078487161,NA,"Artemia nauplii",267.045880707244,NA,"22",NA,NA,NA,0.0103359003232323,0.00037087642336304,"Extracted","Ikeda (1977)",""
+"Temora longicornis","Copepod","NII",110.435251979778,NA,"Oxyrrhis marina",13.2,NA,"15",NA,NA,NA,0.014797875,NA,"Extracted","Klein Breteler et al (1990)",""
+"Temora longicornis","Copepod","NIII",132.144996535438,NA,"Oxyrrhis marina",13.2,NA,"15",NA,NA,NA,0.013424875,NA,"Extracted","Klein Breteler et al (1990)",""
+"Temora longicornis","Copepod","NIV",150.830262824954,NA,"Oxyrrhis marina",13.2,NA,"15",NA,NA,NA,0.0178489583333333,NA,"Extracted","Klein Breteler et al (1990)",""
+"Temora longicornis","Copepod","NV",169.238648286368,NA,"Oxyrrhis marina",13.2,NA,"15",NA,NA,NA,0.0204424166666667,NA,"Extracted","Klein Breteler et al (1990)",""
+"Temora longicornis","Copepod","NVI",191.402714449014,NA,"Oxyrrhis marina",13.2,NA,"15",NA,NA,NA,0.023798625,NA,"Extracted","Klein Breteler et al (1990)",""
+"Temora longicornis","Copepod","CI",203.089588337046,NA,"Oxyrrhis marina",13.2,NA,"15",NA,NA,NA,0.0353928333333333,NA,"Extracted","Klein Breteler et al (1990)",""
+"Temora longicornis","Copepod","CII",218.184193854896,NA,"Oxyrrhis marina",13.2,NA,"15",NA,NA,NA,0.052784125,NA,"Extracted","Klein Breteler et al (1990)",""
+"Temora longicornis","Copepod","CIII",278.425536011017,NA,"Oxyrrhis marina",13.2,NA,"15",NA,NA,NA,0.0439359166666667,NA,"Extracted","Klein Breteler et al (1990)",""
+"Temora longicornis","Copepod","CIV",310.47288256188,NA,"Oxyrrhis marina",13.2,NA,"15",NA,NA,NA,0.0578184583333333,NA,"Extracted","Klein Breteler et al (1990)",""
+"Temora longicornis","Copepod","M",372.629142888799,NA,"Oxyrrhis marina",13.2,NA,"15",NA,NA,NA,0.049275375,NA,"Extracted","Klein Breteler et al (1990)",""
+"Temora longicornis","Copepod","M",471.338463588432,NA,"Oxyrrhis marina",13.2,NA,"15",NA,NA,NA,0.0274599583333333,NA,"Extracted","Klein Breteler et al (1990)",""
+"Temora longicornis","Copepod","F",401.184890230735,NA,"Oxyrrhis marina",13.2,NA,"15",NA,NA,NA,0.07109075,NA,"Extracted","Klein Breteler et al (1990)",""
+"Temora longicornis","Copepod","F",520.818606228545,NA,"Oxyrrhis marina",13.2,NA,"15",NA,NA,NA,0.0430205833333333,NA,"Extracted","Klein Breteler et al (1990)",""
+"Calanus helgolandicus","Copepod","CI",310.308399300204,NA,"Prorocentrum micans",26.6,NA,"15",NA,NA,NA,0.0947708333333333,0.00906249999999999,"Extracted","Rey-Rassat et al (2002)",""
+"Calanus helgolandicus","Copepod","CII",411.58141378863,NA,"Prorocentrum micans",26.6,NA,"15",NA,NA,NA,0.0611791666666667,0.0124791666666667,"Extracted","Rey-Rassat et al (2002)",""
+"Calanus helgolandicus","Copepod","CIII",526.663715640533,NA,"Prorocentrum micans",26.6,NA,"15",NA,NA,NA,0.0520625,0.012975,"Extracted","Rey-Rassat et al (2002)",""
+"Calanus helgolandicus","Copepod","CIV",770.919859235702,NA,"Prorocentrum micans",26.6,NA,"15",NA,NA,NA,0.0472666666666667,0.0058,"Extracted","Rey-Rassat et al (2002)",""
+"Calanus helgolandicus","Copepod","CV",1010.73285763567,NA,"Prorocentrum micans",26.6,NA,"15",NA,NA,NA,0.0165541666666667,0.0063375,"Extracted","Rey-Rassat et al (2002)",""
+"Calanus helgolandicus","Copepod","F",1154.92943877977,NA,"Prorocentrum micans",26.6,NA,"15",NA,NA,NA,0.0227916666666667,0.002975,"Extracted","Rey-Rassat et al (2002)",""
+"Rhincalanus nasutus","Copepod","NII-III",174.241546181372,NA,"Artemia salina nauplii",381.18265020254,NA,"12",0,NA,NA,0.0453968955373338,NA,"Extracted","Mullin and Brooks (1967)",""
+"Rhincalanus nasutus","Copepod","NII-III",174.241546181372,NA,"Coscinodius wailesii",312.637056718709,NA,"12",0,NA,NA,0.0453968955373338,NA,"Extracted","Mullin and Brooks (1967)",""
+"Rhincalanus nasutus","Copepod","NII-III",174.241546181372,NA,"Ditylum brightwellii",45.7078149734083,NA,"12",1,NA,NA,0.0453968955373338,NA,"Extracted","Mullin and Brooks (1967)",""
+"Rhincalanus nasutus","Copepod","NII-III",174.241546181372,NA,"Thalassiosira fluviatilis",20.175452211501,NA,"12",0,NA,NA,0.0453968955373338,NA,"Extracted","Mullin and Brooks (1967)",""
+"Rhincalanus nasutus","Copepod","NII-III",174.241546181372,NA,"Cyclotella nana",8.42393948619934,NA,"12",0,NA,NA,0.0453968955373338,NA,"Extracted","Mullin and Brooks (1967)",""
+"Rhincalanus nasutus","Copepod","NIV",260.791657370661,NA,"Artemia salina nauplii",381.18265020254,NA,"12",0,NA,NA,0.128624537355779,NA,"Extracted","Mullin and Brooks (1967)",""
+"Rhincalanus nasutus","Copepod","NIV",260.791657370661,NA,"Coscinodius wailesii",312.637056718709,NA,"12",0,NA,NA,0.128624537355779,NA,"Extracted","Mullin and Brooks (1967)",""
+"Rhincalanus nasutus","Copepod","NIV",260.791657370661,NA,"Ditylum brightwellii",45.7078149734083,NA,"12",0.46,NA,NA,0.128624537355779,NA,"Extracted","Mullin and Brooks (1967)",""
+"Rhincalanus nasutus","Copepod","NIV",260.791657370661,NA,"Thalassiosira fluviatilis",20.175452211501,NA,"12",0.54,NA,NA,0.128624537355779,NA,"Extracted","Mullin and Brooks (1967)",""
+"Rhincalanus nasutus","Copepod","NIV",260.791657370661,NA,"Cyclotella nana",8.42393948619934,NA,"12",0,NA,NA,0.128624537355779,NA,"Extracted","Mullin and Brooks (1967)",""
+"Rhincalanus nasutus","Copepod","NV-VI",308.892411070627,NA,"Artemia salina nauplii",381.18265020254,NA,"12",0,NA,NA,0.0529630447935561,NA,"Extracted","Mullin and Brooks (1967)",""
+"Rhincalanus nasutus","Copepod","NV-VI",308.892411070627,NA,"Coscinodius wailesii",312.637056718709,NA,"12",0.62,NA,NA,0.0529630447935561,NA,"Extracted","Mullin and Brooks (1967)",""
+"Rhincalanus nasutus","Copepod","NV-VI",308.892411070627,NA,"Ditylum brightwellii",45.7078149734083,NA,"12",0.37,NA,NA,0.0529630447935561,NA,"Extracted","Mullin and Brooks (1967)",""
+"Rhincalanus nasutus","Copepod","NV-VI",308.892411070627,NA,"Thalassiosira fluviatilis",20.175452211501,NA,"12",0,NA,NA,0.0529630447935561,NA,"Extracted","Mullin and Brooks (1967)",""
+"Rhincalanus nasutus","Copepod","NV-VI",308.892411070627,NA,"Cyclotella nana",8.42393948619934,NA,"12",0,NA,NA,0.0529630447935561,NA,"Extracted","Mullin and Brooks (1967)",""
+"Rhincalanus nasutus","Copepod","CI",307.566676253023,NA,"Artemia salina nauplii",381.18265020254,NA,"12",0,NA,NA,0.0907937910746676,NA,"Extracted","Mullin and Brooks (1967)",""
+"Rhincalanus nasutus","Copepod","CI",307.566676253023,NA,"Coscinodius wailesii",312.637056718709,NA,"12",0.14,NA,NA,0.0907937910746676,NA,"Extracted","Mullin and Brooks (1967)",""
+"Rhincalanus nasutus","Copepod","CI",307.566676253023,NA,"Ditylum brightwellii",45.7078149734083,NA,"12",0.49,NA,NA,0.0907937910746676,NA,"Extracted","Mullin and Brooks (1967)",""
+"Rhincalanus nasutus","Copepod","CI",307.566676253023,NA,"Thalassiosira fluviatilis",20.175452211501,NA,"12",0.37,NA,NA,0.0907937910746676,NA,"Extracted","Mullin and Brooks (1967)",""
+"Rhincalanus nasutus","Copepod","CI",307.566676253023,NA,"Cyclotella nana",8.42393948619934,NA,"12",0,NA,NA,0.0907937910746676,NA,"Extracted","Mullin and Brooks (1967)",""
+"Rhincalanus nasutus","Copepod","CII",387.509729657385,NA,"Artemia salina nauplii",381.18265020254,NA,"12",0,NA,NA,0.0907937910746676,NA,"Extracted","Mullin and Brooks (1967)",""
+"Rhincalanus nasutus","Copepod","CII",387.509729657385,NA,"Coscinodius wailesii",312.637056718709,NA,"12",0.13,NA,NA,0.0907937910746676,NA,"Extracted","Mullin and Brooks (1967)",""
+"Rhincalanus nasutus","Copepod","CII",387.509729657385,NA,"Ditylum brightwellii",45.7078149734083,NA,"12",0.51,NA,NA,0.0907937910746676,NA,"Extracted","Mullin and Brooks (1967)",""
+"Rhincalanus nasutus","Copepod","CII",387.509729657385,NA,"Thalassiosira fluviatilis",20.175452211501,NA,"12",0.32,NA,NA,0.0907937910746676,NA,"Extracted","Mullin and Brooks (1967)",""
+"Rhincalanus nasutus","Copepod","CII",387.509729657385,NA,"Cyclotella nana",8.42393948619934,NA,"12",0.04,NA,NA,0.0907937910746676,NA,"Extracted","Mullin and Brooks (1967)",""
+"Rhincalanus nasutus","Copepod","CIII",609.25217642416,NA,"Artemia salina nauplii",381.18265020254,NA,"12",0,NA,NA,0.0302645970248892,NA,"Extracted","Mullin and Brooks (1967)",""
+"Rhincalanus nasutus","Copepod","CIII",609.25217642416,NA,"Coscinodius wailesii",312.637056718709,NA,"12",0,NA,NA,0.0302645970248892,NA,"Extracted","Mullin and Brooks (1967)",""
+"Rhincalanus nasutus","Copepod","CIII",609.25217642416,NA,"Ditylum brightwellii",45.7078149734083,NA,"12",0.28,NA,NA,0.0302645970248892,NA,"Extracted","Mullin and Brooks (1967)",""
+"Rhincalanus nasutus","Copepod","CIII",609.25217642416,NA,"Thalassiosira fluviatilis",20.175452211501,NA,"12",0.4,NA,NA,0.0302645970248892,NA,"Extracted","Mullin and Brooks (1967)",""
+"Rhincalanus nasutus","Copepod","CIII",609.25217642416,NA,"Cyclotella nana",8.42393948619934,NA,"12",0.31,NA,NA,0.0302645970248892,NA,"Extracted","Mullin and Brooks (1967)",""
+"Rhincalanus nasutus","Copepod","CIV",866.536286002199,NA,"Artemia salina nauplii",381.18265020254,NA,"12",0,NA,NA,0.0151322985124446,NA,"Extracted","Mullin and Brooks (1967)",""
+"Rhincalanus nasutus","Copepod","CIV",866.536286002199,NA,"Coscinodius wailesii",312.637056718709,NA,"12",0.95,NA,NA,0.0151322985124446,NA,"Extracted","Mullin and Brooks (1967)",""
+"Rhincalanus nasutus","Copepod","CIV",866.536286002199,NA,"Ditylum brightwellii",45.7078149734083,NA,"12",0.03,NA,NA,0.0151322985124446,NA,"Extracted","Mullin and Brooks (1967)",""
+"Rhincalanus nasutus","Copepod","CIV",866.536286002199,NA,"Thalassiosira fluviatilis",20.175452211501,NA,"12",0.02,NA,NA,0.0151322985124446,NA,"Extracted","Mullin and Brooks (1967)",""
+"Rhincalanus nasutus","Copepod","CIV",866.536286002199,NA,"Cyclotella nana",8.42393948619934,NA,"12",0,NA,NA,0.0151322985124446,NA,"Extracted","Mullin and Brooks (1967)",""
+"Rhincalanus nasutus","Copepod","CV",952.77635028255,NA,"Artemia salina nauplii",381.18265020254,NA,"12",0.04,NA,NA,0.0302645970248892,NA,"Extracted","Mullin and Brooks (1967)",""
+"Rhincalanus nasutus","Copepod","CV",952.77635028255,NA,"Coscinodius wailesii",312.637056718709,NA,"12",0.54,NA,NA,0.0302645970248892,NA,"Extracted","Mullin and Brooks (1967)",""
+"Rhincalanus nasutus","Copepod","CV",952.77635028255,NA,"Ditylum brightwellii",45.7078149734083,NA,"12",0.23,NA,NA,0.0302645970248892,NA,"Extracted","Mullin and Brooks (1967)",""
+"Rhincalanus nasutus","Copepod","CV",952.77635028255,NA,"Thalassiosira fluviatilis",20.175452211501,NA,"12",0.19,NA,NA,0.0302645970248892,NA,"Extracted","Mullin and Brooks (1967)",""
+"Rhincalanus nasutus","Copepod","CV",952.77635028255,NA,"Cyclotella nana",8.42393948619934,NA,"12",0,NA,NA,0.0302645970248892,NA,"Extracted","Mullin and Brooks (1967)",""
+"Rhincalanus nasutus","Copepod","M",NA,NA,"Artemia salina nauplii",381.18265020254,NA,"12",0.25,NA,NA,NA,NA,NA,"Mullin and Brooks (1967)",""
+"Rhincalanus nasutus","Copepod","M",NA,NA,"Coscinodius wailesii",312.637056718709,NA,"12",0.75,NA,NA,NA,NA,NA,"Mullin and Brooks (1967)",""
+"Rhincalanus nasutus","Copepod","M",NA,NA,"Ditylum brightwellii",45.7078149734083,NA,"12",0,NA,NA,NA,NA,NA,"Mullin and Brooks (1967)",""
+"Rhincalanus nasutus","Copepod","M",NA,NA,"Thalassiosira fluviatilis",20.175452211501,NA,"12",0,NA,NA,NA,NA,NA,"Mullin and Brooks (1967)",""
+"Rhincalanus nasutus","Copepod","M",NA,NA,"Cyclotella nana",8.42393948619934,NA,"12",0,NA,NA,NA,NA,NA,"Mullin and Brooks (1967)",""
+"Rhincalanus nasutus","Copepod","F",1378.33076284311,NA,"Artemia salina nauplii",381.18265020254,NA,"12",0.37,NA,NA,0.0075661492562223,NA,"Extracted","Mullin and Brooks (1967)",""
+"Rhincalanus nasutus","Copepod","F",1378.33076284311,NA,"Coscinodius wailesii",312.637056718709,NA,"12",0.45,NA,NA,0.0075661492562223,NA,"Extracted","Mullin and Brooks (1967)",""
+"Rhincalanus nasutus","Copepod","F",1378.33076284311,NA,"Ditylum brightwellii",45.7078149734083,NA,"12",0.18,NA,NA,0.0075661492562223,NA,"Extracted","Mullin and Brooks (1967)",""
+"Rhincalanus nasutus","Copepod","F",1378.33076284311,NA,"Thalassiosira fluviatilis",20.175452211501,NA,"12",0,NA,NA,0.0075661492562223,NA,"Extracted","Mullin and Brooks (1967)",""
+"Rhincalanus nasutus","Copepod","F",1378.33076284311,NA,"Cyclotella nana",8.42393948619934,NA,"12",0,NA,NA,0.0075661492562223,NA,"Extracted","Mullin and Brooks (1967)",""
+"Acartia tonsa","Copepod","F",403.83891531256,NA,"Rhodomonas baltica",7.39796739417568,NA,"15",NA,NA,NA,0.167333333333333,NA,"Extracted","Moeller and Nielsen (2001)","Saiz and Calbet (2007)"
+"Acartia tonsa","Copepod","F",403.83891531256,NA,"Ceratium lineatum",24.8851558162199,NA,"13",NA,NA,NA,0.127627024164762,NA,"Extracted","Moeller and Nielsen (2001)","Saiz and Calbet (2007)"
+"Acartia tonsa","Copepod","F",403.83891531256,NA,"Ditylum brightwelli",29.8277144132867,NA,"13",NA,NA,NA,0.068533613016192,NA,"Extracted","Moeller and Nielsen (2001)","Saiz and Calbet (2007)"
+"Corycaeus anglicus","Copepod","M",328.317290881873,14.2319880683317,"Artemia nauplii",238.978199586,NA,"15",NA,NA,NA,0.0291666666666667,NA,"Extracted","Gophen and Harris (1981)",NA
+"Corycaeus anglicus","Copepod","F",336.456726390773,20.5612415220457,"Artemia nauplii",238.978199586,NA,"15",NA,NA,NA,0.0275,NA,"Extracted","Gophen and Harris (1981)",NA

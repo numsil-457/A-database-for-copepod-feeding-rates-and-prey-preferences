@@ -124,7 +124,7 @@ col.ambush = rgb(0.9, 0.1, 0.2, alpha = 0.9)
 col.switcher = 'gray50'
 
 ## Read the OPS dataset
-modb = read.csv(file = "~/PhD/Work/Copepods project/datasets_compilators/copepod_ops_database.csv", header = T)
+modb = read.csv(file = "copepod_ops_database.csv", header = T)
 modb$lops = log(modb$ops)
 modb$lesd = log(modb$pred)
 
@@ -154,7 +154,7 @@ modb = merge(modb, gp.mops[c('gp', 'group')], by='gp')
 ## Read the Imax data
 
 # Plot the raw Imax dataset
-pref = read.csv(file = "~/PhD/Work/Copepods project/datasets_compilators/copepod_feeding_rates.csv")
+pref = read.csv(file = "copepod_feeding_rates.csv")
 
 # Remove any complicated datasets
 # datasets.not.to = c("Uye and Kasahara (1983)", "Storms (1974)", "Rao and Kumar (2002)", "Vogt et al (2013)")
