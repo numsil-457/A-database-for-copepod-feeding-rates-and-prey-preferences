@@ -168,8 +168,6 @@ pref = pref[ -which(pref$prey.size.unit != "ESD"), ] # Remove Sommer and Sommer 
 # ind.no.imax = which(pref$Imax.method=='Linear')
 # pref$Imax.at.15.degreeC..mugC.mugC.1.h.1.[ind.no.imax] = NA
 
-pref = add_feeding_trait(pref)
-
 ## Select the max Ingestion rate per study and species/stage; a bit less evolved than the OPS detection
 pref$ind.row = row(pref)[,1]
 pref.max = ddply(pref[which(!is.na(pref$Imax.at.15.degreeC..mugC.mugC.1.h.1.)),], 
@@ -177,6 +175,7 @@ pref.max = ddply(pref[which(!is.na(pref$Imax.at.15.degreeC..mugC.mugC.1.h.1.)),]
                  i.max = ind.row[ which.max(Imax.at.15.degreeC..mugC.mugC.1.h.1.) ] )
 
 pref.max = pref[pref.max$i.max,]
+pref.max = add_feeding_trait(pref.max, feeding.behavior)
 
 ## Give an OPS group to Imax
 
@@ -192,7 +191,7 @@ pref.max$pch = 19
 pref.max$pch[pref.max$group=='high']=1
 
 ## Adding the feeding behavior traits to the respiration dataset
-resp.data = add_feeding_trait(resp.data)
+resp.data = add_feeding_trait(resp.data, feeding.behavior)
 
 ## Function to add the plot coding (pch, color) to the dataset
 add_graphics_trait = function(dt, is.group.ops=F){
@@ -507,8 +506,22 @@ bs.parameters = function(modb, pref.max, dat, nDraws=1000){
   
   bs.resample = function(dt){ # Bootstrap resample with replacement
     dt   = na.omit(dt)
-    draw = sample(1:nrow(dt), nrow(dt), replace=T)
-    dt   = dt[draw,]
+    
+    # Re-draw the complete dataset, independent on the feeding behavior
+    # draw = sample(1:nrow(dt), nrow(dt), replace=T)
+    # dt   = dt[draw,]
+    
+    # Re-draw passive anc active feeders independently
+    ind.passive = which( dt$ac=='P' )
+    dt.p        = dt[ind.passive,]
+    dt.np       = dt[-ind.passive,]
+
+    draw.p      = sample(1:nrow(dt.p),  nrow(dt.p),  replace=T)
+    draw.np     = sample(1:nrow(dt.np), nrow(dt.np), replace=T)
+
+    rbind(dt.p[draw.p,], dt.np[draw.np,])
+    # Note: this assures that there are passive species in the fit, otherwise the baseline asumptions
+    # of the model are broken
   }
   
   names.par           = c('a_f', 'a_shift', 'k_a', 's', 'm', 'a0', 'vdig', 'g', 'r0')
@@ -518,9 +531,9 @@ bs.parameters = function(modb, pref.max, dat, nDraws=1000){
   fit.bs = function(){
   # for(i in 1:nDraws){
   
-    modi  = bs.resample( modb[c('lesd', 'lops', 'group')] )
-    prefi = bs.resample( pref.max[c('lesd', 'Imax.at.15.degreeC..mugC.mugC.1.h.1.', 'group')] )
-    rdi   = bs.resample( resp.data[c('lesd', 'r')] )
+    modi  = bs.resample( modb[c('lesd', 'lops', 'group', 'ac')] )
+    prefi = bs.resample( pref.max[c('lesd', 'Imax.at.15.degreeC..mugC.mugC.1.h.1.', 'group', 'ac')] )
+    rdi   = bs.resample( resp.data[c('lesd', 'r', 'ac')] )
     
     all.par = fit.all(modi$lesd,  modi$lops, modi$group,
                       prefi$lesd, prefi$Imax.at.15.degreeC..mugC.mugC.1.h.1., prefi$group,
