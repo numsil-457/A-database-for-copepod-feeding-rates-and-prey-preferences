@@ -11,9 +11,9 @@ library(gdata)
 library(readxl)
 
 ## Load other source files
-source("get_other_compilations.R")    # Download datasets from Brun et al. (2016) and Pata and Hunt (2023)
-source("get_respiration_data.R")      # Extract the respiration rates from Brun et al. (2016)
-source("get_feeding_behavior_data.R") # Extract the feeding behavior information
+source("get_data/get_other_compilations.R")    # Download datasets from Brun et al. (2016) and Pata and Hunt (2023)
+source("get_data/get_respiration_data.R")      # Extract the respiration rates from Brun et al. (2016)
+source("get_data/get_feeding_behavior_data.R") # Extract the feeding behavior information
 
 ## Function to add the feeding behavior trait to the metabolic rates datasets
 add_feeding_trait = function(data_species, fm.dataset){
