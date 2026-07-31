@@ -10,7 +10,7 @@ The present analysis also uses open access data published in the literature.
 
 - The compilation of grazing rates is detailed in 'metadata.csv'.
 - The feeding behavior information of copepods was extracted from the studies by Brun et al. (2016), available on PANGAEA (https://doi.pangaea.de/10.1594/PANGAEA.862968), and by Pata and Hunt (2025; https://aslopubs.onlinelibrary.wiley.com/doi/10.1002/lno.12478).
-- The specific respiration rates of copepods were also extracted from the study of Brun et al. (2016)
+- The specific respiration rates of copepods were also extracted from the study of Brun et al. (2016).
 
 # Script files
 

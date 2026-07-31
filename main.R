@@ -25,7 +25,7 @@ add_feeding_trait = function(data_species, fm.dataset){
   
   # Merging datasets
   strait = merge( data_species, 
-                  trait[ c("species", "type", "detail", "ac") ], 
+                  fm.dataset[ c("species", "type", "detail", "ac") ], 
                   by = "species", all.x = T )
   #strait = strait[ - which( duplicated(strait) ), ] # Some rows are duplicated
   
@@ -175,8 +175,8 @@ pref.max = add_feeding_trait(pref.max, feeding.behavior)
 
 # Based on distance of prey_esd to the mean OPS
 pref.max$group = NA
-dist.high = abs( log(pref.max$prey.size) - gp.mops$mops[gp.mops$group=='high'] )
-dist.low  = abs( log(pref.max$prey.size) - gp.mops$mops[gp.mops$group=='low'] )
+dist.high = abs( log(pref.max$prey.esd) - gp.mops$mops[gp.mops$group=='high'] )
+dist.low  = abs( log(pref.max$prey.esd) - gp.mops$mops[gp.mops$group=='low'] )
 
 pref.max$group[dist.high < dist.low]  = 'high'
 pref.max$group[dist.high >= dist.low] = 'low'
@@ -488,10 +488,10 @@ dev.copy2pdf(file='~/PhD/Work/Copepods project/Latex-feeding-modes/Imax_model_ad
 dev.off()
 
 ## ANOVA for the slope of respiration rates (size limit at 800 mu m ESD)
-dat$size_group = 's'
-dat$size_group[dat$esd >= 600] = 'l'
+resp.data$size_group = 's'
+resp.data$size_group[resp.data$esd >= 600] = 'l'
 
-linear_model = lm(log(value) ~ log(esd) * size_group, data = dat[dat$ac=='A',])
+linear_model = lm(log(r) ~ log(esd) * size_group, data = resp.data[resp.data$ac=='A',])
 anova(linear_model)
 
 ## MAEs of Ingestion models
@@ -616,6 +616,45 @@ text(x = c(min(x.seq.theoric), max(x.seq.theoric)) * c(1.4, 0.9),
 dev.copy2pdf(file='~/PhD/Work/Copepods project/Latex-feeding-modes/Imax_model_adaptation/activity_ESD.pdf')
 dev.off()
 
+## Sensitivity of the metabolic activity to the k_a (slope), see bootstrap results
+x11(height=4, width=7)
+par(mgp=c(3, 0.5, 0), cex=1.5, mar=c(2.5, 3.5, 0.1, 0.1), tck=0.04)
+
+x.seq.theoric = seq(lesd.shift-3, lesd.shift+3, length.out=200)
+params.activity.sens = params.activity
+
+# k_a = 10
+params.activity.sens[3] = 10
+ac = activity(x.seq.theoric, params.activity.sens)
+plot(x.seq.theoric, ac, lwd=5, 
+     col='gray60', ann=F, type='l', yaxt='n', xaxt='n', xaxs='i')
+
+# k_a = 20
+params.activity.sens[3] = 20
+ac = activity(x.seq.theoric, params.activity.sens)
+lines(x.seq.theoric, ac, lwd=4, col='gray30', lty=2)
+
+# k_a = 50
+params.activity.sens[3] = 50
+ac = activity(x.seq.theoric, params.activity.sens)
+lines(x.seq.theoric, ac, lwd=3, col='black', lty=3)
+
+log10ticks(1, tck=0.02, log=T)
+axis( 2, at=c(min(ac), max(ac)),
+      labels=c(expression(alpha['i']), expression(alpha['max'])), las=1 )
+mtext(side=1, expression('copepod body size, ESD ' *mu *'m'), line=1.5, cex=1.5)
+mtext(side=2, 'metabolic activity', line=1.2, cex=1.5)
+
+legend('topleft', 
+       legend=c(expression('k'[alpha]*'=10'),
+                expression('k'[alpha]*'=20'),
+                expression('k'[alpha]*'=50')),
+       bty='n', pch=NA, col=c('gray60','gray30','black'), lwd=5, lty=1:3,
+       inset=c(0.1,0.1))
+
+dev.copy2pdf(file='~/PhD/Work/Copepods project/Latex-feeding-modes/Imax_model_adaptation/activity_ka_sensitivity.pdf')
+dev.off()
+
 ## Figure showing the error in Imax after the Q10 correction
 hist(log(pref.max$Imax.sd / pref.max$Imax.at.15.degreeC..mugC.mugC.1.h.1.), breaks=20,
      main = expression('Histogram of relative deviation to I'['max']), 
@@ -731,7 +770,7 @@ dev.off()
 # > Oncaea mediterranea and Diacyclops thomasi, otherwise no change 
 
 
-### Beyond is subject to deletion
+### Beyond will be deleted
 
 ## Showing the change in metabolic speed of copepods
 dat$value.detrended = dat$value / exp(-0.75*log(dat$esd))
