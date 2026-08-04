@@ -412,7 +412,8 @@ log10ticks = function(side.ax, tck = 0.02, log = F, axis.lab = T, ...){
 } # Plot log10 ticks
 
 x11(height=12, width=7)
-par(mfrow=c(3,1), mgp=c(3, 0.5, 0), cex=1.5, mar=c(2.5, 4, 0.1, 0.1), tck=0.04)
+
+par(fig=c(0,1,0.64,0.91), mgp=c(3, 0.5, 0), cex=1.5, mar=c(1, 4, 0.1, 0.1), tck=0.04)
 
 # OPS
 plot(modb$lesd, modb$lops, col=adjustcolor(modb$colo, alpha.f=0.7), pch=modb$pch, lwd=2.5,
@@ -429,17 +430,14 @@ mtext(side=2, expression('OPS, ESD' *mu *'m'), line=2.5, cex=1.4)
 
 lines(x.seq, x.seq + log(0.1), col='gray20', lwd=4, lty=2)
 
-# Legend
-legend('topleft', c('passive', 'active', 'other/NA'),
-       pch=c(1, 19, 18), col='black', lwd=3, lty=NA,
-       bty='n', x.intersp=-0.4, cex=1, inset=c(0, -0.05))
-
 text(x=log(1700), y=log(800), 'High OPS', col=col.ambush, srt=5)
 text(x=log(2000), y=log(45),  'Low OPS',  col=col.filter, srt=5)
 
 mtext(side=3, adj=0.99, 'A', line=-1, cex=1.5, font=2)
 
 # Imax
+par(fig=c(0,1,0.37,0.64), new=T)
+
 plot(pref.max$lesd, log(pref.max$Imax.at.15.degreeC..mugC.mugC.1.h.1.), 
      pch=pref.max$pch, col=adjustcolor(pref.max$colo, alpha.f=0.7), lwd=2.5,
      ann=F, xlim=x.lim, xaxt='n', yaxt='n')
@@ -453,19 +451,14 @@ lines(x.seq, log(imax.seq.low), col='white', lwd=6)
 lines(x.seq, log(imax.seq.low), col=col.filter, lwd=4)
 mtext(side=2, expression('Imax, h'^-1), line=2.5, cex=1.4)
 
-#lm.imax = lm(log(Imax.at.15.degreeC..mugC.mugC.1.h.1.) ~ lesd, data=pref.max)
-#abline(lm.imax, lty=2, col='gray10', lwd=3)
 saiz.model = log( exp(0.225)* ( (exp(x.seq)**3*0.523)/(8.3*1e6) )**(0.703-1)/24 )
 lines(x.seq, saiz.model, col='gray20', lwd=4, lty=2)
-
-# Legend
-legend('bottomright', 'linear model', 
-       pch=NA, col='gray20', lwd=4, lty=2,
-       bty='n', x.intersp=0.5, inset=c(0.15, 0.1))
 
 mtext(side=3, adj=0.99, 'B', line=-1, cex=1.5, font=2)
 
 # Respiration
+par(fig=c(0,1,0.1,0.37), new=T)
+
 plot(resp.data$lesd, log(resp.data$r), pch=resp.data$pch, col='gray70', lwd=2.5,
      ann=F, xlim=x.lim, xaxt='n', yaxt='n')
 log10ticks(1, tck=0.04, log=T)
@@ -474,15 +467,23 @@ log10ticks(2, tck=0.04, log=T, las=1)
 abline(v = lesd.shift, col='gray50', lty=3, lwd=3)
 lines(x.seq, log(resp.seq), lwd=4, col='black')
 mtext(side=2, expression('respiration rate, h'^-1), line=2.5, cex=1.4)
-mtext(side=1, expression('copepod body size, ESD ' *mu *'m'), line=1.5, cex=1.4)
-
-#lm.resp = lm(log(value) ~ lesd, data=dat)
-#abline(lm.resp, lty=2, col='gray20', lwd=4)
+mtext(side=1, expression('copepod body size, ESD ' *mu *'m'), line=2, cex=1.4)
 
 lm.resp = lm(log(r) + 0.75 * lesd ~ 1, data=resp.data) # Specified slope
 abline(lm.resp$coefficients, -0.75, lty=2, col='gray20', lwd=4)
 
 mtext(side=3, adj=0.99, 'C', line=-1, cex=1.5, font=2)
+
+# Legend
+par(fig=c(0,1,0,1), new=T)
+
+legend('topleft', c('passive', 'active', 'other/NA'),
+       pch=c(1, 19, 18), col='black', lwd=3, lty=NA,
+       bty='n', x.intersp=-0.4, cex=1, inset=c(0, -0.015))
+
+legend('topleft', c('non-linear model', 'linear size scaling', 'metabolic activity shift'), 
+       pch=NA, col=c('black', 'gray20', 'gray50'), lwd=4, lty=c(1, 2, 3),
+       bty='n', x.intersp=0.5, inset=c(0.3, -0.015))
 
 dev.copy2pdf(file='~/PhD/Work/Copepods project/Latex-feeding-modes/Imax_model_adaptation/physio_model_copepod.pdf')
 dev.off()
@@ -768,200 +769,3 @@ dev.off()
 
 # Not much difference. Only a few cyclopoida are active feeders in the Imax dataset
 # > Oncaea mediterranea and Diacyclops thomasi, otherwise no change 
-
-
-### Beyond will be deleted
-
-## Showing the change in metabolic speed of copepods
-dat$value.detrended = dat$value / exp(-0.75*log(dat$esd))
-pref.max$imax.detrended = pref.max$Imax.at.15.degreeC..mugC.mugC.1.h.1. / exp(-0.75*log(pref.max$pred.esd))
-
-plot(dat$lesd, dat$value.detrended, pch=19, col=dat$fm.col, ann=F, log='y')
-plot(pref.max$lesd, pref.max$imax.detrended, pch=19, col=pref.max$fm.col, ann=F, log='y')
-
-
-x11(height=12, width=7)
-par(mfrow=c(2,1), mgp=c(3, 0.5, 0), cex=1.5, las=1, mar=c(2.5, 5, 0.5, 0.5), tck=0.04)
-
-plot(dat$lesd, dat$value.detrended/max(dat$value.detrended, na.rm=T), 
-     pch=19, col=dat$fm.col, ann=F, log='y')
-title(ylab='Detrended respiration rate, scaled', xlab='', line=3, cex=1.4)
-
-plot(pref.max$lesd, pref.max$imax.detrended/max(pref.max$imax.detrended, na.rm=T), 
-     pch=19, col=pref.max$fm.col, ann=F, log='y')
-title(ylab='Detrended ingestion rate, scaled', xlab='', line=3, cex=1.4)
-mtext(side=1, 'log ESD', line=1.5, cex=1.4)
-
-dev.copy2pdf(file='~/PhD/Work/Copepods project/Latex-feeding-modes/Imax_model_adaptation/detrended_metabolism.pdf')
-dev.off()
-
-## Bootstrap of the OPS parameters
-bs.sample = function(data, nDraws=1000, nParams=3, namesParams=NULL, funcBS){
-  xseq = seq(2, 10, by=0.02)
-
-  params.list <- matrix(ncol=nParams, nrow=nDraws)
-  result.list <- matrix(ncol=length(xseq), nrow=nDraws)
-  
-  # Bootstrap
-  for(ii in 1:nDraws){
-    draw = sample(1:nrow(data), nrow(data), replace=T)
-    
-    params.bootstrap = funcBS(xseq, data[draw,])
-    
-    # Collect the results
-    result.list[ii,] = params.bootstrap[[2]]
-    params.list[ii,] = params.bootstrap[[1]]
-  }
-  
-  # Naming and formatting of the bootstrap datasets
-  params.list = as.data.frame(params.list)
-  result.list = as.data.frame(result.list)
-
-  names(result.list) = xseq
-  if (is.null(namesParams)) namesParams=1:nParams
-  names(params.list) = namesParams
-
-  # Calculate the interquartile range and the sd, as well as the parameters sensitivity
-  model.uncertainty = data.frame(lesd = xseq)
-  names.f = 'lesd'
-
-  res.mean = apply(result.list, 2, 'mean', na.rm=T)
-  res.sd   = apply(result.list, 2, 'sd', na.rm=T)
-  res.qt   = apply(result.list, 2, 'quantile', probs=c(0.05, 0.5, 0.95), na.rm=T)
-  
-  model.uncertainty$m     = res.mean
-  model.uncertainty$sd    = res.sd
-  model.uncertainty$qtmin = res.qt[1,]
-  model.uncertainty$qtmed = res.qt[2,]
-  model.uncertainty$qtmax = res.qt[3,]
-    
-  # Parameters
-  par.mean = apply(params.list, 2, 'mean', na.rm=T)
-  par.sd   = apply(params.list, 2, 'sd', na.rm=T)
-  #par.qt   = apply(params.list, 2, 'quantile', probs=c(0.05, 0.5, 0.95), na.rm=T)
-  
-  params.uncertainty = cbind(par.mean, par.sd)
-  names(params.uncertainty) = c( paste(namesParams, '.m', sep=''),
-                                 paste(namesParams, '.sd', sep='') )
-                                 #paste(namesParams, '.m', sep='') )
-  
-  return( list(model.uncertainty, params.uncertainty) ) 
-}
-
-bs.ops.sample = function(xseq, data){
-  params.bootstrap = fit.specialization(data$lesd, data$lops)
-  ops.bootstrap    = ops.specialization(xseq, params.bootstrap)
-
-  return( list(params.bootstrap, ops.bootstrap) )
-}
-
-ind = which(!is.na(modb$imax))
-
-bs.ops = bs.sample(modb, nDraws=100, nParams=4, namesParams=c('s', 'm1', 'm2', 'f'), bs.ops.sample)
-
-plot(modb$lesd, modb$lops, type='n', lwd=2, xlab='', ylab='', las=1, ylim=c(1, 8))
-
-polygon(x=c( bs.ops[[1]][,1], rev(bs.ops[[1]][,1]) ),
-        y=c( bs.ops[[1]][,2]-bs.ops[[1]][,3], rev(bs.ops[[1]][,2]+bs.ops[[1]][,3]) ),
-        col='gray80', border=NA)
-# polygon(x=c( bs.ops[[1]][,1], rev(bs.ops[[1]][,1]) ),
-#         y=c( bs.ops[[1]][,4], rev(bs.ops[[1]][,6]) ),
-#         col='gray80', border=NA)
-
-points(modb$lesd, modb$lops, pch=19, col='gray50')
-lines(bs.ops[[1]][,1], bs.ops[[1]][,2], lwd=2)
-
-## Using exactly the same data
-pref.max$lops = log(pref.max$prey.size)
-bs.ops = bs.sample(pref.max, nDraws=100, nParams=4, namesParams=c('s', 'm1', 'm2', 'f'), bs.ops.sample)
-
-plot(pref.max$lesd, pref.max$lops, type='n', lwd=2, xlab='', ylab='', las=1, ylim=c(1, 8))
-
-polygon(x=c( bs.ops[[1]][,1], rev(bs.ops[[1]][,1]) ),
-        y=c( bs.ops[[1]][,2]-bs.ops[[1]][,3], rev(bs.ops[[1]][,2]+bs.ops[[1]][,3]) ),
-        col='gray80', border=NA)
-
-points(pref.max$lesd, pref.max$lops, pch=19, col='gray50')
-lines(bs.ops[[1]][,1], bs.ops[[1]][,2], lwd=2)
-
-## Change the fitting process slightly, so that the OPS parameters are also adapted
-fit.ops.imax = function(lesd.imax, y.imax, lesd.ops, y.ops, lb, ub, suggestpar, n=1){
-  
-  RMSE = function(params, lesd.imax, y.imax, lesd.ops, y.ops, n0){
-    params.ops  = params[1:4]
-    params.imax = params[5:7]
-    
-    ops   = ops.specialization(lesd.ops, params.ops)
-    y.mod = imax.new(params.imax, lesd.imax, ops, n0)[[1]]
-    
-    #rmse = sum( abs( log(y.mod) - log(y.obs) ), na.rm=T ) / length(lesd) # MAE
-    rmse = ( sqrt( sum( ( log(y.mod) - log(y.imax) )**2, na.rm=T ) / sd(log(y.mod), na.rm=T) ) / length(lesd.imax) +
-             sqrt( sum( (ops - y.ops)**2, na.rm=T ) / sd(ops, na.rm=T) ) / length(lesd.ops) ) / 2 # RMSD
-    # rmse = ( sqrt( sum( ( log(y.mod) - log(y.imax) )**2, na.rm=T ) ) / length(lesd.imax) +
-    #          sqrt( sum( (ops - y.ops)**2, na.rm=T ) ) / length(lesd.ops) ) / 2 # RMSD
-    
-    # rmse = ( sum( abs( log(y.mod) - log(y.imax) ), na.rm=T ) / sd(log(y.mod), na.rm=T) / length(lesd.imax) +
-    #          sum( abs(ops - y.ops), na.rm=T ) / sd(ops, na.rm=T) / length(lesd.ops) ) / 2 # RMSD
-    # rmse = ( sum( abs( log(y.mod) - log(y.imax) ), na.rm=T ) / length(lesd.imax) +
-    #          sum( abs(ops - y.ops), na.rm=T ) / length(lesd.ops) ) / 2 # RMSD
-    
-    #rmse = sqrt( sum( ( log(y.mod) - log(y.imax) )**2, na.rm=T ) ) / length(lesd.imax) 
-    
-    return( rmse )
-  } 
-  
-  mod = isres(x0 = suggestpar, fn = RMSE,
-              lower = lb, upper = ub, maxeval = 5e5L,
-              lesd.imax=lesd.imax, y.imax=y.imax, 
-              lesd.ops=lesd.ops, y.ops=y.ops, n0=n)
-  
-  suggestpar = mod$par
-  lb = suggestpar * 0.9 * ( (1-sign(mod$par))*0.1 + 1 ) 
-  ub = suggestpar * 1.1 * ( -(1-sign(mod$par))*0.1 + 1 )
-  
-  mod = lbfgs(x0 = suggestpar, fn = RMSE, 
-              lower = lb, upper = ub, 
-              lesd.imax=lesd.imax, y.imax=y.imax, 
-              lesd.ops=lesd.ops, y.ops=y.ops, n0=n)
-  
-  return( mod$par )
-}
-
-imax.par = fit.ops.imax(pref.max$lesd,
-                        pref.max$Imax.at.15.degreeC..mugC.mugC.1.h.1.,
-                        modb$lesd,
-                        modb$lops,
-                        lb = c(0.3, 0.,  1, 32, 0,   0,   0),
-                        ub = c(1.7, 0.8, 5, 48, 0.4, 10, 2),
-                        suggestpar = c(1, 0.05, 3, 35, 0.1, 0.67, 0.2) )
-
-ops.seq = ops.specialization(x.seq, imax.par[1:4])
-
-plot(modb$lesd, modb$lops, pch=19, col='gray60', ann=F, log='y')
-lines(x.seq, ops.seq, lwd=2)
-
-imax.seq = imax.new(imax.par[5:7], x.seq, ops.specialization(x.seq, imax.par[1:4]), 1)
-
-plot(pref.max$lesd, pref.max$Imax.at.15.degreeC..mugC.mugC.1.h.1., 
-     pch=19, col='gray60', ann=F, log='y')
-lines(x.seq, imax.seq[[1]], lwd=2)
-title(ylab='Imax', xlab='ESD', line=2, cex=1.4)
-
-
-## Fixing the Imax with the OPS: maybe the ESD != OPS - does not fix!
-ind.adult = unique( c(grep('A', pref.max$stage), which(pref.max$stage %in% c('', 'F', 'M') )) )
-ind.adult = unique( c(ind.adult, which( is.na(pref.max$stage) )) )
-pref.max$stage[ ind.adult ] = 'A'
-
-pref.max$lops = NA # Loop to affect the OPS
-for(i in 1:nrow(pref.max)){
-  indi = which(pref.max$species[i] == modb$species & pref.max$stage[i] == modb$stage)
-  
-  if(length(indi) > 0){
-    ind.ops = indi[which.min( (modb$lesd[indi] - log(pref.max$prey.size[i]))**2 )] # Keeps the index traceable
-    pref.max$lops[i] = modb$lops[ind.ops]
-  }
-}
-
-pref.max$imax.fix = pref.max$Imax.at.15.degreeC..mugC.mugC.1.h.1. * exp(3/2 * (pref.max$lops - log(pref.max$prey.size))**2)
-plot(pref.max$pred.esd, pref.max$imax.fix, log='xy', pch=19, ylim=c(1e-3, 1))
