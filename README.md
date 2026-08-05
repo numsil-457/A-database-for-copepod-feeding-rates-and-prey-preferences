@@ -18,6 +18,8 @@ The required software is R. This repository contains X scripts.
 
 - 'main.R' creates the figures and fits the size-based model to the prey preferences, and grazing and respiration rates of copepods.
 
+- 'ops_monte_carlo.R' extracts the OPS from the feeding rates database and provides code for a Monte Carlo simulation measuring the error due to Q10 uncertainty.
+
 - 'get_other_compilations.R' downloads the online databases of Brun et al. (2016) and Pata and Hunt (2025).
 
 - 'get_feeding_behavior_data.R' extracts the feeding behavior information from the downloaded datasets.
