@@ -1,5 +1,4 @@
-#### Script to adapt the specialization model and the 2013 Imax formula to the copepods dataset Imax/OPS
-
+#### Script to fit the metabolic activity model to copepod grazing rates
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path)) # Change path to R script directory
 
 library(plyr)
@@ -9,6 +8,7 @@ library(mixtools)
 library(parallel)
 library(gdata)
 library(readxl)
+library(shape)
 
 ## Load other source files
 source("get_data/get_other_compilations.R")    # Download datasets from Brun et al. (2016) and Pata and Hunt (2023)
@@ -73,51 +73,6 @@ add_feeding_trait = function(data_species, fm.dataset){
   return(strait)
 }
 
-# Checking - Fine to use the feeding.behavior from the script! ----
-trait = read.csv('~/PhD/Work/Copepods project/feeding_modes.csv')
-
-modb = read.csv(file = "~/PhD/Work/Copepods project/Latex-feeding-modes/copepod_OPS_database_feeding_behavior.csv", header = T)
-
-modb = modb[c('species')]
-
-modb.t = add_feeding_trait(modb, trait)
-modb.f = add_feeding_trait(modb, feeding.behavior)
-
-modb.t$ac == modb.f$ac
-which( !(modb.t$ac == modb.f$ac) )
-ind = which(is.na(modb.t$ac == modb.f$ac))
-modb.t[ind,]
-modb.f[ind,] 
-
-# >> No big change
-
-pref = read.csv(file = "~/PhD/Work/Copepods project/NEW_TAKE_SCRIPTS/copepod_fmax_imax.csv")
-
-# Remove any complicated datasets
-datasets.not.to = c("Uye and Kasahara (1983)", "Storms (1974)", "Rao and Kumar (2002)", "Vogt et al (2013)")
-# Probably not Imax
-pref = pref[ -which(pref$primary.reference %in% datasets.not.to), ]
-pref = pref[ -which(pref$prey.size.unit != "ESD"), ] # Remove Sommer and Sommer (2006)
-
-## Select the max Ingestion rate per study and species/stage; a bit less evolved than the OPS detection
-pref$ind.row = row(pref)[,1]
-pref.max = ddply(pref[which(!is.na(pref$Imax.at.15.degreeC..mugC.mugC.1.h.1.)),], 
-                 .(species, stage, primary.reference), summarize,
-                 i.max = ind.row[ which.max(Imax.at.15.degreeC..mugC.mugC.1.h.1.) ] )
-
-pref.max = pref[pref.max$i.max,]
-
-pref.mt = add_feeding_trait(pref.max, trait)
-pref.mf = add_feeding_trait(pref.max, feeding.behavior)
-
-pref.mt$ac == pref.mf$ac
-which( !(pref.mt$ac == pref.mf$ac) )
-ind = which(is.na(pref.mt$ac == pref.mf$ac))
-pref.mt[ind, c('species', 'ac', 'primary.reference')]
-pref.mf[ind, c('species', 'ac', 'primary.reference')] 
-
-# >> No big change ----
-
 ## Colors per feeding mode - @TODO change names
 col.filter = rgb(0.2, 0.3, 0.9, alpha = 0.9)
 col.ambush = rgb(0.9, 0.1, 0.2, alpha = 0.9)
@@ -125,11 +80,9 @@ col.switcher = 'gray50'
 
 ## Read the OPS dataset
 modb = read.csv(file = "copepod_ops_database.csv", header = T)
+#modb = read.csv(file = "modb.csv", header = T)
 modb$lops = log(modb$ops)
-modb$lesd = log(modb$pred)
-
-modb$s = modb$lops - mean(modb$lops, na.rm=T)
-plot(modb$lesd, modb$s)
+modb$lesd = log(modb$pred.esd)
 
 ## Split the OPS values into groups
 # Fit a gaussian mixture model with the AIC criteria to find the specialization groups, using the s
@@ -156,12 +109,6 @@ modb = merge(modb, gp.mops[c('gp', 'group')], by='gp')
 # Plot the raw Imax dataset
 pref = read.csv(file = "copepod_feeding_rates.csv")
 
-# Remove any complicated datasets
-# datasets.not.to = c("Uye and Kasahara (1983)", "Storms (1974)", "Rao and Kumar (2002)", "Vogt et al (2013)")
-# # Probably not Imax
-# pref = pref[ -which(pref$primary.reference %in% datasets.not.to), ]
-# pref = pref[ -which(pref$prey.size.unit != "ESD"), ] # Remove Sommer and Sommer (2006)
-
 ## Select the max Ingestion rate per study and species/stage; a bit less evolved than the OPS detection
 pref$ind.row = row(pref)[,1]
 pref.max = ddply(pref[which(!is.na(pref$Imax.at.15.degreeC..mugC.mugC.1.h.1.)),], 
@@ -184,7 +131,8 @@ pref.max$group[dist.high >= dist.low] = 'low'
 pref.max$pch = 19
 pref.max$pch[pref.max$group=='high']=1
 
-## Adding the feeding behavior traits to the respiration dataset
+## Adding the feeding behavior traits to the other datasets
+modb      = add_feeding_trait(modb, feeding.behavior)
 resp.data = add_feeding_trait(resp.data, feeding.behavior)
 
 ## Function to add the plot coding (pch, color) to the dataset
@@ -561,7 +509,7 @@ bs.parameters = function(modb, pref.max, dat, nDraws=1000){
                              0, 0,
                              -2, 0),
                       ub = c(5, 10, 100,
-                             5, 10,
+                             10, 10,
                              0.3, 1,
                              0, 10),
                       suggestpar = c(4, 5, 20,
@@ -698,6 +646,35 @@ df.dimax = 2.8**( 0.1*(as.numeric(pref.max$temperature) - 15))
 pref.max$Imax.error.correction = sqrt( (df.dq10 * sd.Q10)**2 + (df.dimax * pref.max$Imax.sd)**2 )
 
 # Plot
+plot.error.bars = function(mean.x.dt, sd.x.dt, mean.y.dt, sd.y.dt, log=F, col.error=rgb(0.5, 0.5, 0.5, alpha = 0.5)){
+  
+  #col.error = rgb(0.5, 0.5, 0.5, alpha = 0.5)
+  
+  # Clean the vectors from NAs
+  sd.x.dt[ is.na(sd.x.dt) | is.nan(sd.x.dt) ] = 0
+  sd.y.dt[ is.na(sd.y.dt) | is.nan(sd.y.dt) ] = 0
+  
+  for(i in 1:length(mean.x.dt)){
+    if(sd.x.dt[i] > 0 | sd.y.dt[i] > 0){
+      sd.vec.x = c( mean.x.dt[i] - sd.x.dt[i], mean.x.dt[i] + sd.x.dt[i] ) # Plot the mu +/- sd
+      sd.vec.y = c( mean.y.dt[i] - sd.y.dt[i], mean.y.dt[i] + sd.y.dt[i] )
+      
+      if(log){ # Put in log scale, if necessary
+        sd.vec.x = log(sd.vec.x)
+        sd.vec.y = log(sd.vec.y)
+        mean.x.dt[i] = log(mean.x.dt[i])
+        mean.y.dt[i] = log(mean.y.dt[i])
+      }
+      
+      # Plot the error bars
+      Arrows(sd.vec.x[1], mean.y.dt[i], sd.vec.x[2], mean.y.dt[i], lty = 1, col = col.error,
+             lwd = 1, arr.type = "T", code = 3, arr.length = 0.2)
+      Arrows(mean.x.dt[i], sd.vec.y[1], mean.x.dt[i], sd.vec.y[2], lty = 1, col = col.error,
+             lwd = 1, arr.type = "T", code = 3, arr.length = 0.2)
+    }
+  }
+}
+
 x11(height=5, width=8)
 par(mgp=c(3, 0.5, 0), cex=1.5, mar=c(2.5, 3.5, 0.1, 0.1), tck=0.04)
 
