@@ -498,11 +498,29 @@ fit.selectivity.model = function(t, output.df){
     aic.uni = 2*( 2 ) - 2*Log_L 
   }
   
+  ## Extract the species at the OPS
+  t$row_id = seq_len(nrow(t)) # To keep track of the real rows, or ddply does not work if bi=T
+  
+  dmax = do.call(rbind, by(t, t$gp, function(g) {
+    # if (sum(t$p == 1) > max(t$gp)) {
+    #   i = intersect(which(g$p == max(g$p, na.rm=TRUE)),
+    #                 which(g$Imax.at.15.degreeC..mugC.mugC.1.h.1. ==
+    #                         max(g$Imax.at.15.degreeC..mugC.mugC.1.h.1., na.rm=TRUE)))
+    # } else {
+    i = which.max(g$p)
+    # }
+    g[i[1], ]
+  }))
+  
   # Save information
-  if( max(t$gp)>1 ){ # Or AIC, but probably not correct Log likelihood
+  if( max(t$gp)>1 & aic.bi <= aic.uni ){ # Or AIC, but probably not correct Log likelihood
     model.output = data.frame( bi = T,
                                ops1 = exp( par.bi[1] ), # Data
                                ops2 = exp( par.bi[4] ),
+                               prey1 = dmax$prey.species[1],
+                               prey2 = dmax$prey.species[2],
+                               ref1 = dmax$primary.reference[1],
+                               ref2 = dmax$primary.reference[2],
                                rmse = rmse.bi
                                ) # Model
     
@@ -510,6 +528,10 @@ fit.selectivity.model = function(t, output.df){
     model.output = data.frame( bi = F,
                                ops1 = exp( par.uni[1] ), # Data
                                ops2 = NA,
+                               prey1 = dmax$prey.species[1],
+                               prey2 = NA,
+                               ref1 = dmax$primary.reference,
+                               ref2 = NA,
                                rmse = rmse.uni
                                ) 
   }
@@ -706,8 +728,8 @@ bs.test = function( pref, nDraws=100, test.type = 'None', n.cores = max(1, detec
                            rep(c('', '.sd', paste('.', qt.probs*100, sep='')), 
                                each=length(n1)), sep='') )
   }else{ # No resamples
-    n1 = c("ops1", "rmse")
-    n2 = c("ops2", "rmse")
+    n1 = c("ops1", "prey1", "ref1", "rmse")
+    n2 = c("ops2", "prey2", "ref2", "rmse")
     
     col1=n1
     col2=n2
@@ -724,8 +746,87 @@ bs.test = function( pref, nDraws=100, test.type = 'None', n.cores = max(1, detec
   return(sf)
 }
 
-#ops.dt = bs.test(pref) # For extracting the OPS without doing the Monte Carlo simulation
-ops.dt = bs.test(pref, nDraws=3, test.type='Q10') # Monte Carlo on Q10 correction
+## Check the species phylum at the OPS
+ops.uni = bs.test(pref, test.type='None') # No resample - get prey species
+ops.dt = ops.uni
+
+write.csv( ops.dt, file = "modb.csv", row.names = F )
+
+# Check the 3 OPS dots -------------------------------------------
+plot(ops.uni$pred.esd, ops.uni$ops, log='xy', pch=19)
+
+ind = which(ops.uni$pred.esd<200 & ops.uni$ops>40)
+points(ops.uni$pred.esd[ind], ops.uni$ops[ind], col='red', pch=19)
+
+ops.uni[ind,]
+
+# Search for the corresponfing articles
+ind.dt = which(pref$species %in% c('Oithona spinirostris', 'Oithona nana') & pref$stage == 'A')
+pref[ind.dt,]
+
+ind.p = which(pref$Ukern == 'Oithona spinirostris_A_Fmax.at.15.degreeC..ml.mgC.1.h.1.')
+plot(pref$prey.esd[ind.p], pref$Fmax.at.15.degreeC..ml.mgC.1.h.1.[ind.p], log='xy')
+pref[ind.p,]
+
+ind.b = which(pref$Ukern == 'Oithona nana_A_Fmax.at.15.degreeC..ml.mgC.1.h.1.')
+plot(pref$prey.esd[ind.b], pref$Fmax.at.15.degreeC..ml.mgC.1.h.1.[ind.b], log='xy')
+pref[ind.b,]
+
+# Check for the feeding behavior of Acartia and Centropages
+#ind.ac = grep('Acartia', pref$species)
+ind.ac = grep('Centropages', pref$species)
+
+pref[ind.ac, c('species', 'stage', 'pred.esd', 'prey.species', 'primary.reference', 'secondary.reference')]
+
+pref.hansen[grep('Acartia', pref.hansen$species), c('species', 'stage', 'pred.esd', 'prey.species', 'primary.reference', 'secondary.reference')]
+
+# ----------------------------------------------------------
+
+# Prey species lists, phyla checked on WORMS
+unique(ops.uni$prey)
+
+phyto.species = c('Thalassiosira weisflogii','Navicula phyllepta/Grammatophora marina/Cylindrotheca closterium',
+                  'Thalassiosira constricta', 'Thallasiosira nordenskioeldii', 'Centric diatiom',
+                  'Platymonas suecica', 'Lauderia borealis', 'Thallassiosira fluviatilis',
+                  'Nitzschia spp', 'Thalassiosira spp', 'Ditylum brightwellii',
+                  'Coscinodius wailesii', 'Rhodomonas baltica', 'Thallassiosira weissflogii', 
+                  'Thalassiosira weissflogii', 'Thalassiosira fluviatilis')
+
+# crustacean larvae + copepods
+copepod.species = c('Copepod nauplii', 'Calanus pacificus nauplii-copepodite / Pseudocalanus spp female',
+                    'Acartia clausii / Pseudocalanus sp / Acartia longiremis / Calanus pacificus nauplii',
+                    'Calanus pacificus nauplii / Pseudocalanus sp / Paracalanus parvus',
+                    'Calanus nauplii', 'Acartia sp. nauplii', 'Artemia nauplii', 'Acartia sp',
+                    'Pseudodiaptomus marinus NII-III', 'Calanus pacificus CI', 'Pseudocalanus spp',
+                    'Calanus pacificus NIII-CIII',
+                    'Calanus pacificus NIII-CI, Pseudocalanus spp., Paracalanus parvus',
+                    'Calanus pacificus NIII-CIII')
+
+# dinoflagellates + ciliates + rotifera
+flag.species = c('Heterocapsa triquetra', 'Oxyrrhis marina', 'Flagellates and ciliates',
+                 'Peridinium trochoideum', 'Alexandrium tamarense', 'Strombidium sulcatum',
+                 'Prorocentrum micans', 'Alexandrium minutum', 'Synchaeta pectinata', 'Gymnodinium splendens',
+                 'Heterotrophic dinoflagellates', 'Askashiwo sanguinea')
+
+ops.uni$colo.prey = NA
+ops.uni$colo.prey[ops.uni$prey %in% phyto.species] = 'chartreuse2'
+ops.uni$colo.prey[ops.uni$prey %in% flag.species] = 'orange'
+ops.uni$colo.prey[ops.uni$prey %in% copepod.species] = 'red'
+
+par(mar=c(3,4,2,0.1), mgp=c(3,0.3,0), pch=19, cex=1.5, tck=0.04)
+
+plot(ops.uni$pred.esd, ops.uni$ops, log='xy', col=ops.uni$colo.prey, pch=19, las=1,
+     xlab='', ylab='' )
+mtext(side=1, expression('Copepod ESD, ' *mu*'m'), line=1.5, cex=1.5)
+mtext(side=2, expression('OPS ESD, ' *mu*'m'), line=2, cex=1.5)
+
+legend("topleft", legend = c('Phy', 'Dfl', 'Cop'), 
+       fill = c('chartreuse2', 'orange', 'red'), 
+       bty = "n", horiz=T,
+       inset=c(0, -0.2), xpd=T)
+
+## Monte Carlo simulation and extract the OPS dataset
+ops.dt = bs.test(pref, nDraws=1000, test.type='Q10') # Monte Carlo for Q10 correction
 
 # Append the data by Hansen et al (1994)
 names.to.fill = names(ops.dt)[ !names(ops.dt)%in% names(hansen.data)]

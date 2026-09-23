@@ -1,4 +1,5 @@
 #### Downloads the respiration rates and feeding behavior datasets from Brun at al. (2016) and Pata and Hunt (2023) 
+library(readxl)
 
 ## Download datasets
 if( !file.exists('Brun2016.xlsx') ){
